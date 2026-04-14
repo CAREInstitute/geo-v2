@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+
+# Secrets — never commit
+.env
+.env.*
+
+# Experiment outputs (large, generated — tracked via manifest hashes, not git)
+outputs/run_b/*.md
+data/run_metadata/*.json
+data/brand_visibility_raw.csv
+data/brand_visibility_matrix.csv
+
+# Logs (ephemeral, per-run)
+logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# DO commit these:
+# - prompts/              (locked experiment prompts)
+# - prompt_hash.txt       (integrity check)
+# - data/manifest.json    (reproducibility manifest)
+# - data/experiment_metadata.json
+# - data/stochasticity_report.json
+# - data/intercoder_sample.csv
+# - paper/results/        (analysis outputs)
+# - ARCHITECTURE.md
+# - CHANGELOG.md
+# - README.md
+# - requirements.txt
+# - All .py files
