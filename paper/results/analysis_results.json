@@ -1,0 +1,419 @@
+{
+  "H1": {
+    "mean_kappa": 0.0331,
+    "std_kappa": 0.1223,
+    "hypothesis_supported": "True",
+    "interpretation": "substantial_disagreement",
+    "per_query": [
+      {
+        "query_id": "Q01",
+        "category": "b2b_saas",
+        "fleiss_kappa": 0.2222,
+        "n_brands": 10
+      },
+      {
+        "query_id": "Q02",
+        "category": "b2b_saas",
+        "fleiss_kappa": 0.2437,
+        "n_brands": 9
+      },
+      {
+        "query_id": "Q03",
+        "category": "b2b_saas",
+        "fleiss_kappa": 0.2317,
+        "n_brands": 13
+      },
+      {
+        "query_id": "Q04",
+        "category": "b2b_saas",
+        "fleiss_kappa": 0.2104,
+        "n_brands": 21
+      },
+      {
+        "query_id": "Q05",
+        "category": "b2b_saas",
+        "fleiss_kappa": 0.0913,
+        "n_brands": 26
+      },
+      {
+        "query_id": "Q06",
+        "category": "healthcare_wellness",
+        "fleiss_kappa": -0.0493,
+        "n_brands": 25
+      },
+      {
+        "query_id": "Q07",
+        "category": "healthcare_wellness",
+        "fleiss_kappa": 0.1491,
+        "n_brands": 25
+      },
+      {
+        "query_id": "Q08",
+        "category": "healthcare_wellness",
+        "fleiss_kappa": -0.0421,
+        "n_brands": 26
+      },
+      {
+        "query_id": "Q09",
+        "category": "healthcare_wellness",
+        "fleiss_kappa": -0.09,
+        "n_brands": 28
+      },
+      {
+        "query_id": "Q10",
+        "category": "healthcare_wellness",
+        "fleiss_kappa": 0.1051,
+        "n_brands": 25
+      },
+      {
+        "query_id": "Q11",
+        "category": "consumer_electronics",
+        "fleiss_kappa": 0.0755,
+        "n_brands": 26
+      },
+      {
+        "query_id": "Q12",
+        "category": "consumer_electronics",
+        "fleiss_kappa": -0.0027,
+        "n_brands": 25
+      },
+      {
+        "query_id": "Q13",
+        "category": "consumer_electronics",
+        "fleiss_kappa": -0.0589,
+        "n_brands": 27
+      },
+      {
+        "query_id": "Q14",
+        "category": "consumer_electronics",
+        "fleiss_kappa": 0.0291,
+        "n_brands": 27
+      },
+      {
+        "query_id": "Q15",
+        "category": "consumer_electronics",
+        "fleiss_kappa": -0.0624,
+        "n_brands": 30
+      },
+      {
+        "query_id": "Q16",
+        "category": "local_services",
+        "fleiss_kappa": -0.071,
+        "n_brands": 40
+      },
+      {
+        "query_id": "Q17",
+        "category": "local_services",
+        "fleiss_kappa": -0.07,
+        "n_brands": 36
+      },
+      {
+        "query_id": "Q18",
+        "category": "local_services",
+        "fleiss_kappa": -0.0702,
+        "n_brands": 37
+      },
+      {
+        "query_id": "Q19",
+        "category": "local_services",
+        "fleiss_kappa": -0.0675,
+        "n_brands": 40
+      },
+      {
+        "query_id": "Q20",
+        "category": "local_services",
+        "fleiss_kappa": -0.1111,
+        "n_brands": 13
+      }
+    ]
+  },
+  "H2": {
+    "within_search_mean": 0.3629464285714286,
+    "within_search_n": 120,
+    "between_groups_mean": 0.17045304232804231,
+    "between_groups_n": 240,
+    "cohens_d": 0.7032179885064956,
+    "mann_whitney_u": 18783.0,
+    "p_value": 3.599098436976481e-07
+  },
+  "H4": {
+    "mean_intra_jaccard": 0.5261,
+    "mean_inter_jaccard": 0.2115,
+    "hypothesis_supported": "True",
+    "difference": 0.3146
+  },
+  "Kendalls_W": {
+    "mean": 0.0937,
+    "per_query": [
+      {
+        "query_id": "Q01",
+        "category": "b2b_saas",
+        "kendalls_w": 0.3068,
+        "n_brands": 10
+      },
+      {
+        "query_id": "Q02",
+        "category": "b2b_saas",
+        "kendalls_w": 0.3381,
+        "n_brands": 9
+      },
+      {
+        "query_id": "Q03",
+        "category": "b2b_saas",
+        "kendalls_w": 0.263,
+        "n_brands": 13
+      },
+      {
+        "query_id": "Q04",
+        "category": "b2b_saas",
+        "kendalls_w": 0.1573,
+        "n_brands": 21
+      },
+      {
+        "query_id": "Q05",
+        "category": "b2b_saas",
+        "kendalls_w": 0.0882,
+        "n_brands": 26
+      },
+      {
+        "query_id": "Q06",
+        "category": "healthcare_wellness",
+        "kendalls_w": 0.0279,
+        "n_brands": 25
+      },
+      {
+        "query_id": "Q07",
+        "category": "healthcare_wellness",
+        "kendalls_w": 0.1378,
+        "n_brands": 25
+      },
+      {
+        "query_id": "Q08",
+        "category": "healthcare_wellness",
+        "kendalls_w": 0.0344,
+        "n_brands": 26
+      },
+      {
+        "query_id": "Q09",
+        "category": "healthcare_wellness",
+        "kendalls_w": 0.0114,
+        "n_brands": 28
+      },
+      {
+        "query_id": "Q10",
+        "category": "healthcare_wellness",
+        "kendalls_w": 0.1134,
+        "n_brands": 25
+      },
+      {
+        "query_id": "Q11",
+        "category": "consumer_electronics",
+        "kendalls_w": 0.1003,
+        "n_brands": 26
+      },
+      {
+        "query_id": "Q12",
+        "category": "consumer_electronics",
+        "kendalls_w": 0.0568,
+        "n_brands": 25
+      },
+      {
+        "query_id": "Q13",
+        "category": "consumer_electronics",
+        "kendalls_w": 0.0253,
+        "n_brands": 27
+      },
+      {
+        "query_id": "Q14",
+        "category": "consumer_electronics",
+        "kendalls_w": 0.0686,
+        "n_brands": 27
+      },
+      {
+        "query_id": "Q15",
+        "category": "consumer_electronics",
+        "kendalls_w": 0.0228,
+        "n_brands": 30
+      },
+      {
+        "query_id": "Q16",
+        "category": "local_services",
+        "kendalls_w": 0.0264,
+        "n_brands": 40
+      },
+      {
+        "query_id": "Q17",
+        "category": "local_services",
+        "kendalls_w": 0.0322,
+        "n_brands": 36
+      },
+      {
+        "query_id": "Q18",
+        "category": "local_services",
+        "kendalls_w": 0.0296,
+        "n_brands": 37
+      },
+      {
+        "query_id": "Q19",
+        "category": "local_services",
+        "kendalls_w": 0.028,
+        "n_brands": 40
+      },
+      {
+        "query_id": "Q20",
+        "category": "local_services",
+        "kendalls_w": 0.006,
+        "n_brands": 13
+      }
+    ]
+  },
+  "Category_Kappa": {
+    "b2b_saas": {
+      "mean": 0.1999,
+      "std": 0.0619,
+      "count": 5
+    },
+    "consumer_electronics": {
+      "mean": -0.0039,
+      "std": 0.0588,
+      "count": 5
+    },
+    "healthcare_wellness": {
+      "mean": 0.0146,
+      "std": 0.1055,
+      "count": 5
+    },
+    "local_services": {
+      "mean": -0.078,
+      "std": 0.0186,
+      "count": 5
+    }
+  },
+  "Brand_Frequency": {
+    "universal_brands": [
+      "Klaviyo",
+      "Segment",
+      "Pipedrive",
+      "Headspace",
+      "Pure Encapsulations",
+      "HubSpot",
+      "Jira",
+      "Sony",
+      "Fujifilm X",
+      "Calm"
+    ],
+    "model_specific_brands": [
+      "Sennheiser Momentum 4",
+      "Sony a6700",
+      "Iterable",
+      "NextGen Healthcare",
+      "Nordic Naturals",
+      "Nikon Z50",
+      "Kareo",
+      "Basecamp",
+      "AdvancedMD",
+      "SimplePractice",
+      "Tealium",
+      "Bloomreach Engagement",
+      "Trello",
+      "Acer Swift X",
+      "Dell XPS 14",
+      "DrChrono",
+      "Wysa",
+      "Practice Fusion",
+      "Apple MacBook Air M3",
+      "Salesforce Marketing Cloud",
+      "Samsung SmartThings Station",
+      "Treasure Data",
+      "Salesforce CDP",
+      "Google Nest Hub",
+      "Tealium AudienceStream",
+      "Bose QuietComfort Ultra Headphones",
+      "Apple Watch Series 9",
+      "Salesforce Data Cloud",
+      "Anker Soundcore Space Q45",
+      "Sailthru",
+      "Rudderstack",
+      "Anker Soundcore Q45",
+      "RudderStack",
+      "Samsung SmartThings Hub",
+      "Samsung SmartThings",
+      "Sony A7C II",
+      "Angi",
+      "Transparency",
+      "Yelp",
+      "Adobe Marketo Engage",
+      "Warranty on Labor",
+      "Warranty",
+      "WHOOP",
+      "Verify Licensing and Insurance",
+      "Verify Insurance and Bonding",
+      "Valid Licensing and Insurance",
+      "Teacher",
+      "Shark AI Ultra",
+      "Staff",
+      "Spruce Health",
+      "Specialization Match",
+      "Specialization",
+      "Sony Alpha a6700",
+      "Sony A6700",
+      "SimplePractice Telehealth",
+      "Shortcut",
+      "Apple Home",
+      "Certifications",
+      "Ritual",
+      "Reviews",
+      "HubSpot Marketing Hub",
+      "HubSpot CDP",
+      "Houzz",
+      "Homey Pro",
+      "BlueConic",
+      "Google Nest Hub Max",
+      "Garmin Venu 3",
+      "Garmin",
+      "Garden of Life",
+      "Freshsales",
+      "FreshBooks",
+      "Fitbit Sense 2",
+      "Fitbit Charge 6",
+      "Eufy X8 Hybrid",
+      "Eufy RoboVac X9 Pro",
+      "Epic Community Connect",
+      "Elation Health",
+      "Ecovacs Deebot X",
+      "Dreame X30 Ultra",
+      "Dreame L20 Ultra",
+      "Dreame L",
+      "Curriculum",
+      "Communication Practices",
+      "HubSpot Operations Hub",
+      "HubSpot Sales Hub",
+      "Hubitat Elevation",
+      "NOCD",
+      "QuickBooks Online",
+      "Apple HomePod Mini",
+      "Polar Pacer Pro",
+      "Oura Ring Gen3",
+      "Oura Ring Gen 3",
+      "Oura Ring",
+      "Oracle NetSuite",
+      "Notion",
+      "Nikon Z50 II",
+      "Apple Watch",
+      "MoodTools",
+      "Hubitat Elevation C",
+      "MindShift CBT",
+      "Microsoft Dynamics 365 Sales",
+      "Merry Maids",
+      "Maxio",
+      "AthenaTelehealth",
+      "Attentive",
+      "Lenovo Yoga 7i",
+      "Lattice Engines",
+      "Better Business Bureau",
+      "Jabra Evolve2 85",
+      "Oracle Fusion Cloud ERP"
+    ],
+    "total_unique_brands": 165
+  }
+}

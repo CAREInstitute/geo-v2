@@ -232,7 +232,8 @@ def compute_intra_inter_consistency(raw_df):
 
         shorts = list(model_brand_sets.keys())
         for i, j in combinations(shorts, 2):
-            inter_jaccards.append(jaccard_similarity(model_brand_sets[shorts[i]], model_brand_sets[shorts[j]]))
+            # i and j are string keys from combinations(shorts, 2), not indices
+            inter_jaccards.append(jaccard_similarity(model_brand_sets[i], model_brand_sets[j]))
 
         results.append({
             "query_id": qid,

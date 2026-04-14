@@ -1,0 +1,347 @@
+{
+  "manifest_version": "1.0",
+  "generated": "2026-04-14T23:04:01.523311+00:00",
+  "experiment": "Cross-Model GEO Brand Visibility Study",
+  "config_version": "3.0-academic",
+  "config_sha256": "1f668b849b3d4d927062c291f39d4f9dc143296198839de8852d28872d9fd968",
+  "prompt_sha256": "1498c77120c102f0c2db31753e7ca7f08c9d5ae95546d7aab6deb66126fb3ea4",
+  "environment": {
+    "python_version": "3.10.12",
+    "platform": "Linux-6.8.0-106-generic-aarch64-with-glibc2.35",
+    "machine": "aarch64",
+    "timestamp": "2026-04-14T23:04:01.523831+00:00",
+    "pkg_requests": "2.33.1",
+    "pkg_pandas": "2.3.3",
+    "pkg_numpy": "2.2.6",
+    "pkg_scipy": "1.15.3"
+  },
+  "design": {
+    "models": 10,
+    "queries": 20,
+    "trials": 5,
+    "total_observations": 1000,
+    "temperature": 0.3
+  },
+  "outputs": {
+    "b01_gpt54": {
+      "run1": {
+        "content_sha256": "94a8d5083378b80eacbd0f19c0a1f580730d3be5d5874a8ded6d6ab66e120796",
+        "word_count": 3987,
+        "model_returned": "openai/gpt-5.4-20260305",
+        "timestamp": "2026-04-14T22:51:40.695877+00:00"
+      },
+      "run2": {
+        "content_sha256": "eb9047daff6d93039f6ec084525d2f52b1ffdfb79eaa9683b6ae0f270df868ea",
+        "word_count": 4503,
+        "model_returned": "openai/gpt-5.4-20260305",
+        "timestamp": "2026-04-14T22:54:11.367163+00:00"
+      },
+      "run3": {
+        "content_sha256": "618beb538fd217db85338131f46b32ebd201bdfe2454090c06a29368629bc1dd",
+        "word_count": 4064,
+        "model_returned": "openai/gpt-5.4-20260305",
+        "timestamp": "2026-04-14T22:56:20.709445+00:00"
+      },
+      "run4": {
+        "content_sha256": "be26b93575e54c5adcfdb8895e9cf97743b2ad99f00035d61b72c785f3195e19",
+        "word_count": 3964,
+        "model_returned": "openai/gpt-5.4-20260305",
+        "timestamp": "2026-04-14T22:58:11.532637+00:00"
+      },
+      "run5": {
+        "content_sha256": "fcd4236a61fac1341266d8ecffbabafa8908945e7358462259b10ab35ad6c9a5",
+        "word_count": 5431,
+        "model_returned": "openai/gpt-5.4-20260305",
+        "timestamp": "2026-04-14T23:00:01.675383+00:00"
+      }
+    },
+    "b02_gemini31_pro": {
+      "run1": {
+        "content_sha256": "a8f443faa2022a8fc0d53814416e312bcd309b578c4f57f34972171040b4fcc7",
+        "word_count": 4302,
+        "model_returned": "google/gemini-3.1-pro-preview-20260219",
+        "timestamp": "2026-04-14T22:51:40.694679+00:00"
+      },
+      "run2": {
+        "content_sha256": "bd63ffb2a3ee66bacd831a1d2f1baf4f492ab0a99774d5beca77424c38b744a6",
+        "word_count": 4110,
+        "model_returned": "google/gemini-3.1-pro-preview-20260219",
+        "timestamp": "2026-04-14T22:54:11.366499+00:00"
+      },
+      "run3": {
+        "content_sha256": "691fba8d837bedfeae4ae62cfb4038863e5b6668a41df96fa7a35cc0116873f7",
+        "word_count": 4321,
+        "model_returned": "google/gemini-3.1-pro-preview-20260219",
+        "timestamp": "2026-04-14T22:56:20.712364+00:00"
+      },
+      "run4": {
+        "content_sha256": "431bda7797b8fc03e748f030926e498782d66c2e275c4c2f16da6463b931c81c",
+        "word_count": 4145,
+        "model_returned": "google/gemini-3.1-pro-preview-20260219",
+        "timestamp": "2026-04-14T22:58:11.536374+00:00"
+      },
+      "run5": {
+        "content_sha256": "c5e2688e8accc502ad18d09a3ae3b92d2e5fe3d0ddb25f45acb4cc18295f44ba",
+        "word_count": 3383,
+        "model_returned": "google/gemini-3.1-pro-preview-20260219",
+        "timestamp": "2026-04-14T23:00:01.673395+00:00"
+      }
+    },
+    "b03_claude_sonnet": {
+      "run1": {
+        "content_sha256": "770367f7f76387d202f6a975ed9512474c70d440458faac16f143b89da53729a",
+        "word_count": 4392,
+        "model_returned": "anthropic/claude-4.6-sonnet-20260217",
+        "timestamp": "2026-04-14T22:43:20.132328+00:00"
+      },
+      "run2": {
+        "content_sha256": "ef01aff41d2f34f33f294bf0d3af04d7acf18a686f6281130e6b276bd4210961",
+        "word_count": 4335,
+        "model_returned": "anthropic/claude-4.6-sonnet-20260217",
+        "timestamp": "2026-04-14T22:43:20.132854+00:00"
+      },
+      "run3": {
+        "content_sha256": "809c38cec8ec791bf2c13e3191bc39ed798996dda0141abc6bf084d1135f1ca4",
+        "word_count": 4377,
+        "model_returned": "anthropic/claude-4.6-sonnet-20260217",
+        "timestamp": "2026-04-14T22:43:20.133492+00:00"
+      },
+      "run4": {
+        "content_sha256": "7fe67b1f7647d1a3056d01d9e17bd51024ee1e39bdec43217766d57673a05672",
+        "word_count": 4415,
+        "model_returned": "anthropic/claude-4.6-sonnet-20260217",
+        "timestamp": "2026-04-14T22:43:20.134476+00:00"
+      },
+      "run5": {
+        "content_sha256": "9f46087392e21a808509cb0365149dcd98a10beabfc1b3789980dfd1c9835240",
+        "word_count": 4667,
+        "model_returned": "anthropic/claude-4.6-sonnet-20260217",
+        "timestamp": "2026-04-14T22:43:20.134155+00:00"
+      }
+    },
+    "b04_grok420": {
+      "run1": {
+        "content_sha256": "686208b013d09fc0d86d1848beb6b9ca80be6e62783e213c4786997d521dddb9",
+        "word_count": 1666,
+        "model_returned": "x-ai/grok-4.20-20260309",
+        "timestamp": "2026-04-14T22:51:40.695527+00:00"
+      },
+      "run2": {
+        "content_sha256": "6cb3a95eb227366c9229c944041d338971a10bac2612159682a7d9bf82452634",
+        "word_count": 1978,
+        "model_returned": "x-ai/grok-4.20-20260309",
+        "timestamp": "2026-04-14T22:54:11.364772+00:00"
+      },
+      "run3": {
+        "content_sha256": "900cc202f7c611a9e1fe307341bfbfba429120d329f716727f3fbd2426c7b272",
+        "word_count": 1978,
+        "model_returned": "x-ai/grok-4.20-20260309",
+        "timestamp": "2026-04-14T22:56:20.710678+00:00"
+      },
+      "run4": {
+        "content_sha256": "b24df21e0a0af79cee1b5dcef813dbe4b72aaa85a6c791df2759845322eaf858",
+        "word_count": 1849,
+        "model_returned": "x-ai/grok-4.20-20260309",
+        "timestamp": "2026-04-14T22:58:11.534387+00:00"
+      },
+      "run5": {
+        "content_sha256": "bda7228cd94f655a0672f5fc3dac90ade00748ec862dce51c7bc958e62cdd21f",
+        "word_count": 1954,
+        "model_returned": "x-ai/grok-4.20-20260309",
+        "timestamp": "2026-04-14T23:00:01.676924+00:00"
+      }
+    },
+    "b05_deepseek_v32": {
+      "run1": {
+        "content_sha256": "1349c355bde82ec479ebfc59d9a2d95f0544b25f97065d581adfd284ff2cb61e",
+        "word_count": 741,
+        "model_returned": "deepseek/deepseek-chat-v3-0324",
+        "timestamp": "2026-04-14T22:43:20.135101+00:00"
+      },
+      "run2": {
+        "content_sha256": "f0683d11ee0560647c6403ec6ea8cf2a22784e342acc0b140154565087860979",
+        "word_count": 693,
+        "model_returned": "deepseek/deepseek-chat-v3-0324",
+        "timestamp": "2026-04-14T22:43:20.136043+00:00"
+      },
+      "run3": {
+        "content_sha256": "6f4cee570ec3c765214c0d4d4c83b303ee540f3131a8816ab9d03e3c60ae7754",
+        "word_count": 723,
+        "model_returned": "deepseek/deepseek-chat-v3-0324",
+        "timestamp": "2026-04-14T22:43:20.136616+00:00"
+      },
+      "run4": {
+        "content_sha256": "43dc596cb7a986a74951f86e0fbb5ce607b3edd1a43579851dbcc9025b4bc16b",
+        "word_count": 474,
+        "model_returned": "deepseek/deepseek-chat-v3-0324",
+        "timestamp": "2026-04-14T22:43:57.334389+00:00"
+      },
+      "run5": {
+        "content_sha256": "4b50eab66bb146c530e46bad136db28f5e26901f4d4d96ed5c58831c2a4a7764",
+        "word_count": 435,
+        "model_returned": "deepseek/deepseek-chat-v3-0324",
+        "timestamp": "2026-04-14T22:43:58.263479+00:00"
+      }
+    },
+    "b06_qwen35_plus": {
+      "run1": {
+        "content_sha256": "49ed5a47e078ce9f3d92e7a37ae2c3dedec18cdc7652e953e8b4dd1383206148",
+        "word_count": 408,
+        "model_returned": "qwen/qwen3-235b-a22b-04-28",
+        "timestamp": "2026-04-14T22:44:20.379854+00:00"
+      },
+      "run2": {
+        "content_sha256": "8d76f65df464b295aedbdf1f8933cdf70277aaa781047347be49fbe96eb2b839",
+        "word_count": 533,
+        "model_returned": "qwen/qwen3-235b-a22b-04-28",
+        "timestamp": "2026-04-14T22:44:28.023082+00:00"
+      },
+      "run3": {
+        "content_sha256": "8c84325119efecd91e238134b740486669cf6042ddf9cc68d5b04eb15ac1ed94",
+        "word_count": 1934,
+        "model_returned": "qwen/qwen3-235b-a22b-04-28",
+        "timestamp": "2026-04-14T22:44:31.803865+00:00"
+      },
+      "run4": {
+        "content_sha256": "71dcc2cd0867928bba58c5de7d7f4bf6598e756db423478d53f320cbd8d5a217",
+        "word_count": 494,
+        "model_returned": "qwen/qwen3-235b-a22b-04-28",
+        "timestamp": "2026-04-14T22:44:52.402994+00:00"
+      },
+      "run5": {
+        "content_sha256": "e1f18bbac0300caa0f26570b9e29e32955e54fd25666443ac6f6565ee0a80a54",
+        "word_count": 1211,
+        "model_returned": "qwen/qwen3-235b-a22b-04-28",
+        "timestamp": "2026-04-14T22:45:02.868563+00:00"
+      }
+    },
+    "b07_llama4_maverick": {
+      "run1": {
+        "content_sha256": "b3be529ed45af40bfebfe0b6976400356a9da03cddcecaa1ca02c7c120d9a352",
+        "word_count": 353,
+        "model_returned": "meta-llama/llama-4-maverick-17b-128e-instruct",
+        "timestamp": "2026-04-14T22:45:25.774054+00:00"
+      },
+      "run2": {
+        "content_sha256": "f8f7d266f46b1af9f87513f3f4456ed4e7209d0138b0795c47fd3fdc0c2b706a",
+        "word_count": 380,
+        "model_returned": "meta-llama/llama-4-maverick-17b-128e-instruct",
+        "timestamp": "2026-04-14T22:45:42.384902+00:00"
+      },
+      "run3": {
+        "content_sha256": "bed9540ac8c8e94a59352225e7247d171280c6070dc806022305fbf6b7442ef2",
+        "word_count": 338,
+        "model_returned": "meta-llama/llama-4-maverick-17b-128e-instruct",
+        "timestamp": "2026-04-14T22:45:53.999616+00:00"
+      },
+      "run4": {
+        "content_sha256": "d80b13bba8747bb6be4f20ca482a0c1a07335ea9d5c0cd21f5e57809578c1537",
+        "word_count": 412,
+        "model_returned": "meta-llama/llama-4-maverick-17b-128e-instruct",
+        "timestamp": "2026-04-14T22:45:54.776220+00:00"
+      },
+      "run5": {
+        "content_sha256": "8f6f2021117403a90d4765c9f885dfea403e0a2fc58732f34394927b56ce8b43",
+        "word_count": 328,
+        "model_returned": "meta-llama/llama-4-maverick-17b-128e-instruct",
+        "timestamp": "2026-04-14T22:45:55.400695+00:00"
+      }
+    },
+    "b08_mistral_large3": {
+      "run1": {
+        "content_sha256": "ce7361a4f013aa8c6fc1e35712dacbf960c1f526acd72c029a38a81a0bf7e430",
+        "word_count": 1472,
+        "model_returned": "mistralai/mistral-large-2512",
+        "timestamp": "2026-04-14T22:45:58.154193+00:00"
+      },
+      "run2": {
+        "content_sha256": "f9d90df83634b79d7d5e352709f5c894b4d67b307c5c5d4cbaa5b90653416b9c",
+        "word_count": 1916,
+        "model_returned": "mistralai/mistral-large-2512",
+        "timestamp": "2026-04-14T22:45:58.381647+00:00"
+      },
+      "run3": {
+        "content_sha256": "3c606927859d1ab391e25139bf5462e94a15fb3628735a1c9a8fb33a7f4887f7",
+        "word_count": 2121,
+        "model_returned": "mistralai/mistral-large-2512",
+        "timestamp": "2026-04-14T22:46:00.085747+00:00"
+      },
+      "run4": {
+        "content_sha256": "711b6909c79ccd575e80c243f9965ae5ad77518808bacdef7980e835f44ec8ad",
+        "word_count": 1551,
+        "model_returned": "mistralai/mistral-large-2512",
+        "timestamp": "2026-04-14T22:46:09.253007+00:00"
+      },
+      "run5": {
+        "content_sha256": "6108e06fb109b4dfa728d3360221852daa9689c6e022d1207c68a90c040f68c5",
+        "word_count": 1762,
+        "model_returned": "mistralai/mistral-large-2512",
+        "timestamp": "2026-04-14T22:46:11.247386+00:00"
+      }
+    },
+    "b09_gemini3_flash": {
+      "run1": {
+        "content_sha256": "6894c9c1f0b3ad24c70f86f67f8667edff62ec548f0e8c217bc3c6b4565037ca",
+        "word_count": 1510,
+        "model_returned": "google/gemini-3-flash-preview-20251217",
+        "timestamp": "2026-04-14T22:51:40.696951+00:00"
+      },
+      "run2": {
+        "content_sha256": "bc65ab9feb5f1b05a090b3529b38cadc7dc52d56e6fa3ec7c4dce2e456238871",
+        "word_count": 2257,
+        "model_returned": "google/gemini-3-flash-preview-20251217",
+        "timestamp": "2026-04-14T22:54:11.367999+00:00"
+      },
+      "run3": {
+        "content_sha256": "ab1ef6fe272567228fd0c0283d9e4239882cdf3337d28227bfa76fb9caec7f1c",
+        "word_count": 873,
+        "model_returned": "google/gemini-3-flash-preview-20251217",
+        "timestamp": "2026-04-14T22:56:20.711310+00:00"
+      },
+      "run4": {
+        "content_sha256": "560cd13237ef53c649a42bb5e47dde40a1053e182cc060ea48e924455a81d373",
+        "word_count": 1478,
+        "model_returned": "google/gemini-3-flash-preview-20251217",
+        "timestamp": "2026-04-14T22:58:11.535376+00:00"
+      },
+      "run5": {
+        "content_sha256": "2719d54a0c26a51c25b1bb54c1847e3b6d008a142b7caed72b26402d5ffff64b",
+        "word_count": 1543,
+        "model_returned": "google/gemini-3-flash-preview-20251217",
+        "timestamp": "2026-04-14T23:00:01.676061+00:00"
+      }
+    },
+    "b10_glm5": {
+      "run1": {
+        "content_sha256": "e68a09ac739b661a3a01d553a39fc147f7b8b1442c8aca65558607f59b01ecb7",
+        "word_count": 2870,
+        "model_returned": "z-ai/glm-5-20260211",
+        "timestamp": "2026-04-14T22:46:11.897071+00:00"
+      },
+      "run2": {
+        "content_sha256": "fe4958608b90b88e442beec93b418a0347f53e352c8c702682a2323f5fc450d9",
+        "word_count": 3317,
+        "model_returned": "z-ai/glm-5-20260211",
+        "timestamp": "2026-04-14T22:46:14.714771+00:00"
+      },
+      "run3": {
+        "content_sha256": "52b98682e5142dea6c0f06902057ab724aa958bd1ac2108d6690b1b77ac84274",
+        "word_count": 4106,
+        "model_returned": "z-ai/glm-5-20260211",
+        "timestamp": "2026-04-14T22:46:25.083307+00:00"
+      },
+      "run4": {
+        "content_sha256": "34b5635c359e0ae591385a85bc86ea4256c169e10ae95a03e2caa8feb071b28a",
+        "word_count": 3188,
+        "model_returned": "z-ai/glm-5-20260211",
+        "timestamp": "2026-04-14T22:46:50.393079+00:00"
+      },
+      "run5": {
+        "content_sha256": "5aa6ff8332232e754833d0baa01fb7d354f5ac36083af1ca2713b4d59b63c0e8",
+        "word_count": 3921,
+        "model_returned": "z-ai/glm-5-20260211",
+        "timestamp": "2026-04-14T22:47:02.399044+00:00"
+      }
+    }
+  }
+}

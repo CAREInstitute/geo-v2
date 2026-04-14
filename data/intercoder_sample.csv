@@ -1,0 +1,11 @@
+model_short,run_number
+b03_claude_sonnet,4
+b08_mistral_large3,5
+b07_llama4_maverick,1
+b10_glm5,1
+b04_grok420,3
+b10_glm5,4
+b06_qwen35_plus,2
+b06_qwen35_plus,1
+b07_llama4_maverick,3
+b04_grok420,5
