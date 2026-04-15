@@ -1,27 +1,31 @@
 {
   "experiment_name": "Cross-Model GEO Brand Visibility Study",
-  "version": "3.0-academic",
-  "date_conducted": "2026-04-14",
-  "prompt_sha256": "1498c77120c102f0c2db31753e7ca7f08c9d5ae95546d7aab6deb66126fb3ea4",
+  "version": "4.0-expanded",
+  "date_conducted": "2026-04-15",
+  "prompt_sha256": "405eff4f12776927b40bffaeb588941d66cb2361d0e2c0ade2f2442270029602",
   "pipeline_versions": {
-    "geo_config": "3.0.0",
+    "geo_config": "4.0.0",
     "geo_runner": "2.1.0",
     "geo_extract": "1.0.0",
     "geo_analyze": "1.0.0",
     "geo_pipeline": "2.1.0"
   },
-  "config_sha256": "a7afcf1746870224133c6a953d449b862a5af51a7c988134c3a7adc830f600b6",
+  "config_sha256": "b03d681a3557748769faee9fe4e492c95d1ddd6e138a774d620111217b55307a",
   "design": {
-    "queries": 20,
+    "queries": 40,
     "query_categories": [
+      "enterprise_software",
+      "financial_services",
+      "cpg",
       "healthcare_wellness",
-      "local_services",
+      "travel_hospitality",
       "b2b_saas",
-      "consumer_electronics"
+      "consumer_electronics",
+      "local_services"
     ],
     "models_tested": 10,
     "trials_per_model": 5,
-    "total_observations": 1000,
+    "total_observations": 2000,
     "temperature": 0.3,
     "top_p": 0.95,
     "search_spacing_seconds": 5
@@ -183,7 +187,7 @@
     {
       "id": "Q03",
       "category": "b2b_saas",
-      "text": "Compare the top enterprise email marketing platforms for a mid-market e-commerce company."
+      "text": "What are the top enterprise email marketing platforms for a mid-market e-commerce company?"
     },
     {
       "id": "Q04",
@@ -213,7 +217,7 @@
     {
       "id": "Q09",
       "category": "healthcare_wellness",
-      "text": "Compare the leading fitness tracking wearables for heart rate monitoring accuracy and sleep tracking."
+      "text": "What are the leading fitness tracking wearables for heart rate monitoring accuracy and sleep tracking?"
     },
     {
       "id": "Q10",
@@ -233,7 +237,7 @@
     {
       "id": "Q13",
       "category": "consumer_electronics",
-      "text": "Compare the top robot vacuum cleaners for a home with pets and hardwood floors."
+      "text": "What are the top robot vacuum cleaners for a home with pets and hardwood floors?"
     },
     {
       "id": "Q14",
@@ -269,6 +273,106 @@
       "id": "Q20",
       "category": "local_services",
       "text": "What questions should I ask when hiring a local landscaping company for yard design?"
+    },
+    {
+      "id": "Q21",
+      "category": "financial_services",
+      "text": "What is the best business credit card for a startup spending 20,000 dollars per month on software and travel?"
+    },
+    {
+      "id": "Q22",
+      "category": "financial_services",
+      "text": "Which payroll platforms are best for a company with 100 employees across multiple US states?"
+    },
+    {
+      "id": "Q23",
+      "category": "financial_services",
+      "text": "What are the top robo-advisors for a mid-career professional looking to invest 200,000 dollars?"
+    },
+    {
+      "id": "Q24",
+      "category": "financial_services",
+      "text": "What are the best invoicing and payment processing platforms for a freelance consulting business?"
+    },
+    {
+      "id": "Q25",
+      "category": "financial_services",
+      "text": "Which business banking accounts offer the best combination of no fees, high APY, and integration with accounting software?"
+    },
+    {
+      "id": "Q26",
+      "category": "cpg",
+      "text": "What are the best protein bars for someone focused on high protein and low sugar with clean ingredients?"
+    },
+    {
+      "id": "Q27",
+      "category": "cpg",
+      "text": "Which laundry detergent brands are most effective while also being environmentally friendly?"
+    },
+    {
+      "id": "Q28",
+      "category": "cpg",
+      "text": "What are the top premium coffee brands available for home brewing in terms of quality and value?"
+    },
+    {
+      "id": "Q29",
+      "category": "cpg",
+      "text": "What are the best natural deodorant brands that actually work for heavy perspiration?"
+    },
+    {
+      "id": "Q30",
+      "category": "cpg",
+      "text": "Which dog food brands are most recommended by veterinarians for adult medium-sized breeds?"
+    },
+    {
+      "id": "Q31",
+      "category": "enterprise_software",
+      "text": "What are the best SIEM platforms for a mid-market company with 500 endpoints and a small security team?"
+    },
+    {
+      "id": "Q32",
+      "category": "enterprise_software",
+      "text": "What are the top cloud infrastructure providers for a company migrating from on-premises to a hybrid cloud setup?"
+    },
+    {
+      "id": "Q33",
+      "category": "enterprise_software",
+      "text": "Which business intelligence and data visualization platforms are best for a non-technical executive team?"
+    },
+    {
+      "id": "Q34",
+      "category": "enterprise_software",
+      "text": "What are the leading identity and access management solutions for a company with 2,000 employees using SSO?"
+    },
+    {
+      "id": "Q35",
+      "category": "enterprise_software",
+      "text": "Which endpoint detection and response platforms provide the best protection for a fully remote workforce?"
+    },
+    {
+      "id": "Q36",
+      "category": "travel_hospitality",
+      "text": "What are the best hotel loyalty programs for a frequent business traveler doing 50 nights per year?"
+    },
+    {
+      "id": "Q37",
+      "category": "travel_hospitality",
+      "text": "Which airlines offer the best business class experience on transatlantic routes in 2026?"
+    },
+    {
+      "id": "Q38",
+      "category": "travel_hospitality",
+      "text": "What are the top travel booking platforms for finding the best deals on international flights?"
+    },
+    {
+      "id": "Q39",
+      "category": "travel_hospitality",
+      "text": "What are the best all-inclusive resort chains in the Caribbean for a family with young children?"
+    },
+    {
+      "id": "Q40",
+      "category": "travel_hospitality",
+      "text": "Which travel credit cards offer the best combination of sign-up bonus, lounge access, and no foreign transaction fees?"
     }
   ]
 }

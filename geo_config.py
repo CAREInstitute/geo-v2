@@ -1,21 +1,22 @@
 """
 GEO Cross-Model Brand Visibility Study — Configuration
-Version: 2026.4.15-r3 (Post Red Team Roster Revision)
+Version: 2026.4.15-r4 (Expanded 8-Category Study)
 
-CHANGELOG from r2:
-  - 8 of 10 models replaced with current-generation equivalents
-  - GPT-4o → GPT-5.4, Gemini 2.5 Flash → Gemini 3.1 Pro, Grok 2 → Grok 4.20
-  - Command R+ and Gemma 3 27B removed (no market share / not frontier)
-  - Added GLM-5 (third Chinese-corpus model for H3 triangulation)
-  - Added Gemini 3 Flash (within-Google tier comparison)
-  - All OpenRouter model IDs verified against April 2026 catalog
+CHANGELOG:
+  r4: Added 4 new categories (Financial Services, CPG, Enterprise Software, Travel)
+      20 new queries (Q21-Q40), total now 40 queries across 8 categories
+      Fixed Mistral model ID: mistral-large-3 → mistral-large-2512
+      Fixed 7 imperative queries to question form for consistency
+      Revised cost estimate: output_tokens 8000 → 4000 (based on actual run data)
+  r3: 8 of 10 models replaced with current-generation equivalents
+  r2: K=5 trials, 20 queries, temporal spacing
 """
 
-__version__ = "3.0.0"
+__version__ = "4.0.0"
 __component__ = "geo_config"
 
 EXPERIMENT_NAME = "Cross-Model GEO Brand Visibility Study"
-VERSION = "3.0-academic"
+VERSION = "4.0-expanded"
 TEMPERATURE = 0.3
 TOP_P = 0.95
 MAX_TOKENS = 16384
@@ -44,26 +45,65 @@ SUBSTITUTIONS = {
 }
 
 QUERIES = [
+    # ── Original 4 Categories (Q01-Q20) ──
+
+    # B2B SaaS (AIO trigger ~70%)
     {"id": "Q01", "category": "b2b_saas", "text": "What is the best CRM software for a B2B company with 50 to 200 employees?"},
     {"id": "Q02", "category": "b2b_saas", "text": "What project management tools do you recommend for a remote software development team of about 30 people?"},
-    {"id": "Q03", "category": "b2b_saas", "text": "Compare the top enterprise email marketing platforms for a mid-market e-commerce company."},
+    {"id": "Q03", "category": "b2b_saas", "text": "What are the top enterprise email marketing platforms for a mid-market e-commerce company?"},
     {"id": "Q04", "category": "b2b_saas", "text": "Which cloud-based accounting software is best for a growing SaaS startup with 10 million in annual revenue?"},
     {"id": "Q05", "category": "b2b_saas", "text": "What are the leading customer data platforms for B2B companies that need to unify sales and marketing data?"},
+
+    # Healthcare / Wellness (AIO trigger ~43-88%)
     {"id": "Q06", "category": "healthcare_wellness", "text": "What are the best telemedicine platforms for a small medical practice with five physicians?"},
     {"id": "Q07", "category": "healthcare_wellness", "text": "Which mental health apps are most effective for managing anxiety, based on clinical evidence?"},
     {"id": "Q08", "category": "healthcare_wellness", "text": "What are the top electronic health record systems for independent clinics in the United States?"},
-    {"id": "Q09", "category": "healthcare_wellness", "text": "Compare the leading fitness tracking wearables for heart rate monitoring accuracy and sleep tracking."},
+    {"id": "Q09", "category": "healthcare_wellness", "text": "What are the leading fitness tracking wearables for heart rate monitoring accuracy and sleep tracking?"},
     {"id": "Q10", "category": "healthcare_wellness", "text": "Which supplement brands are most trusted for quality and third-party testing transparency?"},
+
+    # Consumer Electronics (AIO trigger ~18%)
     {"id": "Q11", "category": "consumer_electronics", "text": "What are the best noise-cancelling headphones under 400 dollars in 2026?"},
     {"id": "Q12", "category": "consumer_electronics", "text": "Which laptop is best for a college student who needs it for both coursework and light gaming?"},
-    {"id": "Q13", "category": "consumer_electronics", "text": "Compare the top robot vacuum cleaners for a home with pets and hardwood floors."},
+    {"id": "Q13", "category": "consumer_electronics", "text": "What are the top robot vacuum cleaners for a home with pets and hardwood floors?"},
     {"id": "Q14", "category": "consumer_electronics", "text": "What are the best mirrorless cameras for a beginner photographer with a budget of 1500 dollars?"},
     {"id": "Q15", "category": "consumer_electronics", "text": "Which smart home hub integrates best with the widest range of devices in 2026?"},
+
+    # Local Services (AIO trigger <8% — control)
     {"id": "Q16", "category": "local_services", "text": "What should I look for when choosing a local plumber for a kitchen renovation?"},
     {"id": "Q17", "category": "local_services", "text": "How do I find a reliable house cleaning service in a mid-sized city?"},
     {"id": "Q18", "category": "local_services", "text": "What are the most important factors when selecting a local daycare center for a toddler?"},
     {"id": "Q19", "category": "local_services", "text": "How do I evaluate and choose a good local auto mechanic for regular car maintenance?"},
     {"id": "Q20", "category": "local_services", "text": "What questions should I ask when hiring a local landscaping company for yard design?"},
+
+    # ── NEW: 4 Expansion Categories (Q21-Q40) ──
+
+    # Financial Services / Fintech (AIO trigger ~63%)
+    {"id": "Q21", "category": "financial_services", "text": "What is the best business credit card for a startup spending 20,000 dollars per month on software and travel?"},
+    {"id": "Q22", "category": "financial_services", "text": "Which payroll platforms are best for a company with 100 employees across multiple US states?"},
+    {"id": "Q23", "category": "financial_services", "text": "What are the top robo-advisors for a mid-career professional looking to invest 200,000 dollars?"},
+    {"id": "Q24", "category": "financial_services", "text": "What are the best invoicing and payment processing platforms for a freelance consulting business?"},
+    {"id": "Q25", "category": "financial_services", "text": "Which business banking accounts offer the best combination of no fees, high APY, and integration with accounting software?"},
+
+    # CPG / Consumer Packaged Goods (AIO trigger ~25%, fastest growing)
+    {"id": "Q26", "category": "cpg", "text": "What are the best protein bars for someone focused on high protein and low sugar with clean ingredients?"},
+    {"id": "Q27", "category": "cpg", "text": "Which laundry detergent brands are most effective while also being environmentally friendly?"},
+    {"id": "Q28", "category": "cpg", "text": "What are the top premium coffee brands available for home brewing in terms of quality and value?"},
+    {"id": "Q29", "category": "cpg", "text": "What are the best natural deodorant brands that actually work for heavy perspiration?"},
+    {"id": "Q30", "category": "cpg", "text": "Which dog food brands are most recommended by veterinarians for adult medium-sized breeds?"},
+
+    # Enterprise Software — Security / Cloud / Data (AIO trigger ~70%)
+    {"id": "Q31", "category": "enterprise_software", "text": "What are the best SIEM platforms for a mid-market company with 500 endpoints and a small security team?"},
+    {"id": "Q32", "category": "enterprise_software", "text": "What are the top cloud infrastructure providers for a company migrating from on-premises to a hybrid cloud setup?"},
+    {"id": "Q33", "category": "enterprise_software", "text": "Which business intelligence and data visualization platforms are best for a non-technical executive team?"},
+    {"id": "Q34", "category": "enterprise_software", "text": "What are the leading identity and access management solutions for a company with 2,000 employees using SSO?"},
+    {"id": "Q35", "category": "enterprise_software", "text": "Which endpoint detection and response platforms provide the best protection for a fully remote workforce?"},
+
+    # Travel & Hospitality (AIO trigger ~30%)
+    {"id": "Q36", "category": "travel_hospitality", "text": "What are the best hotel loyalty programs for a frequent business traveler doing 50 nights per year?"},
+    {"id": "Q37", "category": "travel_hospitality", "text": "Which airlines offer the best business class experience on transatlantic routes in 2026?"},
+    {"id": "Q38", "category": "travel_hospitality", "text": "What are the top travel booking platforms for finding the best deals on international flights?"},
+    {"id": "Q39", "category": "travel_hospitality", "text": "What are the best all-inclusive resort chains in the Caribbean for a family with young children?"},
+    {"id": "Q40", "category": "travel_hospitality", "text": "Which travel credit cards offer the best combination of sign-up bonus, lounge access, and no foreign transaction fees?"},
 ]
 
 RUN_A_MODELS = {
@@ -85,9 +125,9 @@ def get_model_by_short(short):
     return next((m for m in MODELS if m["short"] == short), None)
 
 def estimate_total_cost():
-    """Estimate total experiment cost for 20 queries x 10 models x 5 trials."""
+    """Estimate total experiment cost."""
     total = 0
-    input_tokens, output_tokens = 2000, 8000
+    input_tokens, output_tokens = 2000, 4000
     calls_per_model = len(QUERIES) * K_TRIALS
     for m in MODELS:
         cost_per_call = (input_tokens / 1e6) * m["cost_input_per_m"] + (output_tokens / 1e6) * m["cost_output_per_m"]

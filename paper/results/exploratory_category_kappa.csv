@@ -1,5 +1,9 @@
 category,mean,std,count
-b2b_saas,0.1999,0.0619,5
-consumer_electronics,-0.0039,0.0588,5
-healthcare_wellness,0.0146,0.1055,5
-local_services,-0.078,0.0186,5
+b2b_saas,0.2646,0.0823,5
+consumer_electronics,-0.0217,0.0114,5
+cpg,-0.0246,0.0089,5
+enterprise_software,-0.0003,0.0178,5
+financial_services,-0.0074,0.0128,5
+healthcare_wellness,-0.0219,0.0454,5
+local_services,-0.0296,0.001,5
+travel_hospitality,-0.0038,0.0171,5

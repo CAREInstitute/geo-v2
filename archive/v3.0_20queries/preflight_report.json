@@ -1,0 +1,222 @@
+{
+  "timestamp": "2026-04-14T22:42:43.883566+00:00",
+  "python_version": "3.10.12",
+  "all_pass": true,
+  "summary": {
+    "pass": 40,
+    "fail": 0,
+    "warn": 2
+  },
+  "checks": [
+    {
+      "name": "Python \u2265 3.10",
+      "status": "pass",
+      "detail": "Found 3.10.12"
+    },
+    {
+      "name": "requests installed",
+      "status": "pass",
+      "detail": "v2.33.1"
+    },
+    {
+      "name": "pandas installed",
+      "status": "pass",
+      "detail": "v2.3.3"
+    },
+    {
+      "name": "numpy installed",
+      "status": "pass",
+      "detail": "v2.2.6"
+    },
+    {
+      "name": "scipy installed",
+      "status": "pass",
+      "detail": "v1.15.3"
+    },
+    {
+      "name": "rich not installed (optional)",
+      "status": "warn",
+      "detail": "Terminal formatting will be plain text"
+    },
+    {
+      "name": "geo_config imports",
+      "status": "pass",
+      "detail": "v3.0.0"
+    },
+    {
+      "name": "geo_runner imports",
+      "status": "pass",
+      "detail": "v2.1.0"
+    },
+    {
+      "name": "geo_extract imports",
+      "status": "pass",
+      "detail": "v1.0.0"
+    },
+    {
+      "name": "geo_analyze imports",
+      "status": "pass",
+      "detail": "v1.0.0"
+    },
+    {
+      "name": "geo_pipeline imports",
+      "status": "pass",
+      "detail": "v2.1.0"
+    },
+    {
+      "name": "Models defined",
+      "status": "pass",
+      "detail": "10 models"
+    },
+    {
+      "name": "Queries defined",
+      "status": "pass",
+      "detail": "20 queries"
+    },
+    {
+      "name": "K_TRIALS \u2265 1",
+      "status": "pass",
+      "detail": "K=5"
+    },
+    {
+      "name": "Temperature valid",
+      "status": "pass",
+      "detail": "T=0.3"
+    },
+    {
+      "name": "Multiple query categories",
+      "status": "pass",
+      "detail": "4: {'local_services', 'consumer_electronics', 'b2b_saas', 'healthcare_wellness'}"
+    },
+    {
+      "name": "Multiple architecture groups",
+      "status": "pass",
+      "detail": "3: {'search_augmented', 'non_english_corpus', 'parametric_only'}"
+    },
+    {
+      "name": "All model IDs well-formed",
+      "status": "pass",
+      "detail": "10 models checked"
+    },
+    {
+      "name": "Config hash computable",
+      "status": "pass",
+      "detail": "1f668b849b3d4d927062c291..."
+    },
+    {
+      "name": "OPENROUTER_API_KEY set",
+      "status": "pass",
+      "detail": "Set (73 chars)"
+    },
+    {
+      "name": "OpenRouter API reachable",
+      "status": "pass",
+      "detail": "HTTP 200, 346 models available"
+    },
+    {
+      "name": "Model available: b01_gpt54",
+      "status": "pass",
+      "detail": "openai/gpt-5.4"
+    },
+    {
+      "name": "Model available: b02_gemini31_pro",
+      "status": "pass",
+      "detail": "google/gemini-3.1-pro-preview"
+    },
+    {
+      "name": "Model available: b03_claude_sonnet",
+      "status": "pass",
+      "detail": "anthropic/claude-sonnet-4.6"
+    },
+    {
+      "name": "Model available: b04_grok420",
+      "status": "pass",
+      "detail": "x-ai/grok-4.20"
+    },
+    {
+      "name": "Model available: b05_deepseek_v32",
+      "status": "pass",
+      "detail": "deepseek/deepseek-chat-v3-0324"
+    },
+    {
+      "name": "Model substituted: b06_qwen35_plus",
+      "status": "warn",
+      "detail": "qwen/qwen3.5-plus \u2192 qwen/qwen3-235b-a22b"
+    },
+    {
+      "name": "Model available: b07_llama4_maverick",
+      "status": "pass",
+      "detail": "meta-llama/llama-4-maverick"
+    },
+    {
+      "name": "Model available: b08_mistral_large3",
+      "status": "pass",
+      "detail": "mistralai/mistral-large-2512"
+    },
+    {
+      "name": "Model available: b09_gemini3_flash",
+      "status": "pass",
+      "detail": "google/gemini-3-flash-preview"
+    },
+    {
+      "name": "Model available: b10_glm5",
+      "status": "pass",
+      "detail": "z-ai/glm-5"
+    },
+    {
+      "name": "Prompt builds successfully",
+      "status": "pass",
+      "detail": "409 words, 2650 chars"
+    },
+    {
+      "name": "Prompt hash",
+      "status": "pass",
+      "detail": "1498c77120c102f0c2db3175..."
+    },
+    {
+      "name": "Directory writable: outputs/run_a",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "Directory writable: outputs/run_b",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "Directory writable: outputs/run_c",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "Directory writable: data/run_metadata",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "Directory writable: logs",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "Directory writable: paper/results",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "Directory writable: prompts",
+      "status": "pass",
+      "detail": ""
+    },
+    {
+      "name": "API call succeeds",
+      "status": "pass",
+      "detail": "Got 3 words, model=meta-llama/llama-4-maverick-17b-128e-instruct"
+    },
+    {
+      "name": "Cost estimate computable",
+      "status": "pass",
+      "detail": "$52.67 estimated total"
+    }
+  ]
+}
