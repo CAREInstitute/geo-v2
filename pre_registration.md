@@ -236,7 +236,7 @@ Any post-pre-registration change to hypotheses, model roster, query set, prompt,
 All code, prompts, raw outputs, and this pre-registration document will be available at:
 https://github.com/CAREInstitute/geo-v2/releases/tag/v3.0.0-prereg-frozen
 
-OSF DOI: (to be assigned in Stage 3.3.E — pending)
+OSF URL: https://osf.io/2j654/overview
 
 ---
 
