@@ -1,0 +1,1202 @@
+[
+  {
+    "original_id": "Q01",
+    "paraphrase_id": "Q01_P1",
+    "original_text": "What is the best CRM software for a B2B company with 50 to 200 employees?",
+    "paraphrase_text": "Top CRM systems for businesses with 50-200 staff",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:10:54.002383+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q01",
+    "paraphrase_id": "Q01_P2",
+    "original_text": "What is the best CRM software for a B2B company with 50 to 200 employees?",
+    "paraphrase_text": "Which CRM platform is ideal for medium-sized B2B firms?",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:10:54.002383+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q01",
+    "paraphrase_id": "Q01_P3",
+    "original_text": "What is the best CRM software for a B2B company with 50 to 200 employees?",
+    "paraphrase_text": "Best customer relationship management tools for companies with 50 to 200 employees",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:10:54.002383+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q02",
+    "paraphrase_id": "Q02_P1",
+    "original_text": "What project management tools do you recommend for a remote software development team of about 30 people?",
+    "paraphrase_text": "Can you suggest some good project management software for a team of 30 remote developers?",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:10:56.833910+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q02",
+    "paraphrase_id": "Q02_P2",
+    "original_text": "What project management tools do you recommend for a remote software development team of about 30 people?",
+    "paraphrase_text": "What are the best tools for managing a distributed software development team of around 30 members?",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:10:56.833910+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q02",
+    "paraphrase_id": "Q02_P3",
+    "original_text": "What project management tools do you recommend for a remote software development team of about 30 people?",
+    "paraphrase_text": "I'm looking for recommendations on project management platforms that can support a remote team of approximately 30 software developers",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:10:56.833910+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q03",
+    "paraphrase_id": "Q03_P1",
+    "original_text": "What are the top enterprise email marketing platforms for a mid-market e-commerce company?",
+    "paraphrase_text": "Best email marketing solutions for mid-size e-commerce businesses",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:00.111705+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q03",
+    "paraphrase_id": "Q03_P2",
+    "original_text": "What are the top enterprise email marketing platforms for a mid-market e-commerce company?",
+    "paraphrase_text": "Top rated email marketing platforms for e-commerce companies with medium scale operations",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:00.111705+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q03",
+    "paraphrase_id": "Q03_P3",
+    "original_text": "What are the top enterprise email marketing platforms for a mid-market e-commerce company?",
+    "paraphrase_text": "Leading enterprise level email marketing tools for mid-market online retailers",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:00.111705+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q04",
+    "paraphrase_id": "Q04_P1",
+    "original_text": "Which cloud-based accounting software is best for a growing SaaS startup with 10 million in annual revenue?",
+    "paraphrase_text": "What's the top cloud accounting platform for a SaaS company with $10M yearly revenue?",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:03.236114+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q04",
+    "paraphrase_id": "Q04_P2",
+    "original_text": "Which cloud-based accounting software is best for a growing SaaS startup with 10 million in annual revenue?",
+    "paraphrase_text": "Best cloud-based accounting tools for a scaling SaaS startup making 10 million dollars annually",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:03.236114+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q04",
+    "paraphrase_id": "Q04_P3",
+    "original_text": "Which cloud-based accounting software is best for a growing SaaS startup with 10 million in annual revenue?",
+    "paraphrase_text": "Which cloud accounting solution is most suitable for a fast-growing SaaS business with annual revenues of around $10 million?",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:03.236114+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q05",
+    "paraphrase_id": "Q05_P1",
+    "original_text": "What are the leading customer data platforms for B2B companies that need to unify sales and marketing data?",
+    "paraphrase_text": "Top customer data platforms for B2B businesses to integrate sales and marketing information",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:05.937679+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q05",
+    "paraphrase_id": "Q05_P2",
+    "original_text": "What are the leading customer data platforms for B2B companies that need to unify sales and marketing data?",
+    "paraphrase_text": "Best platforms for unifying customer data across sales and marketing teams in B2B",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:05.937679+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q05",
+    "paraphrase_id": "Q05_P3",
+    "original_text": "What are the leading customer data platforms for B2B companies that need to unify sales and marketing data?",
+    "paraphrase_text": "B2B companies: what are the best customer data platforms to consolidate sales and marketing data",
+    "category": "b2b_saas",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:05.937679+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q06",
+    "paraphrase_id": "Q06_P1",
+    "original_text": "What are the best telemedicine platforms for a small medical practice with five physicians?",
+    "paraphrase_text": "Top virtual care platforms for a medical practice with 5 doctors",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:09.877169+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q06",
+    "paraphrase_id": "Q06_P2",
+    "original_text": "What are the best telemedicine platforms for a small medical practice with five physicians?",
+    "paraphrase_text": "Best online healthcare platforms for small medical groups like ours with five physicians",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:09.877169+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q06",
+    "paraphrase_id": "Q06_P3",
+    "original_text": "What are the best telemedicine platforms for a small medical practice with five physicians?",
+    "paraphrase_text": "Recommended telehealth solutions for a small practice with a team of five physicians",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:09.877169+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q07",
+    "paraphrase_id": "Q07_P1",
+    "original_text": "Which mental health apps are most effective for managing anxiety, based on clinical evidence?",
+    "paraphrase_text": "What are the top anxiety management apps backed by scientific research?",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:12.966085+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q07",
+    "paraphrase_id": "Q07_P2",
+    "original_text": "Which mental health apps are most effective for managing anxiety, based on clinical evidence?",
+    "paraphrase_text": "Can you recommend evidence-based mental health apps for anxiety relief?",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:12.966085+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q07",
+    "paraphrase_id": "Q07_P3",
+    "original_text": "Which mental health apps are most effective for managing anxiety, based on clinical evidence?",
+    "paraphrase_text": "Which anxiety apps have been proven to work through clinical studies and trials?",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:12.966085+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q08",
+    "paraphrase_id": "Q08_P1",
+    "original_text": "What are the top electronic health record systems for independent clinics in the United States?",
+    "paraphrase_text": "Best EHR systems for small medical practices in the US",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:15.813515+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q08",
+    "paraphrase_id": "Q08_P2",
+    "original_text": "What are the top electronic health record systems for independent clinics in the United States?",
+    "paraphrase_text": "Top-rated electronic medical records software for independent clinics",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:15.813515+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q08",
+    "paraphrase_id": "Q08_P3",
+    "original_text": "What are the top electronic health record systems for independent clinics in the United States?",
+    "paraphrase_text": "Leading EHR solutions for solo and group practices in the United States",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:15.813515+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q09",
+    "paraphrase_id": "Q09_P1",
+    "original_text": "What are the leading fitness tracking wearables for heart rate monitoring accuracy and sleep tracking?",
+    "paraphrase_text": "Which wearable devices are most accurate for tracking heart rate and sleep patterns?",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:19.071829+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q09",
+    "paraphrase_id": "Q09_P2",
+    "original_text": "What are the leading fitness tracking wearables for heart rate monitoring accuracy and sleep tracking?",
+    "paraphrase_text": "What are the top fitness trackers for monitoring sleep and heart rate with high accuracy?",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:19.071829+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q09",
+    "paraphrase_id": "Q09_P3",
+    "original_text": "What are the leading fitness tracking wearables for heart rate monitoring accuracy and sleep tracking?",
+    "paraphrase_text": "Can you recommend the best wearables for accurate heart rate and sleep tracking features?",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:19.071829+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q10",
+    "paraphrase_id": "Q10_P1",
+    "original_text": "Which supplement brands are most trusted for quality and third-party testing transparency?",
+    "paraphrase_text": "What are the best supplement brands for purity and independent testing?",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:22.261857+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q10",
+    "paraphrase_id": "Q10_P2",
+    "original_text": "Which supplement brands are most trusted for quality and third-party testing transparency?",
+    "paraphrase_text": "Which vitamin brands have the most transparent labeling and quality control?",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:22.261857+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q10",
+    "paraphrase_id": "Q10_P3",
+    "original_text": "Which supplement brands are most trusted for quality and third-party testing transparency?",
+    "paraphrase_text": "What supplement companies are known for their high-quality products and rigorous third-party testing?",
+    "category": "healthcare_wellness",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:22.261857+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q11",
+    "paraphrase_id": "Q11_P1",
+    "original_text": "What are the best noise-cancelling headphones under 400 dollars in 2026?",
+    "paraphrase_text": "Top noise-cancelling headphones for under $400 in 2026",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:30.704212+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q11",
+    "paraphrase_id": "Q11_P2",
+    "original_text": "What are the best noise-cancelling headphones under 400 dollars in 2026?",
+    "paraphrase_text": "Best affordable noise-cancelling headphones 2026 under 400 dollars",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:30.704212+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q11",
+    "paraphrase_id": "Q11_P3",
+    "original_text": "What are the best noise-cancelling headphones under 400 dollars in 2026?",
+    "paraphrase_text": "Noise-cancelling headphones under $400: what are the best options for 2026",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:30.704212+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q12",
+    "paraphrase_id": "Q12_P1",
+    "original_text": "Which laptop is best for a college student who needs it for both coursework and light gaming?",
+    "paraphrase_text": "What's the best laptop for a college student to use for school and casual gaming?",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:34.681769+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q12",
+    "paraphrase_id": "Q12_P2",
+    "original_text": "Which laptop is best for a college student who needs it for both coursework and light gaming?",
+    "paraphrase_text": "I'm a college student looking for a laptop that can handle my coursework and some light gaming, what are my best options?",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:34.681769+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q12",
+    "paraphrase_id": "Q12_P3",
+    "original_text": "Which laptop is best for a college student who needs it for both coursework and light gaming?",
+    "paraphrase_text": "Best laptop for college students who want to balance academics and gaming on a budget",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:34.681769+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q13",
+    "paraphrase_id": "Q13_P1",
+    "original_text": "What are the top robot vacuum cleaners for a home with pets and hardwood floors?",
+    "paraphrase_text": "Best robot vacuums for pet owners with hardwood flooring",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:36.616827+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q13",
+    "paraphrase_id": "Q13_P2",
+    "original_text": "What are the top robot vacuum cleaners for a home with pets and hardwood floors?",
+    "paraphrase_text": "Top-rated robotic vacuums for homes with pets and hardwood floors",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:36.616827+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q13",
+    "paraphrase_id": "Q13_P3",
+    "original_text": "What are the top robot vacuum cleaners for a home with pets and hardwood floors?",
+    "paraphrase_text": "Recommended robot vacuum cleaners for hardwood floors in pet-friendly homes",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:36.616827+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q14",
+    "paraphrase_id": "Q14_P1",
+    "original_text": "What are the best mirrorless cameras for a beginner photographer with a budget of 1500 dollars?",
+    "paraphrase_text": "I'm a new photographer, what are some good mirrorless camera options under $1500?",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:40.108810+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q14",
+    "paraphrase_id": "Q14_P2",
+    "original_text": "What are the best mirrorless cameras for a beginner photographer with a budget of 1500 dollars?",
+    "paraphrase_text": "Best mirrorless cameras for beginners on a budget of 1500 dollars or less",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:40.108810+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q14",
+    "paraphrase_id": "Q14_P3",
+    "original_text": "What are the best mirrorless cameras for a beginner photographer with a budget of 1500 dollars?",
+    "paraphrase_text": "What's a good entry-level mirrorless camera that won't break the bank, around $1500 budget?",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:40.108810+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q15",
+    "paraphrase_id": "Q15_P1",
+    "original_text": "Which smart home hub integrates best with the widest range of devices in 2026?",
+    "paraphrase_text": "What smart home system is compatible with the most devices in 2026?",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:44.183136+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q15",
+    "paraphrase_id": "Q15_P2",
+    "original_text": "Which smart home hub integrates best with the widest range of devices in 2026?",
+    "paraphrase_text": "Which hub supports the largest number of smart devices in 2026?",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:44.183136+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q15",
+    "paraphrase_id": "Q15_P3",
+    "original_text": "Which smart home hub integrates best with the widest range of devices in 2026?",
+    "paraphrase_text": "What's the best smart home hub for integrating multiple devices from different brands in 2026?",
+    "category": "consumer_electronics",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:44.183136+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q16",
+    "paraphrase_id": "Q16_P1",
+    "original_text": "What should I look for when choosing a local plumber for a kitchen renovation?",
+    "paraphrase_text": "How do I select the best plumber in my area for a kitchen remodel?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:47.194338+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q16",
+    "paraphrase_id": "Q16_P2",
+    "original_text": "What should I look for when choosing a local plumber for a kitchen renovation?",
+    "paraphrase_text": "What are the key things to consider when hiring a local plumbing contractor for kitchen renovations?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:47.194338+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q16",
+    "paraphrase_id": "Q16_P3",
+    "original_text": "What should I look for when choosing a local plumber for a kitchen renovation?",
+    "paraphrase_text": "When picking a plumber for my kitchen renovation project, what factors should I consider to find a good one locally?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:47.194338+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q17",
+    "paraphrase_id": "Q17_P1",
+    "original_text": "How do I find a reliable house cleaning service in a mid-sized city?",
+    "paraphrase_text": "What's the best way to hire a trustworthy cleaning company in a smaller city?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:50.180432+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q17",
+    "paraphrase_id": "Q17_P2",
+    "original_text": "How do I find a reliable house cleaning service in a mid-sized city?",
+    "paraphrase_text": "How can I locate a dependable home cleaning service in a medium-sized town?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:50.180432+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q17",
+    "paraphrase_id": "Q17_P3",
+    "original_text": "How do I find a reliable house cleaning service in a mid-sized city?",
+    "paraphrase_text": "What are some tips for finding a good housekeeper or cleaning service in a city that's not too big?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:50.180432+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q18",
+    "paraphrase_id": "Q18_P1",
+    "original_text": "What are the most important factors when selecting a local daycare center for a toddler?",
+    "paraphrase_text": "What should I look for when choosing a daycare for my toddler in my area?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:52.815479+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q18",
+    "paraphrase_id": "Q18_P2",
+    "original_text": "What are the most important factors when selecting a local daycare center for a toddler?",
+    "paraphrase_text": "What are the key things to consider when picking a local toddler daycare?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:52.815479+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q18",
+    "paraphrase_id": "Q18_P3",
+    "original_text": "What are the most important factors when selecting a local daycare center for a toddler?",
+    "paraphrase_text": "How do I select the best daycare center for my toddler near me?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:52.815479+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q19",
+    "paraphrase_id": "Q19_P1",
+    "original_text": "How do I evaluate and choose a good local auto mechanic for regular car maintenance?",
+    "paraphrase_text": "What's the best way to find a trustworthy local car repair shop for routine maintenance?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:55.477929+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q19",
+    "paraphrase_id": "Q19_P2",
+    "original_text": "How do I evaluate and choose a good local auto mechanic for regular car maintenance?",
+    "paraphrase_text": "How can I select a reliable auto mechanic in my area for regular vehicle upkeep?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:55.477929+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q19",
+    "paraphrase_id": "Q19_P3",
+    "original_text": "How do I evaluate and choose a good local auto mechanic for regular car maintenance?",
+    "paraphrase_text": "What are some tips for picking a good local mechanic for ongoing car care and maintenance services?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:55.477929+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q20",
+    "paraphrase_id": "Q20_P1",
+    "original_text": "What questions should I ask when hiring a local landscaping company for yard design?",
+    "paraphrase_text": "What are the key questions to ask a landscaping service when designing my yard?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:58.381693+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q20",
+    "paraphrase_id": "Q20_P2",
+    "original_text": "What questions should I ask when hiring a local landscaping company for yard design?",
+    "paraphrase_text": "When hiring a local yard designer, what questions should I be asking the landscaper?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:58.381693+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q20",
+    "paraphrase_id": "Q20_P3",
+    "original_text": "What questions should I ask when hiring a local landscaping company for yard design?",
+    "paraphrase_text": "What are some important questions to ask a local landscape designer before they start working on my yard?",
+    "category": "local_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:11:58.381693+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q21",
+    "paraphrase_id": "Q21_P1",
+    "original_text": "What is the best business credit card for a startup spending 20,000 dollars per month on software and travel?",
+    "paraphrase_text": "Which business credit card is ideal for startups with monthly expenses of $20,000 on travel and software?",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:01.531315+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q21",
+    "paraphrase_id": "Q21_P2",
+    "original_text": "What is the best business credit card for a startup spending 20,000 dollars per month on software and travel?",
+    "paraphrase_text": "I'm looking for the top business credit card for a new company that spends around 20k monthly on software and travel expenses",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:01.531315+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q21",
+    "paraphrase_id": "Q21_P3",
+    "original_text": "What is the best business credit card for a startup spending 20,000 dollars per month on software and travel?",
+    "paraphrase_text": "What's the best credit card for business use, specifically for startups that have high monthly software and travel costs of about $20,000?",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:01.531315+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q22",
+    "paraphrase_id": "Q22_P1",
+    "original_text": "Which payroll platforms are best for a company with 100 employees across multiple US states?",
+    "paraphrase_text": "What are the top payroll services for companies with 100 employees in different states?",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:07.996920+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q22",
+    "paraphrase_id": "Q22_P2",
+    "original_text": "Which payroll platforms are best for a company with 100 employees across multiple US states?",
+    "paraphrase_text": "Best payroll software for a medium-sized business with staff in multiple US locations",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:07.996920+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q22",
+    "paraphrase_id": "Q22_P3",
+    "original_text": "Which payroll platforms are best for a company with 100 employees across multiple US states?",
+    "paraphrase_text": "Recommendations for payroll management systems for 100-person companies operating across several states",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:07.996920+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q23",
+    "paraphrase_id": "Q23_P1",
+    "original_text": "What are the top robo-advisors for a mid-career professional looking to invest 200,000 dollars?",
+    "paraphrase_text": "Best investment platforms for a 200k portfolio as a mid-career professional",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:11.796153+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q23",
+    "paraphrase_id": "Q23_P2",
+    "original_text": "What are the top robo-advisors for a mid-career professional looking to invest 200,000 dollars?",
+    "paraphrase_text": "Robo-advisory services suitable for investing 200,000 dollars as a working professional",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:11.796153+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q23",
+    "paraphrase_id": "Q23_P3",
+    "original_text": "What are the top robo-advisors for a mid-career professional looking to invest 200,000 dollars?",
+    "paraphrase_text": "Top automated investment options for a mid-career individual with 200,000 to invest",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:11.796153+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q24",
+    "paraphrase_id": "Q24_P1",
+    "original_text": "What are the best invoicing and payment processing platforms for a freelance consulting business?",
+    "paraphrase_text": "What are the top platforms for freelancers to manage invoices and payments?",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:14.875929+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q24",
+    "paraphrase_id": "Q24_P2",
+    "original_text": "What are the best invoicing and payment processing platforms for a freelance consulting business?",
+    "paraphrase_text": "Which online tools are best for sending invoices and processing client payments as a consultant?",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:14.875929+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q24",
+    "paraphrase_id": "Q24_P3",
+    "original_text": "What are the best invoicing and payment processing platforms for a freelance consulting business?",
+    "paraphrase_text": "What are the most popular invoicing and payment solutions for independent consultants and freelancers?",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:14.875929+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q25",
+    "paraphrase_id": "Q25_P1",
+    "original_text": "Which business banking accounts offer the best combination of no fees, high APY, and integration with accounting software?",
+    "paraphrase_text": "What business bank accounts have no monthly fees, high interest rates, and seamless accounting software integration?",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:18.989278+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q25",
+    "paraphrase_id": "Q25_P2",
+    "original_text": "Which business banking accounts offer the best combination of no fees, high APY, and integration with accounting software?",
+    "paraphrase_text": "I'm looking for a business banking account with no fees, a high yield, and compatibility with my accounting tools - what are my best options?",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:18.989278+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q25",
+    "paraphrase_id": "Q25_P3",
+    "original_text": "Which business banking accounts offer the best combination of no fees, high APY, and integration with accounting software?",
+    "paraphrase_text": "Which business banking solutions offer fee-free accounts, competitive APYs, and easy integration with popular accounting programs?",
+    "category": "financial_services",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:18.989278+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q26",
+    "paraphrase_id": "Q26_P1",
+    "original_text": "What are the best protein bars for someone focused on high protein and low sugar with clean ingredients?",
+    "paraphrase_text": "I'm looking for protein bars with high protein content, minimal sugar, and wholesome ingredients, what are my best options?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:24.653556+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q26",
+    "paraphrase_id": "Q26_P2",
+    "original_text": "What are the best protein bars for someone focused on high protein and low sugar with clean ingredients?",
+    "paraphrase_text": "What protein bars have the best balance of high protein, low sugar, and natural ingredients for a healthy diet?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:24.653556+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q26",
+    "paraphrase_id": "Q26_P3",
+    "original_text": "What are the best protein bars for someone focused on high protein and low sugar with clean ingredients?",
+    "paraphrase_text": "Can you recommend protein bars that are low in sugar, high in protein, and made with clean, healthy ingredients for fitness enthusiasts?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:24.653556+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q27",
+    "paraphrase_id": "Q27_P1",
+    "original_text": "Which laundry detergent brands are most effective while also being environmentally friendly?",
+    "paraphrase_text": "What eco-friendly laundry detergents work the best?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:28.184407+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q27",
+    "paraphrase_id": "Q27_P2",
+    "original_text": "Which laundry detergent brands are most effective while also being environmentally friendly?",
+    "paraphrase_text": "I'm looking for a laundry detergent that's good for the planet and gets the job done, what are my best options?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:28.184407+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q27",
+    "paraphrase_id": "Q27_P3",
+    "original_text": "Which laundry detergent brands are most effective while also being environmentally friendly?",
+    "paraphrase_text": "Which laundry detergent brands are both effective at cleaning and gentle on the environment?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:28.184407+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q28",
+    "paraphrase_id": "Q28_P1",
+    "original_text": "What are the top premium coffee brands available for home brewing in terms of quality and value?",
+    "paraphrase_text": "What high-end coffee brands offer the best balance of quality and affordability for brewing at home?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:31.609306+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q28",
+    "paraphrase_id": "Q28_P2",
+    "original_text": "What are the top premium coffee brands available for home brewing in terms of quality and value?",
+    "paraphrase_text": "Which luxury coffee brands are worth considering for home brewing, given their price and performance?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:31.609306+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q28",
+    "paraphrase_id": "Q28_P3",
+    "original_text": "What are the top premium coffee brands available for home brewing in terms of quality and value?",
+    "paraphrase_text": "What are the best upscale coffee brands for home brewing that combine excellent taste with good value?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:31.609306+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q29",
+    "paraphrase_id": "Q29_P1",
+    "original_text": "What are the best natural deodorant brands that actually work for heavy perspiration?",
+    "paraphrase_text": "Which natural deodorants are most effective for excessive sweating?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:34.982700+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q29",
+    "paraphrase_id": "Q29_P2",
+    "original_text": "What are the best natural deodorant brands that actually work for heavy perspiration?",
+    "paraphrase_text": "What are the top deodorant brands for heavy sweaters that use natural ingredients?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:34.982700+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q29",
+    "paraphrase_id": "Q29_P3",
+    "original_text": "What are the best natural deodorant brands that actually work for heavy perspiration?",
+    "paraphrase_text": "I sweat a lot, what are some good natural deodorant options that really work?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:34.982700+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q30",
+    "paraphrase_id": "Q30_P1",
+    "original_text": "Which dog food brands are most recommended by veterinarians for adult medium-sized breeds?",
+    "paraphrase_text": "What dog food do vets recommend for medium-sized adult dogs?",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:37.611815+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q30",
+    "paraphrase_id": "Q30_P2",
+    "original_text": "Which dog food brands are most recommended by veterinarians for adult medium-sized breeds?",
+    "paraphrase_text": "Top-rated dog food brands for adult medium breeds according to veterinarians",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:37.611815+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q30",
+    "paraphrase_id": "Q30_P3",
+    "original_text": "Which dog food brands are most recommended by veterinarians for adult medium-sized breeds?",
+    "paraphrase_text": "Veterinarian-recommended dog food for medium-sized dogs in their adult years",
+    "category": "cpg",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:37.611815+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q31",
+    "paraphrase_id": "Q31_P1",
+    "original_text": "What are the best SIEM platforms for a mid-market company with 500 endpoints and a small security team?",
+    "paraphrase_text": "Top SIEM solutions for medium-sized businesses with around 500 devices and limited security personnel",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:41.555219+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q31",
+    "paraphrase_id": "Q31_P2",
+    "original_text": "What are the best SIEM platforms for a mid-market company with 500 endpoints and a small security team?",
+    "paraphrase_text": "Which SIEM tools are most suitable for a mid-size organization with a small cybersecurity team and 500 endpoints to monitor",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:41.555219+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q31",
+    "paraphrase_id": "Q31_P3",
+    "original_text": "What are the best SIEM platforms for a mid-market company with 500 endpoints and a small security team?",
+    "paraphrase_text": "Best security information and event management systems for companies with 500 endpoints and a compact security team",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:41.555219+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q32",
+    "paraphrase_id": "Q32_P1",
+    "original_text": "What are the top cloud infrastructure providers for a company migrating from on-premises to a hybrid cloud setup?",
+    "paraphrase_text": "Which cloud infrastructure companies are best for businesses transitioning from on-premise to hybrid cloud?",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:44.782890+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q32",
+    "paraphrase_id": "Q32_P2",
+    "original_text": "What are the top cloud infrastructure providers for a company migrating from on-premises to a hybrid cloud setup?",
+    "paraphrase_text": "What are the leading cloud providers for a hybrid cloud migration from an on-premises environment?",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:44.782890+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q32",
+    "paraphrase_id": "Q32_P3",
+    "original_text": "What are the top cloud infrastructure providers for a company migrating from on-premises to a hybrid cloud setup?",
+    "paraphrase_text": "Who are the top cloud infrastructure vendors for a company moving from on-prem to a hybrid cloud model?",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:44.782890+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q33",
+    "paraphrase_id": "Q33_P1",
+    "original_text": "Which business intelligence and data visualization platforms are best for a non-technical executive team?",
+    "paraphrase_text": "What are the top data visualization tools for non-technical business leaders?",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:47.710588+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q33",
+    "paraphrase_id": "Q33_P2",
+    "original_text": "Which business intelligence and data visualization platforms are best for a non-technical executive team?",
+    "paraphrase_text": "Which BI platforms are most user-friendly for executive teams without technical expertise?",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:47.710588+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q33",
+    "paraphrase_id": "Q33_P3",
+    "original_text": "Which business intelligence and data visualization platforms are best for a non-technical executive team?",
+    "paraphrase_text": "What data analytics and visualization platforms are easiest for non-technical executives to use and understand?",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:47.710588+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q34",
+    "paraphrase_id": "Q34_P1",
+    "original_text": "What are the leading identity and access management solutions for a company with 2,000 employees using SSO?",
+    "paraphrase_text": "Top identity and access management systems for large businesses with SSO and 2000 staff",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:50.074929+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q34",
+    "paraphrase_id": "Q34_P2",
+    "original_text": "What are the leading identity and access management solutions for a company with 2,000 employees using SSO?",
+    "paraphrase_text": "Best IAM solutions for companies around 2000 employees that need single sign-on capabilities",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:50.074929+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q34",
+    "paraphrase_id": "Q34_P3",
+    "original_text": "What are the leading identity and access management solutions for a company with 2,000 employees using SSO?",
+    "paraphrase_text": "Recommended identity management platforms for organizations with 2000 users requiring secure SSO integration",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:50.074929+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q35",
+    "paraphrase_id": "Q35_P1",
+    "original_text": "Which endpoint detection and response platforms provide the best protection for a fully remote workforce?",
+    "paraphrase_text": "What are the top endpoint security solutions for remote teams?",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:52.744816+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q35",
+    "paraphrase_id": "Q35_P2",
+    "original_text": "Which endpoint detection and response platforms provide the best protection for a fully remote workforce?",
+    "paraphrase_text": "How can I choose the best EDR platform for securing a fully distributed workforce?",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:52.744816+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q35",
+    "paraphrase_id": "Q35_P3",
+    "original_text": "Which endpoint detection and response platforms provide the best protection for a fully remote workforce?",
+    "paraphrase_text": "Which EDR tools offer the strongest protection for companies with entirely remote employees?",
+    "category": "enterprise_software",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:52.744816+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q36",
+    "paraphrase_id": "Q36_P1",
+    "original_text": "What are the best hotel loyalty programs for a frequent business traveler doing 50 nights per year?",
+    "paraphrase_text": "Which hotel rewards programs are most beneficial for someone who travels 50 nights annually for work",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:58.521487+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q36",
+    "paraphrase_id": "Q36_P2",
+    "original_text": "What are the best hotel loyalty programs for a frequent business traveler doing 50 nights per year?",
+    "paraphrase_text": "As a business traveler with 50 nights of hotel stays per year, what loyalty programs offer the best perks",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:58.521487+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q36",
+    "paraphrase_id": "Q36_P3",
+    "original_text": "What are the best hotel loyalty programs for a frequent business traveler doing 50 nights per year?",
+    "paraphrase_text": "What hotel loyalty programs offer the most value for frequent corporate travelers who average 50 nights per year",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:12:58.521487+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q37",
+    "paraphrase_id": "Q37_P1",
+    "original_text": "Which airlines offer the best business class experience on transatlantic routes in 2026?",
+    "paraphrase_text": "What are the top airlines for transatlantic business class flights in 2026?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:02.538361+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q37",
+    "paraphrase_id": "Q37_P2",
+    "original_text": "Which airlines offer the best business class experience on transatlantic routes in 2026?",
+    "paraphrase_text": "Which airlines have the best business class amenities on flights from the US to Europe in 2026?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:02.538361+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q37",
+    "paraphrase_id": "Q37_P3",
+    "original_text": "Which airlines offer the best business class experience on transatlantic routes in 2026?",
+    "paraphrase_text": "What airlines provide the most luxurious business class experience for transatlantic travel next year?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:02.538361+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q38",
+    "paraphrase_id": "Q38_P1",
+    "original_text": "What are the top travel booking platforms for finding the best deals on international flights?",
+    "paraphrase_text": "Which online travel agencies offer the cheapest international airfare?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:05.973852+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q38",
+    "paraphrase_id": "Q38_P2",
+    "original_text": "What are the top travel booking platforms for finding the best deals on international flights?",
+    "paraphrase_text": "What are the best websites to book international flights at discounted rates?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:05.973852+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q38",
+    "paraphrase_id": "Q38_P3",
+    "original_text": "What are the top travel booking platforms for finding the best deals on international flights?",
+    "paraphrase_text": "Can you recommend top travel sites for getting cheap international flight tickets?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:05.973852+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q39",
+    "paraphrase_id": "Q39_P1",
+    "original_text": "What are the best all-inclusive resort chains in the Caribbean for a family with young children?",
+    "paraphrase_text": "Which Caribbean resorts are best for families with kids and offer all-inclusive packages?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:09.818622+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q39",
+    "paraphrase_id": "Q39_P2",
+    "original_text": "What are the best all-inclusive resort chains in the Caribbean for a family with young children?",
+    "paraphrase_text": "What are the top family-friendly all-inclusive resorts in the Caribbean for young families?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:09.818622+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q39",
+    "paraphrase_id": "Q39_P3",
+    "original_text": "What are the best all-inclusive resort chains in the Caribbean for a family with young children?",
+    "paraphrase_text": "Can you recommend Caribbean all-inclusive resorts that are suitable for families with small children?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:09.818622+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q40",
+    "paraphrase_id": "Q40_P1",
+    "original_text": "Which travel credit cards offer the best combination of sign-up bonus, lounge access, and no foreign transaction fees?",
+    "paraphrase_text": "What are the top travel credit cards with great sign-up rewards, airport lounge perks, and no international fees?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:13.031531+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q40",
+    "paraphrase_id": "Q40_P2",
+    "original_text": "Which travel credit cards offer the best combination of sign-up bonus, lounge access, and no foreign transaction fees?",
+    "paraphrase_text": "I'm looking for a travel credit card with a strong bonus offer, complimentary lounge access, and no foreign transaction fees - what are my best options?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:13.031531+00:00",
+    "review_flag": false
+  },
+  {
+    "original_id": "Q40",
+    "paraphrase_id": "Q40_P3",
+    "original_text": "Which travel credit cards offer the best combination of sign-up bonus, lounge access, and no foreign transaction fees?",
+    "paraphrase_text": "Which credit cards offer the best travel perks, including sign-up bonuses, lounge access, and no fees on international purchases?",
+    "category": "travel_hospitality",
+    "generator_model": "meta-llama/llama-3.3-70b-instruct",
+    "generation_timestamp": "2026-04-27T21:13:13.031531+00:00",
+    "review_flag": false
+  }
+]
