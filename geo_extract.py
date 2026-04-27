@@ -10,9 +10,10 @@ v2.0.0  2026-04-15  CRITICAL FIX — _find_query_section fallback returned full 
                     Fix: return None when section not found; add coverage tracking;
                     expand false-positive filter; expand normalization codebook;
                     add cross-category contamination check to validation gate.
+v3.0.0  2026-04-27  EXTRACT-001 (slash-compound brand normalization) + EXTRACT-002 (4 citation-footer false positives) per CRITICAL bug report. Tests in tests/test_extract_001.py and tests/test_extract_002.py.
 """
 
-__version__ = "2.0.1"
+__version__ = "3.0.0"
 __component__ = "geo_extract"
 
 import re
@@ -50,6 +51,11 @@ FALSE_POSITIVE_BRANDS = {
     "licensing/insurance", "warranty on parts and labor",
     "warranty on labor", "references", "communication",
     "transparency", "experience",
+    # EXTRACT-002 (v3.0.0): Citation-footer false positives from search-augmented models.
+    "if web sources were consulted",
+    "web sources consulted briefly",
+    "sources consulted generally",
+    "web sources consulted",
 }
 
 
@@ -68,6 +74,16 @@ def extract_brands_from_response(text, query_id=None):
     brands = []
     seen = set()
 
+    # EXTRACT-001 (v3.0.0): Normalize slash-compound bolded brands.
+    # Rewrites "**Apple Watch Series 10/Ultra 2**" -> "**Apple Watch Series 10**"
+    # so the list_pattern and bold_pattern below extract a clean primary brand
+    # rather than a compound that won't normalize cleanly.
+    text_normalized = re.sub(
+        r'\*\*([A-Z][^*]+?)\s*/\s*[A-Z][^*]+?\*\*',
+        lambda m: '**' + m.group(1).strip() + '**',
+        text
+    )
+
     # Pattern 1: Numbered/bulleted list items with brand as first word(s)
     # Covers: "1. **Brand** — desc", "- Brand — desc", "* Brand: desc"
     list_pattern = re.compile(
@@ -79,7 +95,7 @@ def extract_brands_from_response(text, query_id=None):
         re.MULTILINE
     )
 
-    for m in list_pattern.finditer(text):
+    for m in list_pattern.finditer(text_normalized):
         brand = m.group(1).strip()
         brand = re.sub(r'\s+', ' ', brand)  # Collapse whitespace
         if brand and brand.lower() not in seen and len(brand) > 1:
@@ -97,7 +113,7 @@ def extract_brands_from_response(text, query_id=None):
 
     # Pattern 2: Bold brand names (common in markdown responses)
     bold_pattern = re.compile(r'\*\*([A-Z][A-Za-z0-9.\']*(?:[\s\-/+&][A-Za-z0-9.\']+){0,5})\*\*')
-    for m in bold_pattern.finditer(text):
+    for m in bold_pattern.finditer(text_normalized):
         brand = m.group(1).strip()
         brand = re.sub(r'\s+', ' ', brand)
         # Filter out common non-brand bold text
