@@ -26,24 +26,25 @@ SEARCH_SPACING_SECONDS = 3600
 QUERY_BATCH_SIZE = 8  # v4.1: Send queries in batches of 8 to prevent output truncation
 
 MODELS = [
-    {"id": "openai/gpt-5.4", "short": "b01_gpt54", "name": "GPT-5.4", "group": "search_augmented", "arch": "proprietary/RLHF/Bing/computer-use", "corpus": "Western", "market_share": 64.5, "max_tokens": MAX_TOKENS, "cost_input_per_m": 2.50, "cost_output_per_m": 15.00, "context_window": 1_000_000, "released": "2026-03-05"},
+    {"id": "openai/gpt-5.5", "short": "b01_gpt55", "name": "GPT-5.4", "group": "search_augmented", "arch": "proprietary/RLHF/Bing/computer-use", "corpus": "Western", "market_share": 64.5, "max_tokens": MAX_TOKENS, "cost_input_per_m": 2.50, "cost_output_per_m": 15.00, "context_window": 1_000_000, "released": "2026-03-05"},
     {"id": "google/gemini-3.1-pro-preview", "short": "b02_gemini31_pro", "name": "Gemini 3.1 Pro", "group": "search_augmented", "arch": "proprietary/Google-search/multimodal", "corpus": "Western", "market_share": 21.5, "max_tokens": MAX_TOKENS, "cost_input_per_m": 2.00, "cost_output_per_m": 12.00, "context_window": 1_000_000, "released": "2026-02-19"},
-    {"id": "anthropic/claude-sonnet-4.6", "short": "b03_claude_sonnet", "name": "Claude Sonnet 4.6", "group": "parametric_only", "arch": "constitutional-AI", "corpus": "Western", "market_share": 2.0, "max_tokens": MAX_TOKENS, "cost_input_per_m": 3.00, "cost_output_per_m": 15.00, "context_window": 1_000_000, "released": "2026-02-17"},
+    {"id": "anthropic/claude-opus-4.7", "short": "b03_claude_opus47", "name": "Claude Sonnet 4.6", "group": "parametric_only", "arch": "constitutional-AI", "corpus": "Western", "market_share": 2.0, "max_tokens": MAX_TOKENS, "cost_input_per_m": 3.00, "cost_output_per_m": 15.00, "context_window": 1_000_000, "released": "2026-02-17"},
     {"id": "x-ai/grok-4.20", "short": "b04_grok420", "name": "Grok 4.20", "group": "search_augmented", "arch": "proprietary/multi-agent/X-social", "corpus": "Western+X", "market_share": 3.4, "max_tokens": MAX_TOKENS, "cost_input_per_m": 2.00, "cost_output_per_m": 6.00, "context_window": 2_000_000, "released": "2026-03-31"},
-    {"id": "deepseek/deepseek-chat-v3-0324", "short": "b05_deepseek_v32", "name": "DeepSeek V3.2", "group": "non_english_corpus", "arch": "MoE/sparse-attention/MIT-license", "corpus": "Chinese-primary", "market_share": 4.8, "max_tokens": MAX_TOKENS, "cost_input_per_m": 0.25, "cost_output_per_m": 0.89, "context_window": 164_000, "released": "2026-03-24"},
-    {"id": "qwen/qwen3.5-plus", "short": "b06_qwen35_plus", "name": "Qwen 3.5 Plus", "group": "non_english_corpus", "arch": "proprietary/Alibaba-ecosystem", "corpus": "Chinese-primary", "market_share": 0.5, "max_tokens": MAX_TOKENS, "cost_input_per_m": 0.40, "cost_output_per_m": 2.00, "context_window": 1_000_000, "released": "2026-03"},
-    {"id": "meta-llama/llama-4-maverick", "short": "b07_llama4_maverick", "name": "Llama 4 Maverick", "group": "parametric_only", "arch": "open-weight-MoE/17B-active/128-experts", "corpus": "Western", "market_share": 0.0, "max_tokens": MAX_TOKENS, "cost_input_per_m": 0.20, "cost_output_per_m": 0.60, "context_window": 128_000, "released": "2025-04"},
-    {"id": "mistralai/mistral-large-2512", "short": "b08_mistral_large3", "name": "Mistral Large 3", "group": "parametric_only", "arch": "proprietary/EU-headquartered/multimodal", "corpus": "European", "market_share": 0.3, "max_tokens": MAX_TOKENS, "cost_input_per_m": 1.60, "cost_output_per_m": 5.00, "context_window": 256_000, "released": "2026-03"},
-    {"id": "google/gemini-3-flash-preview", "short": "b09_gemini3_flash", "name": "Gemini 3 Flash", "group": "search_augmented", "arch": "proprietary/Google-search/budget-tier", "corpus": "Western", "market_share": 0.0, "max_tokens": MAX_TOKENS, "cost_input_per_m": 0.50, "cost_output_per_m": 3.00, "context_window": 1_000_000, "released": "2025-12-17"},
-    {"id": "z-ai/glm-5", "short": "b10_glm5", "name": "GLM-5", "group": "non_english_corpus", "arch": "open-weight/sparse-attention/Chinese-independent", "corpus": "Chinese-primary", "market_share": 0.2, "max_tokens": MAX_TOKENS, "cost_input_per_m": 0.95, "cost_output_per_m": 3.00, "context_window": 204_000, "released": "2026-02"},
+    {"id": "x-ai/grok-4.20-multi-agent", "short": "b05_grok420_ma", "name": "Grok 4.20 Multi-Agent", "group": "search_augmented", "arch": "proprietary/multi-agent/X-social", "corpus": "Western+X", "market_share": 0.5, "max_tokens": MAX_TOKENS, "cost_input_per_m": 2.00, "cost_output_per_m": 6.00, "context_window": 2_000_000, "released": "2026-03-31"},
+    {"id": "deepseek/deepseek-v4-flash", "short": "b06_deepseek_v4f", "name": "DeepSeek V3.2", "group": "non_english_corpus", "arch": "MoE/sparse-attention/MIT-license", "corpus": "Chinese-primary", "market_share": 4.8, "max_tokens": MAX_TOKENS, "cost_input_per_m": 0.25, "cost_output_per_m": 0.89, "context_window": 164_000, "released": "2026-03-24"},
+    {"id": "qwen/qwen3.6-plus", "short": "b07_qwen36_plus", "name": "Qwen 3.5 Plus", "group": "non_english_corpus", "arch": "proprietary/Alibaba-ecosystem", "corpus": "Chinese-primary", "market_share": 0.5, "max_tokens": MAX_TOKENS, "cost_input_per_m": 0.40, "cost_output_per_m": 2.00, "context_window": 1_000_000, "released": "2026-03"},
+    {"id": "meta-llama/llama-4-maverick", "short": "b08_llama4_maverick", "name": "Llama 4 Maverick", "group": "parametric_only", "arch": "open-weight-MoE/17B-active/128-experts", "corpus": "Western", "market_share": 0.0, "max_tokens": MAX_TOKENS, "cost_input_per_m": 0.20, "cost_output_per_m": 0.60, "context_window": 128_000, "released": "2025-04"},
+    {"id": "mistralai/mistral-large-2512", "short": "b09_mistral_large3", "name": "Mistral Large 3", "group": "parametric_only", "arch": "proprietary/EU-headquartered/multimodal", "corpus": "European", "market_share": 0.3, "max_tokens": MAX_TOKENS, "cost_input_per_m": 1.60, "cost_output_per_m": 5.00, "context_window": 256_000, "released": "2026-03"},
+    {"id": "google/gemini-3-flash-preview", "short": "b10_gemini3_flash", "name": "Gemini 3 Flash", "group": "search_augmented", "arch": "proprietary/Google-search/budget-tier", "corpus": "Western", "market_share": 0.0, "max_tokens": MAX_TOKENS, "cost_input_per_m": 0.50, "cost_output_per_m": 3.00, "context_window": 1_000_000, "released": "2025-12-17"},
+    {"id": "z-ai/glm-5.1", "short": "b11_glm51", "name": "GLM-5", "group": "non_english_corpus", "arch": "open-weight/sparse-attention/Chinese-independent", "corpus": "Chinese-primary", "market_share": 0.2, "max_tokens": MAX_TOKENS, "cost_input_per_m": 0.95, "cost_output_per_m": 3.00, "context_window": 204_000, "released": "2026-02"},
 ]
 
 SUBSTITUTIONS = {
-    "openai/gpt-5.4": "openai/gpt-5",
+    "openai/gpt-5.5": "openai/gpt-5",
     "google/gemini-3.1-pro-preview": "google/gemini-3-pro-preview",
     "x-ai/grok-4.20": "x-ai/grok-4-fast",
-    "qwen/qwen3.5-plus": "qwen/qwen3-235b-a22b",
-    "z-ai/glm-5": "z-ai/glm-4.7",
+    "qwen/qwen3.6-plus": "qwen/qwen3-235b-a22b",
+    "z-ai/glm-5.1": "z-ai/glm-4.7",
 }
 
 QUERIES = [
@@ -110,7 +111,7 @@ QUERIES = [
 
 RUN_A_MODELS = {
     "a1_gemini": {"id": "google/gemini-3.1-pro-preview", "name": "Gemini 3.1 Pro", "max_tokens": 65536},
-    "a2_chatgpt": {"id": "openai/o3", "name": "o3", "max_tokens": 65536, "fallback": "openai/gpt-5.4"},
+    "a2_chatgpt": {"id": "openai/o3", "name": "o3", "max_tokens": 65536, "fallback": "openai/gpt-5.5"},
     "a3_claude": {"id": "anthropic/claude-opus-4-6", "name": "Claude Opus 4.6", "max_tokens": 32768},
 }
 
