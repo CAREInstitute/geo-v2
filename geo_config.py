@@ -10,9 +10,10 @@ CHANGELOG:
       Revised cost estimate: output_tokens 8000 → 4000 (based on actual run data)
   r3: 8 of 10 models replaced with current-generation equivalents
   r2: K=5 trials, 20 queries, temporal spacing
+v5.0.0  2026-04-27  v2 design parameters (12-model panel per OIL-23, ~7290 obs target).
 """
 
-__version__ = "4.1.0"
+__version__ = "5.0.0"
 __component__ = "geo_config"
 
 EXPERIMENT_NAME = "Cross-Model GEO Brand Visibility Study"

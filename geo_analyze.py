@@ -3,9 +3,10 @@ GEO Pipeline — Statistical Analysis
 Implements the pre-registered analysis plan: Fleiss' κ, Jaccard, Kendall's W.
 
 v1.0.0  2026-04-14  Initial build — H1-H4 tests, category subgroup, brand frequency
+v2.0.0  2026-04-27  Paraphrase robustness + temperature sensitivity analyses (features land in Stage 3.7).
 """
 
-__version__ = "1.0.0"
+__version__ = "2.0.0"
 __component__ = "geo_analyze"
 
 import json

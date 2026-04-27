@@ -6,9 +6,10 @@ v2.2.0  2026-04-15  Query batching to fix output truncation (4 models self-stopp
 v2.1.0  2026-04-15  Added manifest generation, config hashing, env fingerprint, file logger
 v2.0.0  2026-04-14  Revised model roster (8/10 replaced), K=5 trials, temporal spacing
 v1.0.0  2026-04-14  Initial build
+v3.0.0  2026-04-27  v2 line: paraphrase + temperature awareness (features land in Stage 3.2 paraphrase_generator and Stage 3.5c temperature_sweep).
 """
 
-__version__ = "2.2.0"
+__version__ = "3.0.0"
 __component__ = "geo_runner"
 
 import os

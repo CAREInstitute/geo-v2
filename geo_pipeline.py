@@ -20,9 +20,10 @@ Set OPENROUTER_API_KEY environment variable before running.
 v2.1.0  2026-04-15  Added manifest command, version tracking, revised prompt
 v2.0.0  2026-04-14  K=5 trials, 20 queries, temporal spacing, full analysis plan
 v1.0.0  2026-04-14  Initial build
+v3.0.0  2026-04-27  Orchestration of v2 stages.
 """
 
-__version__ = "2.1.0"
+__version__ = "3.0.0"
 __component__ = "geo_pipeline"
 
 import os
