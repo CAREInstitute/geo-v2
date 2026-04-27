@@ -6,7 +6,7 @@
 **Affiliation:** CARE Research Institute
 **Date:** 2026-04-27
 **Repository:** https://github.com/CAREInstitute/geo-v2
-**Pre-registration tag:** v3.0.0-prereg-frozen (to be created in Stage 3.3.D)
+**Pre-registration tag:** v3.0.0-prereg-frozen
 **OSF DOI:** (to be assigned in Stage 3.3.E)
 
 ---
@@ -227,7 +227,7 @@ Any post-pre-registration change to hypotheses, model roster, query set, prompt,
 | Paraphrases (data/paraphrases.json) | ff6247cf3dea12b402c5660da7d1f272f477eb085757f493a57df0b83f560806 |
 | Config (data/manifest.json) | (to be computed post-manifest regeneration) |
 | Prompt (prompts/experiment_prompt.md) | (see prompt_hash.txt) |
-| Pre-registration commit | (to be filled after Stage 3.3.D tag) |
+| Pre-registration commit | df278d4e02cd863188e0ae4c971fae940cd5244e |
 
 ---
 
@@ -236,7 +236,7 @@ Any post-pre-registration change to hypotheses, model roster, query set, prompt,
 All code, prompts, raw outputs, and this pre-registration document will be available at:
 https://github.com/CAREInstitute/geo-v2/releases/tag/v3.0.0-prereg-frozen
 
-OSF DOI: (to be assigned in Stage 3.3.E)
+OSF DOI: (to be assigned in Stage 3.3.E — pending)
 
 ---
 
