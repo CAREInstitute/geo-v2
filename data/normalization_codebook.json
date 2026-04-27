@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "created": "2026-04-27",
+    "description": "Canonical brand normalization codebook for GEO v2. Maps raw extracted strings to canonical brand names. Expand as new variants are encountered during extraction.",
+    "format": "raw_string -> canonical_name"
+  },
+  "normalizations": {
+    "Salesforce Sales Cloud": "Salesforce",
+    "Microsoft Dynamics 365 Sales": "Microsoft Dynamics 365",
+    "Microsoft Dynamics 365": "Microsoft Dynamics 365",
+    "HubSpot CRM": "HubSpot",
+    "HubSpot": "HubSpot",
+    "Zoho CRM": "Zoho",
+    "Zoho": "Zoho",
+    "Pipedrive": "Pipedrive",
+    "Monday.com": "Monday.com",
+    "Asana": "Asana",
+    "Jira": "Jira",
+    "Atlassian Jira": "Jira",
+    "Google Workspace": "Google Workspace",
+    "Microsoft 365": "Microsoft 365",
+    "Slack": "Slack",
+    "Amazon Web Services": "AWS",
+    "AWS": "AWS",
+    "Google Cloud": "Google Cloud",
+    "Google Cloud Platform": "Google Cloud",
+    "Microsoft Azure": "Azure",
+    "Azure": "Azure",
+    "Quickbooks": "QuickBooks",
+    "QuickBooks Online": "QuickBooks",
+    "QuickBooks": "QuickBooks",
+    "Xero": "Xero",
+    "FreshBooks": "FreshBooks",
+    "Mailchimp": "Mailchimp",
+    "Klaviyo": "Klaviyo",
+    "Segment": "Segment",
+    "Twilio Segment": "Segment"
+  },
+  "false_positives": [
+    "Sources",
+    "References",
+    "Note",
+    "Disclaimer",
+    "Learn more",
+    "Read more",
+    "See also",
+    "Related"
+  ]
+}
