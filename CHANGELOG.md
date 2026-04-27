@@ -1,5 +1,29 @@
 # CHANGELOG — GEO Cross-Model Brand Visibility Pipeline
 
+## [3.0.0] - 2026-04-27
+
+### Added
+- `geo_extract.py` v3.0.0 — EXTRACT-001 patch: slash-compound brand normalization. Bolded brand phrases of the form `**A/B**` (e.g., `**Apple Watch Series 10/Ultra 2**`) are rewritten to `**A**` before list and bold pattern extraction. Addresses 7 confirmed-affected patterns from the v1 bug report (Apple Watch family, Garmin Vivosmart/Forerunner/Venu lines, Home Assistant ecosystem, Amazon Echo).
+- `geo_extract.py` v3.0.0 — EXTRACT-002 patch: 4 new false-positive entries in `FALSE_POSITIVE_BRANDS` covering citation-footer artifacts emitted by search-augmented models (`if web sources were consulted`, `web sources consulted briefly`, `sources consulted generally`, `web sources consulted`).
+- `tests/test_extract_001.py` — 7 unit-test cases covering all bug-report slash-compound patterns + a no-leak assertion.
+- `tests/test_extract_002.py` — 3 unit-test cases (filter-presence, list-context, realistic-citation-footer pattern).
+
+### Changed
+- `geo_extract.py` __version__ 2.0.1 → 3.0.0.
+- `geo_runner.py` __version__ 2.2.0 → 3.0.0 (v2 line marker; paraphrase + temperature awareness features land in Stage 3.2 / 3.5c).
+- `geo_config.py` __version__ 4.1.0 → 5.0.0 (v2 design parameters; 12-model panel per OIL-23, ~7290 obs target).
+- `geo_analyze.py` __version__ 1.0.0 → 2.0.0 (paraphrase robustness + temperature sensitivity analyses land in Stage 3.7).
+- `geo_pipeline.py` __version__ 2.1.0 → 3.0.0 (v2 stage orchestration).
+
+### Known limitations (v3.0.0)
+- `list_pattern` regex's brand character class does not include `()`. Brands with parenthetical qualifiers (e.g., `Amazon Echo (4th Gen)`) extract as the bare brand (`Amazon Echo`) — the parenthetical truncation is downstream-recoverable via the normalization codebook (collapses to canonical `Amazon`). Documented per test_extract_001.py case 7. Future v4.0 work could widen the character class.
+
+### Reference
+- `CRITICAL geo_extraction_bug_report.md` (v1 bug report)
+- Phase 3 build file: `GEO_v2_Campaign_Package/3_Claude_GEO_v2_Build.md`
+
+---
+
 All notable changes to pipeline components are documented here.
 Format: `[component] version — date — description`
 
