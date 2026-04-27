@@ -4,9 +4,9 @@
   "date_conducted": "2026-04-15",
   "prompt_sha256": "405eff4f12776927b40bffaeb588941d66cb2361d0e2c0ade2f2442270029602",
   "pipeline_versions": {
-    "geo_config": "4.0.0",
-    "geo_runner": "2.1.0",
-    "geo_extract": "1.0.0",
+    "geo_config": "4.1.0",
+    "geo_runner": "2.2.0",
+    "geo_extract": "2.0.1",
     "geo_analyze": "1.0.0",
     "geo_pipeline": "2.1.0"
   },
@@ -14,14 +14,14 @@
   "design": {
     "queries": 40,
     "query_categories": [
-      "enterprise_software",
-      "financial_services",
-      "cpg",
+      "b2b_saas",
+      "local_services",
       "healthcare_wellness",
       "travel_hospitality",
-      "b2b_saas",
+      "cpg",
       "consumer_electronics",
-      "local_services"
+      "enterprise_software",
+      "financial_services"
     ],
     "models_tested": 10,
     "trials_per_model": 5,

@@ -307,6 +307,12 @@ A Python config module allows helper functions (`get_search_augmented()`, `estim
 ### Lesson 8: Version everything, even before you think you need to
 Version strings were added to all modules in a single pass. If they had been added from the first commit, the CHANGELOG would have been more granular and the manifest would have captured version evolution from day one. Add `__version__` to every module in the first commit.
 
+### Lesson 9: Silent fallbacks are the most dangerous bugs
+The `_find_query_section()` function fell back to returning the entire response text when no query marker was found. This was designed for "single-query responses or unstructured output" but produced catastrophic data contamination when 5 of 10 models only answered 5-15 of 40 queries. The fallback silently attributed ALL brands to ALL queries, creating 14,222 phantom extractions (68.9% of data). Every metric was corrupted. The fix was trivial (return `None` instead of full text), but the bug was invisible because the pipeline produced plausible-looking output — just wrong output. **Rule: functions that parse structured data must fail explicitly (return None, raise, or log a warning) when the expected structure isn't found. Never silently fall back to "return everything."** The validation gate's new cross-category contamination check would have caught this before analysis.
+
+### Lesson 10: Multi-query prompts require output truncation handling
+Sending 40 queries in a single prompt caused 4 models (Gemini Flash, Qwen, Llama Maverick, DeepSeek) to truncate after 5-15 queries due to output token limits or self-imposed response length preferences. The pipeline must either: (a) detect truncation and re-prompt for remaining queries, (b) send queries individually (40× more API calls but guaranteed coverage), or (c) split into batches of 8-10 queries. For the temporal drift study (K=10), option (b) may be required. The coverage report (`data/extraction_coverage.json`) now exposes this automatically.
+
 ---
 
 ## 7. Template Experiment Ideas
@@ -331,5 +337,6 @@ Each of these can be built in ~4 hours by following the Fork Protocol (Section 2
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0.0 | 2026-04-15 | Initial version. Codified from GEO pipeline build (8 hours active development). |
+| 1.1.0 | 2026-04-15 | Added Lessons 9-10 (silent fallback contamination, multi-query truncation). |
 
 *This is a living document. Update it when a pattern is validated, invalidated, or extended by building a new experiment.*

@@ -12,7 +12,7 @@ CHANGELOG:
   r2: K=5 trials, 20 queries, temporal spacing
 """
 
-__version__ = "4.0.0"
+__version__ = "4.1.0"
 __component__ = "geo_config"
 
 EXPERIMENT_NAME = "Cross-Model GEO Brand Visibility Study"
@@ -22,6 +22,7 @@ TOP_P = 0.95
 MAX_TOKENS = 16384
 K_TRIALS = 5
 SEARCH_SPACING_SECONDS = 3600
+QUERY_BATCH_SIZE = 8  # v4.1: Send queries in batches of 8 to prevent output truncation
 
 MODELS = [
     {"id": "openai/gpt-5.4", "short": "b01_gpt54", "name": "GPT-5.4", "group": "search_augmented", "arch": "proprietary/RLHF/Bing/computer-use", "corpus": "Western", "market_share": 64.5, "max_tokens": MAX_TOKENS, "cost_input_per_m": 2.50, "cost_output_per_m": 15.00, "context_window": 1_000_000, "released": "2026-03-05"},
@@ -125,11 +126,14 @@ def get_model_by_short(short):
     return next((m for m in MODELS if m["short"] == short), None)
 
 def estimate_total_cost():
-    """Estimate total experiment cost."""
+    """Estimate total experiment cost (with query batching)."""
     total = 0
-    input_tokens, output_tokens = 2000, 4000
-    calls_per_model = len(QUERIES) * K_TRIALS
+    n_batches = -(-len(QUERIES) // QUERY_BATCH_SIZE)  # ceil division
+    prompt_tokens_per_batch = 400  # ~preamble + 8 queries
+    output_tokens_per_batch = 2000  # ~8 queries × 250 words
+    calls_per_model = n_batches * K_TRIALS
     for m in MODELS:
-        cost_per_call = (input_tokens / 1e6) * m["cost_input_per_m"] + (output_tokens / 1e6) * m["cost_output_per_m"]
+        cost_per_call = (prompt_tokens_per_batch / 1e6) * m["cost_input_per_m"] + \
+                        (output_tokens_per_batch / 1e6) * m["cost_output_per_m"]
         total += cost_per_call * calls_per_model
     return round(total, 2)

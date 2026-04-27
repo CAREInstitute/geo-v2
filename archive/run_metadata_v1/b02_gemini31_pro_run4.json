@@ -1,0 +1,31 @@
+{
+  "model_requested": "google/gemini-3.1-pro-preview",
+  "model_returned": "google/gemini-3.1-pro-preview-20260219",
+  "start_timestamp": "2026-04-15T00:28:53.446591+00:00",
+  "end_timestamp": "2026-04-15T00:33:49.629316+00:00",
+  "duration_seconds": 296.182725,
+  "prompt_tokens": 1135,
+  "completion_tokens": 15953,
+  "total_tokens": 17088,
+  "finish_reason": "stop",
+  "attempt": 2,
+  "errors": [
+    {
+      "attempt": 1,
+      "error": "Response ended prematurely",
+      "ts": "2026-04-15T00:30:26.339625+00:00"
+    }
+  ],
+  "response_id": "gen-1776213056-vFkTccMps2L6UFAQcnSK",
+  "model_short": "b02_gemini31_pro",
+  "model_name": "Gemini 3.1 Pro",
+  "model_group": "search_augmented",
+  "model_arch": "proprietary/Google-search/multimodal",
+  "model_corpus": "Western",
+  "run_number": 4,
+  "prompt_sha256": "405eff4f12776927b40bffaeb588941d66cb2361d0e2c0ade2f2442270029602",
+  "word_count": 6901,
+  "content_sha256": "585c514b982cd3c2d9ff1b09535dfa3d1700d232e637704fc15df263922997b7",
+  "quality_flags": [],
+  "call_cost_usd": 0.193706
+}

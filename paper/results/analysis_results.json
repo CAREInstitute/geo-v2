@@ -1,795 +1,951 @@
 {
   "H1": {
-    "mean_kappa": 0.0194,
-    "std_kappa": 0.0996,
+    "mean_kappa": 0.165,
+    "std_kappa": 0.177,
     "hypothesis_supported": "True",
     "interpretation": "substantial_disagreement",
     "per_query": [
       {
         "query_id": "Q01",
         "category": "b2b_saas",
-        "fleiss_kappa": 0.2004,
-        "n_brands": 9
+        "fleiss_kappa": 0.3407,
+        "n_brands": 6
       },
       {
         "query_id": "Q02",
         "category": "b2b_saas",
-        "fleiss_kappa": 0.3924,
-        "n_brands": 10
+        "fleiss_kappa": 0.2986,
+        "n_brands": 11
       },
       {
         "query_id": "Q03",
         "category": "b2b_saas",
-        "fleiss_kappa": 0.224,
+        "fleiss_kappa": 0.1711,
         "n_brands": 12
       },
       {
         "query_id": "Q04",
         "category": "b2b_saas",
-        "fleiss_kappa": 0.3016,
-        "n_brands": 10
+        "fleiss_kappa": 0.4187,
+        "n_brands": 8
       },
       {
         "query_id": "Q05",
         "category": "b2b_saas",
-        "fleiss_kappa": 0.2045,
+        "fleiss_kappa": 0.1435,
         "n_brands": 17
       },
       {
         "query_id": "Q06",
         "category": "healthcare_wellness",
-        "fleiss_kappa": -0.0581,
-        "n_brands": 40
+        "fleiss_kappa": 0.2874,
+        "n_brands": 12
       },
       {
         "query_id": "Q07",
         "category": "healthcare_wellness",
-        "fleiss_kappa": 0.0382,
-        "n_brands": 40
+        "fleiss_kappa": 0.361,
+        "n_brands": 9
       },
       {
         "query_id": "Q08",
         "category": "healthcare_wellness",
-        "fleiss_kappa": -0.0409,
-        "n_brands": 42
+        "fleiss_kappa": 0.0024,
+        "n_brands": 10
       },
       {
         "query_id": "Q09",
         "category": "healthcare_wellness",
-        "fleiss_kappa": -0.0626,
-        "n_brands": 42
+        "fleiss_kappa": -0.0369,
+        "n_brands": 24
       },
       {
         "query_id": "Q10",
         "category": "healthcare_wellness",
-        "fleiss_kappa": 0.014,
-        "n_brands": 42
+        "fleiss_kappa": 0.2725,
+        "n_brands": 11
       },
       {
         "query_id": "Q11",
         "category": "consumer_electronics",
-        "fleiss_kappa": -0.0078,
-        "n_brands": 52
+        "fleiss_kappa": 0.063,
+        "n_brands": 11
       },
       {
         "query_id": "Q12",
         "category": "consumer_electronics",
-        "fleiss_kappa": -0.0144,
-        "n_brands": 53
+        "fleiss_kappa": 0.1798,
+        "n_brands": 14
       },
       {
         "query_id": "Q13",
         "category": "consumer_electronics",
-        "fleiss_kappa": -0.035,
-        "n_brands": 53
+        "fleiss_kappa": -0.04,
+        "n_brands": 12
       },
       {
         "query_id": "Q14",
         "category": "consumer_electronics",
-        "fleiss_kappa": -0.0197,
-        "n_brands": 56
+        "fleiss_kappa": 0.085,
+        "n_brands": 17
       },
       {
         "query_id": "Q15",
         "category": "consumer_electronics",
-        "fleiss_kappa": -0.0314,
-        "n_brands": 58
+        "fleiss_kappa": -0.0236,
+        "n_brands": 17
       },
       {
         "query_id": "Q16",
         "category": "local_services",
-        "fleiss_kappa": -0.0302,
-        "n_brands": 53
+        "fleiss_kappa": -0.0995,
+        "n_brands": 17
       },
       {
         "query_id": "Q17",
         "category": "local_services",
-        "fleiss_kappa": -0.0285,
-        "n_brands": 49
+        "fleiss_kappa": -0.0053,
+        "n_brands": 10
       },
       {
         "query_id": "Q18",
         "category": "local_services",
-        "fleiss_kappa": -0.0307,
-        "n_brands": 54
+        "fleiss_kappa": -0.0985,
+        "n_brands": 23
       },
       {
         "query_id": "Q19",
         "category": "local_services",
-        "fleiss_kappa": -0.0302,
-        "n_brands": 53
+        "fleiss_kappa": -0.0863,
+        "n_brands": 17
       },
       {
         "query_id": "Q20",
         "category": "local_services",
-        "fleiss_kappa": -0.0285,
-        "n_brands": 49
+        "fleiss_kappa": -0.1034,
+        "n_brands": 14
       },
       {
         "query_id": "Q21",
         "category": "financial_services",
-        "fleiss_kappa": -0.0271,
-        "n_brands": 52
+        "fleiss_kappa": 0.071,
+        "n_brands": 16
       },
       {
         "query_id": "Q22",
         "category": "financial_services",
-        "fleiss_kappa": 0.0084,
-        "n_brands": 53
+        "fleiss_kappa": 0.3718,
+        "n_brands": 8
       },
       {
         "query_id": "Q23",
         "category": "financial_services",
-        "fleiss_kappa": -0.0044,
-        "n_brands": 53
+        "fleiss_kappa": 0.1619,
+        "n_brands": 11
       },
       {
         "query_id": "Q24",
         "category": "financial_services",
-        "fleiss_kappa": -0.0093,
-        "n_brands": 55
+        "fleiss_kappa": 0.3695,
+        "n_brands": 10
       },
       {
         "query_id": "Q25",
         "category": "financial_services",
-        "fleiss_kappa": -0.0048,
-        "n_brands": 55
+        "fleiss_kappa": 0.0685,
+        "n_brands": 17
       },
       {
         "query_id": "Q26",
         "category": "cpg",
-        "fleiss_kappa": -0.0227,
-        "n_brands": 62
+        "fleiss_kappa": 0.0663,
+        "n_brands": 24
       },
       {
         "query_id": "Q27",
         "category": "cpg",
-        "fleiss_kappa": -0.0347,
-        "n_brands": 56
+        "fleiss_kappa": 0.008,
+        "n_brands": 13
       },
       {
         "query_id": "Q28",
         "category": "cpg",
-        "fleiss_kappa": -0.0257,
-        "n_brands": 57
+        "fleiss_kappa": 0.1429,
+        "n_brands": 9
       },
       {
         "query_id": "Q29",
         "category": "cpg",
-        "fleiss_kappa": -0.0291,
-        "n_brands": 54
+        "fleiss_kappa": 0.0313,
+        "n_brands": 17
       },
       {
         "query_id": "Q30",
         "category": "cpg",
-        "fleiss_kappa": -0.0107,
-        "n_brands": 52
+        "fleiss_kappa": 0.1163,
+        "n_brands": 11
       },
       {
         "query_id": "Q31",
         "category": "enterprise_software",
-        "fleiss_kappa": -0.0229,
-        "n_brands": 57
+        "fleiss_kappa": 0.0826,
+        "n_brands": 17
       },
       {
         "query_id": "Q32",
         "category": "enterprise_software",
-        "fleiss_kappa": -0.0136,
-        "n_brands": 57
+        "fleiss_kappa": 0.3167,
+        "n_brands": 12
       },
       {
         "query_id": "Q33",
         "category": "enterprise_software",
-        "fleiss_kappa": 0.0164,
-        "n_brands": 53
+        "fleiss_kappa": 0.4013,
+        "n_brands": 9
       },
       {
         "query_id": "Q34",
         "category": "enterprise_software",
-        "fleiss_kappa": 0.0171,
-        "n_brands": 55
+        "fleiss_kappa": 0.4193,
+        "n_brands": 12
       },
       {
         "query_id": "Q35",
         "category": "enterprise_software",
-        "fleiss_kappa": 0.0013,
-        "n_brands": 52
+        "fleiss_kappa": 0.291,
+        "n_brands": 14
       },
       {
         "query_id": "Q36",
         "category": "travel_hospitality",
-        "fleiss_kappa": 0.0105,
-        "n_brands": 53
+        "fleiss_kappa": 0.4571,
+        "n_brands": 7
       },
       {
         "query_id": "Q37",
         "category": "travel_hospitality",
-        "fleiss_kappa": -0.0308,
-        "n_brands": 57
+        "fleiss_kappa": 0.0074,
+        "n_brands": 14
       },
       {
         "query_id": "Q38",
         "category": "travel_hospitality",
-        "fleiss_kappa": 0.0099,
-        "n_brands": 53
+        "fleiss_kappa": 0.4515,
+        "n_brands": 10
       },
       {
         "query_id": "Q39",
         "category": "travel_hospitality",
-        "fleiss_kappa": -0.0092,
-        "n_brands": 53
+        "fleiss_kappa": 0.4027,
+        "n_brands": 16
       },
       {
         "query_id": "Q40",
         "category": "travel_hospitality",
-        "fleiss_kappa": 0.0004,
-        "n_brands": 49
+        "fleiss_kappa": 0.2325,
+        "n_brands": 10
       }
     ]
   },
   "H2": {
-    "within_search_mean": 0.21100198412698415,
+    "within_search_mean": 0.32372023809523814,
     "within_search_n": 240,
-    "between_groups_mean": 0.19480981767988345,
+    "between_groups_mean": 0.26937239265364266,
     "between_groups_n": 480,
-    "cohens_d": 0.06145256793507155,
-    "mann_whitney_u": 56414.5,
-    "p_value": 0.6859761404202195
+    "cohens_d": 0.20120517177883418,
+    "mann_whitney_u": 65564.5,
+    "p_value": 0.0010482625249713553
   },
   "H4": {
-    "mean_intra_jaccard": 0.5955,
-    "mean_inter_jaccard": 0.1736,
+    "mean_intra_jaccard": 0.5772,
+    "mean_inter_jaccard": 0.2871,
     "hypothesis_supported": "True",
-    "difference": 0.4219
+    "difference": 0.2901
   },
   "Kendalls_W": {
-    "mean": 0.0827,
+    "mean": 0.2142,
     "per_query": [
       {
         "query_id": "Q01",
         "category": "b2b_saas",
-        "kendalls_w": 0.3093,
-        "n_brands": 9
+        "kendalls_w": 0.6614,
+        "n_brands": 6
       },
       {
         "query_id": "Q02",
         "category": "b2b_saas",
-        "kendalls_w": 0.3911,
-        "n_brands": 10
+        "kendalls_w": 0.3315,
+        "n_brands": 11
       },
       {
         "query_id": "Q03",
         "category": "b2b_saas",
-        "kendalls_w": 0.2829,
+        "kendalls_w": 0.2422,
         "n_brands": 12
       },
       {
         "query_id": "Q04",
         "category": "b2b_saas",
-        "kendalls_w": 0.2732,
-        "n_brands": 10
+        "kendalls_w": 0.3999,
+        "n_brands": 8
       },
       {
         "query_id": "Q05",
         "category": "b2b_saas",
-        "kendalls_w": 0.1852,
+        "kendalls_w": 0.1418,
         "n_brands": 17
       },
       {
         "query_id": "Q06",
         "category": "healthcare_wellness",
-        "kendalls_w": 0.026,
-        "n_brands": 40
+        "kendalls_w": 0.2802,
+        "n_brands": 12
       },
       {
         "query_id": "Q07",
         "category": "healthcare_wellness",
-        "kendalls_w": 0.0773,
-        "n_brands": 40
+        "kendalls_w": 0.3599,
+        "n_brands": 9
       },
       {
         "query_id": "Q08",
         "category": "healthcare_wellness",
-        "kendalls_w": 0.0384,
-        "n_brands": 42
+        "kendalls_w": 0.0715,
+        "n_brands": 10
       },
       {
         "query_id": "Q09",
         "category": "healthcare_wellness",
-        "kendalls_w": 0.0273,
-        "n_brands": 42
+        "kendalls_w": 0.0212,
+        "n_brands": 24
       },
       {
         "query_id": "Q10",
         "category": "healthcare_wellness",
-        "kendalls_w": 0.0656,
-        "n_brands": 42
+        "kendalls_w": 0.286,
+        "n_brands": 11
       },
       {
         "query_id": "Q11",
         "category": "consumer_electronics",
-        "kendalls_w": 0.0578,
-        "n_brands": 52
+        "kendalls_w": 0.1232,
+        "n_brands": 11
       },
       {
         "query_id": "Q12",
         "category": "consumer_electronics",
-        "kendalls_w": 0.0529,
-        "n_brands": 53
+        "kendalls_w": 0.1673,
+        "n_brands": 14
       },
       {
         "query_id": "Q13",
         "category": "consumer_electronics",
-        "kendalls_w": 0.0431,
-        "n_brands": 53
+        "kendalls_w": 0.0359,
+        "n_brands": 12
       },
       {
         "query_id": "Q14",
         "category": "consumer_electronics",
-        "kendalls_w": 0.0487,
-        "n_brands": 56
+        "kendalls_w": 0.0859,
+        "n_brands": 17
       },
       {
         "query_id": "Q15",
         "category": "consumer_electronics",
-        "kendalls_w": 0.0419,
-        "n_brands": 58
+        "kendalls_w": 0.0431,
+        "n_brands": 17
       },
       {
         "query_id": "Q16",
         "category": "local_services",
-        "kendalls_w": 0.0463,
-        "n_brands": 53
+        "kendalls_w": 0.0065,
+        "n_brands": 17
       },
       {
         "query_id": "Q17",
         "category": "local_services",
-        "kendalls_w": 0.0509,
-        "n_brands": 49
+        "kendalls_w": 0.0654,
+        "n_brands": 10
       },
       {
         "query_id": "Q18",
         "category": "local_services",
-        "kendalls_w": 0.0452,
-        "n_brands": 54
+        "kendalls_w": 0.0079,
+        "n_brands": 23
       },
       {
         "query_id": "Q19",
         "category": "local_services",
-        "kendalls_w": 0.0463,
-        "n_brands": 53
+        "kendalls_w": 0.0097,
+        "n_brands": 17
       },
       {
         "query_id": "Q20",
         "category": "local_services",
-        "kendalls_w": 0.0509,
-        "n_brands": 49
+        "kendalls_w": 0.0032,
+        "n_brands": 14
       },
       {
         "query_id": "Q21",
         "category": "financial_services",
-        "kendalls_w": 0.0509,
-        "n_brands": 52
+        "kendalls_w": 0.0899,
+        "n_brands": 16
       },
       {
         "query_id": "Q22",
         "category": "financial_services",
-        "kendalls_w": 0.0685,
-        "n_brands": 53
+        "kendalls_w": 0.411,
+        "n_brands": 8
       },
       {
         "query_id": "Q23",
         "category": "financial_services",
-        "kendalls_w": 0.0622,
-        "n_brands": 53
+        "kendalls_w": 0.2307,
+        "n_brands": 11
       },
       {
         "query_id": "Q24",
         "category": "financial_services",
-        "kendalls_w": 0.0574,
-        "n_brands": 55
+        "kendalls_w": 0.3581,
+        "n_brands": 10
       },
       {
         "query_id": "Q25",
         "category": "financial_services",
-        "kendalls_w": 0.06,
-        "n_brands": 55
+        "kendalls_w": 0.0931,
+        "n_brands": 17
       },
       {
         "query_id": "Q26",
         "category": "cpg",
-        "kendalls_w": 0.0447,
-        "n_brands": 62
+        "kendalls_w": 0.0663,
+        "n_brands": 24
       },
       {
         "query_id": "Q27",
         "category": "cpg",
-        "kendalls_w": 0.0432,
-        "n_brands": 56
+        "kendalls_w": 0.0629,
+        "n_brands": 13
       },
       {
         "query_id": "Q28",
         "category": "cpg",
-        "kendalls_w": 0.0488,
-        "n_brands": 57
+        "kendalls_w": 0.1879,
+        "n_brands": 9
       },
       {
         "query_id": "Q29",
         "category": "cpg",
-        "kendalls_w": 0.0479,
-        "n_brands": 54
+        "kendalls_w": 0.0524,
+        "n_brands": 17
       },
       {
         "query_id": "Q30",
         "category": "cpg",
-        "kendalls_w": 0.0589,
-        "n_brands": 52
+        "kendalls_w": 0.1393,
+        "n_brands": 11
       },
       {
         "query_id": "Q31",
         "category": "enterprise_software",
-        "kendalls_w": 0.0485,
-        "n_brands": 57
+        "kendalls_w": 0.1125,
+        "n_brands": 17
       },
       {
         "query_id": "Q32",
         "category": "enterprise_software",
-        "kendalls_w": 0.0537,
-        "n_brands": 57
+        "kendalls_w": 0.3436,
+        "n_brands": 12
       },
       {
         "query_id": "Q33",
         "category": "enterprise_software",
-        "kendalls_w": 0.0732,
-        "n_brands": 53
+        "kendalls_w": 0.5228,
+        "n_brands": 9
       },
       {
         "query_id": "Q34",
         "category": "enterprise_software",
-        "kendalls_w": 0.0698,
-        "n_brands": 55
+        "kendalls_w": 0.3952,
+        "n_brands": 12
       },
       {
         "query_id": "Q35",
         "category": "enterprise_software",
-        "kendalls_w": 0.0652,
-        "n_brands": 52
+        "kendalls_w": 0.3076,
+        "n_brands": 14
       },
       {
         "query_id": "Q36",
         "category": "travel_hospitality",
-        "kendalls_w": 0.07,
-        "n_brands": 53
+        "kendalls_w": 0.7243,
+        "n_brands": 7
       },
       {
         "query_id": "Q37",
         "category": "travel_hospitality",
-        "kendalls_w": 0.0461,
-        "n_brands": 57
+        "kendalls_w": 0.0755,
+        "n_brands": 14
       },
       {
         "query_id": "Q38",
         "category": "travel_hospitality",
-        "kendalls_w": 0.0691,
-        "n_brands": 53
+        "kendalls_w": 0.5598,
+        "n_brands": 10
       },
       {
         "query_id": "Q39",
         "category": "travel_hospitality",
-        "kendalls_w": 0.0584,
-        "n_brands": 53
+        "kendalls_w": 0.2836,
+        "n_brands": 16
       },
       {
         "query_id": "Q40",
         "category": "travel_hospitality",
-        "kendalls_w": 0.0518,
-        "n_brands": 49
+        "kendalls_w": 0.2087,
+        "n_brands": 10
       }
     ]
   },
   "Category_Kappa": {
     "b2b_saas": {
-      "mean": 0.2646,
-      "std": 0.0823,
+      "mean": 0.2745,
+      "std": 0.1158,
       "count": 5
     },
     "consumer_electronics": {
-      "mean": -0.0217,
-      "std": 0.0114,
+      "mean": 0.0528,
+      "std": 0.089,
       "count": 5
     },
     "cpg": {
-      "mean": -0.0246,
-      "std": 0.0089,
+      "mean": 0.073,
+      "std": 0.0565,
       "count": 5
     },
     "enterprise_software": {
-      "mean": -0.0003,
-      "std": 0.0178,
+      "mean": 0.3022,
+      "std": 0.1343,
       "count": 5
     },
     "financial_services": {
-      "mean": -0.0074,
-      "std": 0.0128,
+      "mean": 0.2085,
+      "std": 0.1527,
       "count": 5
     },
     "healthcare_wellness": {
-      "mean": -0.0219,
-      "std": 0.0454,
+      "mean": 0.1773,
+      "std": 0.1812,
       "count": 5
     },
     "local_services": {
-      "mean": -0.0296,
-      "std": 0.001,
+      "mean": -0.0786,
+      "std": 0.0415,
       "count": 5
     },
     "travel_hospitality": {
-      "mean": -0.0038,
-      "std": 0.0171,
+      "mean": 0.3102,
+      "std": 0.1922,
       "count": 5
     }
   },
   "Brand_Frequency": {
     "universal_brands": [
-      "Segment",
+      "FreshBooks",
+      "Tableau",
+      "Salesforce",
+      "Ping Identity",
+      "Google Flights",
+      "NOW Foods",
+      "Gusto",
+      "QuickBooks",
+      "Hilton Honors",
+      "Microsoft Azure",
+      "Beaches Resorts",
+      "HubSpot",
+      "Marriott Bonvoy",
+      "Headspace",
+      "Doxy.me",
       "Klaviyo",
       "Jira",
-      "Xero",
-      "HubSpot"
+      "Microsoft Power BI",
+      "Microsoft Entra ID",
+      "Skyscanner",
+      "CrowdStrike Falcon",
+      "Wealthfront",
+      "Segment",
+      "Club Med",
+      "RXBAR",
+      "Calm",
+      "World of Hyatt",
+      "Microsoft Defender for Endpoint",
+      "ASUS ROG Zephyrus G14",
+      "Microsoft Sentinel",
+      "Stumptown Coffee Roasters",
+      "NetSuite",
+      "Okta",
+      "Paychex Flex",
+      "Google Cloud Platform",
+      "Pure Encapsulations"
     ],
     "model_specific_brands": [
-      "Qlik Sense",
-      "VMware Carbon Black",
-      "Apple MacBook Air M3",
-      "Momentous",
-      "Vanguard Digital Advisor",
-      "HoneyBook",
-      "Roborock S8 MaxV Ultra",
-      "Lenovo Legion Slim 5",
-      "Blue Bottle",
-      "RudderStack",
-      "American Express Business Platinum",
-      "American Express Platinum",
-      "Hyatt Ziva",
-      "IBM Cloud",
-      "Iams ProActive Health",
-      "JumpCloud",
-      "Treasure Data",
-      "Intelligentsia Coffee",
-      "Hyatt World of Hyatt",
-      "Singapore Airlines",
-      "Seventh Generation",
-      "Wysa",
-      "Canon EOS R50",
-      "Splunk Enterprise Security",
-      "Sources",
-      "Sony a6700",
-      "Delta Air Lines",
-      "OM System OM",
-      "Sony Alpha a6700",
-      "Canon EOS R10",
-      "Dropps",
-      "Salesforce Data Cloud",
-      "NextGen Healthcare",
-      "Elastic Security",
-      "Adobe Real",
-      "Lume",
-      "AdvancedMD",
-      "Google Nest Hub",
-      "Garmin Venu 3",
-      "SentinelOne",
-      "Schwab Intelligent Portfolios",
-      "Air France",
-      "Salesforce Marketing Cloud",
-      "Bluevine Business Checking",
-      "Fidelity Go",
-      "Native Deodorant",
-      "Eukanuba",
-      "Wyndham Rewards",
-      "Verify Insurance and Bonding",
-      "Parent Reviews",
-      "QuickBooks Online Simple Start",
-      "Oura Ring Gen 4",
-      "Parent communication and transparency",
-      "Quest Nutrition",
-      "QuickBooks Self",
-      "Quest Nutrition Bars",
-      "Quest Bar",
-      "Written Warranty on Labor",
-      "Paycom",
-      "Quest Bars",
-      "WHOOP",
-      "Polar Pacer Pro",
-      "Practice Fusion",
-      "Warranty",
-      "Stumptown",
-      "QuickBooks Solopreneur",
-      "RX Bar",
-      "Sennheiser Momentum 4",
-      "The Cleaning Authority",
-      "Shark AI Ultra",
-      "Shortcut",
-      "Sigma Computing",
-      "SimplePractice",
-      "SimplePractice Telehealth",
-      "Sisense",
-      "Tealium EventStream",
-      "Sony A6700",
-      "Sony A7C II",
-      "Sony ZV",
-      "Specialization",
-      "Splunk Cloud",
-      "Tealium AudienceStream",
-      "Spruce Health",
-      "Square Invoices",
-      "Staff",
-      "Stripe",
-      "Securonix",
-      "Samsung SmartThings Hub",
-      "Salesforce Customer 360",
-      "Tru Earth Eco",
-      "VMware Cloud on AWS",
-      "VMware Cloud",
-      "Ramp Card",
-      "Rapid7 InsightIDR",
-      "United Polaris",
-      "Relay Financial",
-      "RepairPal",
-      "Reviews",
-      "Trello",
-      "Thumbtack",
-      "Ritual",
-      "Transparency",
-      "Royal Canin Medium Adult",
-      "Safety",
-      "Trade Coffee",
-      "Sailthru",
-      "Tide purclean",
-      "Tide Purclean",
-      "Oura Ring Gen 3",
-      "ADP Run",
-      "Orijen Original",
-      "Emirates",
-      "Built Bar",
-      "Caregiver",
-      "Census",
-      "Certifications",
-      "Chase Business Complete Banking",
-      "Chase Sapphire Preferred",
-      "Cisco Duo",
-      "Citi Premier",
-      "Communication Practices",
-      "Corpus",
-      "Counter Culture",
-      "Curriculum",
-      "CyberArk Identity",
-      "Datadog Cloud SIEM",
-      "David Protein Bar",
-      "Dell XPS 14",
-      "Devo",
-      "Dirty Labs",
-      "DrChrono",
-      "Dreame L",
-      "Dreame X30 Ultra",
-      "Dreams Playa Mujeres",
-      "Dropps Laundry Pods",
-      "Duo Security",
-      "ECOS",
-      "ECOS Laundry Detergent",
-      "Ecovacs Deebot X",
-      "British Airways",
-      "Brex Corporate Card",
-      "Bose QuietComfort Ultra Headphones",
-      "Angi",
-      "ASE Certification",
-      "AWS",
-      "AWS Outposts",
-      "Accor Live Limitless",
-      "Acer Swift X",
-      "ActionIQ",
-      "Airfarewatchdog",
-      "Aloha",
-      "Aloha Organic Protein Bars",
-      "Aloha Protein Bars",
-      "American Express Business Gold",
-      "American Express Platinum Card",
-      "Apple Home",
-      "Blumira",
-      "Apple HomePod",
-      "Apple HomePod Mini",
-      "Apple HomePod mini",
-      "Apple Watch",
-      "Apple Watch Series 9",
-      "Atlantis Paradise Island",
-      "Attentive",
-      "Betterment Premium",
-      "Bloomreach Engagement",
-      "Blue Bottle Coffee",
-      "BlueVine",
-      "Blueland Laundry Tablets",
-      "Elastic SIEM",
-      "Epic Community Connect",
-      "Oracle NetSuite",
-      "Epic MyChart Video Visits",
-      "Licensing",
-      "Lili",
-      "Listrak",
-      "Lufthansa",
-      "Lume Whole Body Deodorant",
-      "Lytics",
-      "MacBook Air",
-      "Maxio",
-      "Mend",
-      "Merry Maids",
-      "Microsoft Azure Arc",
-      "Microsoft Dynamics 365 Sales",
-      "MindShift CBT",
-      "Modernizing Medicine",
-      "Momentous Protein Bar",
-      "NOCD",
-      "Necessaire The Deodorant",
-      "NetSuite ERP",
-      "Nikon Z50",
-      "Nikon Z50 II",
-      "No Cow",
-      "Nordic Naturals",
-      "Notion",
       "Okta Workforce Identity",
-      "OneLogin",
-      "Oracle Cloud Infrastructure",
-      "Oracle Fusion Cloud ERP",
-      "Lenovo Yoga 7i",
-      "Larabar Protein",
-      "La Colombe",
-      "Google Nest Hub Max",
-      "Estimates",
-      "Eufy RoboVac X9 Pro",
-      "Excellence Playa Mujeres",
-      "ExpertFlyer",
-      "Freshsales",
-      "Garden of Life",
-      "Garmin",
-      "GitHub Projects",
-      "GoMacro MacroBar",
-      "Going",
-      "Google Anthos",
-      "Google Home",
-      "Grand Palladium",
-      "Kosas Chemistry",
-      "Hightouch",
-      "Homey Pro",
-      "Houzz",
-      "HubSpot CDP",
-      "HubSpot Marketing Hub",
       "Hubitat Elevation",
-      "Hume Supernatural",
-      "Huntress",
+      "VMware Cloud",
+      "Nikon Z50",
+      "Vanguard Personal Advisor",
+      "Nikon Z5",
+      "AdvancedMD",
+      "Apple Watch Series 10",
+      "Wysa",
+      "Shortcut",
+      "SimplePractice",
+      "No Cow",
+      "American Express Business Gold Card",
+      "Bloomreach Engagement",
+      "Hyatt World of Hyatt",
+      "MacBook Air",
+      "Bluevine Business Checking",
+      "Blumira",
+      "Iterable",
+      "Roborock S8 Pro Ultra",
+      "Ramp",
+      "Nordic Naturals",
+      "IQBAR",
+      "Acer Swift X 14",
+      "Sennheiser Momentum 4",
       "IBM QRadar",
-      "Jabra Evolve2 85",
-      "Jira Software",
+      "Transparent Pricing",
+      "Oura Ring Gen 4",
+      "Apple HomePod Mini",
+      "Handy",
+      "Vanguard Personal Advisor Services",
+      "Salesforce Data Cloud",
+      "Licensing and Accreditation",
+      "Found",
+      "Ecover",
+      "Elastic SIEM",
+      "RudderStack",
+      "Carbon Black",
+      "Square Invoices",
+      "Lume Whole Body Deodorant",
+      "Care.com",
+      "United Airlines",
+      "Staff-to-Child Ratio",
+      "Teacher-to-Child Ratio",
+      "Emirates",
+      "MaidPro",
+      "Barebells",
+      "Eufy X10 Pro Omni",
+      "Aloha",
+      "Capital One Venture X Business",
+      "Apple Watch Ultra 2",
+      "ADP Run",
+      "ActionIQ",
+      "AWS Outposts",
+      "Design Process",
+      "Nextdoor",
+      "Salesforce CDP",
+      "Google Looker Studio",
+      "Sony WH-1000XM5",
+      "Relay",
+      "DrChrono",
+      "Dreame L20 Ultra",
+      "Monday.com",
+      "The Cleaning Authority",
+      "LogRhythm Axon",
+      "Duo Security",
+      "RepairPal Certified Shops",
+      "RepairPal",
+      "Relay Business Checking",
+      "Relay Financial",
+      "Primrose Schools",
+      "Ramp Business Card",
+      "Portfolio and References",
+      "PayPal Invoicing",
+      "Payment Schedule",
+      "Peet's Coffee",
+      "Perfect Bar Original",
+      "Permit Pulling Responsibility",
+      "Permits and Code Compliance",
+      "Personal Capital",
+      "Aloha Organic Protein Bars",
+      "Plant Selection and Climate Suitability",
+      "Polar",
+      "Polar Pacer Pro",
+      "Portfolio and Experience",
+      "Power BI",
+      "RXBar",
+      "Pricing and Contracts",
+      "Primally Pure",
+      "Proper licensing and insurance",
+      "Air France Business",
+      "Purina Pro Plan Adult",
+      "Purina Pro Plan Savor",
+      "Qatar Airways Qsuite",
+      "QlikView",
+      "Quest Bar",
+      "Quest Nutrition Bars",
+      "Quest Protein Bars",
+      "RXBAR Protein Bars",
+      "Reviews and References",
+      "BlueVine",
+      "Reviews and Reputation",
+      "ASE-certified independent shops",
+      "Tru Earth",
+      "Trello",
+      "Treasure Data CDP",
+      "Treasure Data",
+      "Tilly",
+      "Tide purclean",
+      "Thread border router",
+      "TherapyNotes",
+      "Reviews/References",
+      "The Platinum Card from American Express",
+      "The Goddard School",
+      "ASUS ZenBook 14 OLED",
+      "Sumo Logic Cloud SIEM",
+      "Sumo Logic",
+      "Stumptown",
+      "Stripe Billing",
+      "U.S. Bank Altitude Reserve",
+      "Updox",
+      "Ursa Major",
+      "VMware Carbon Black",
+      "AAA Approved Auto Repair shops",
+      "YourMechanic",
+      "Yelp",
+      "Yardzen",
+      "ADP",
+      "Wyndham Rewards",
+      "Whoop Strap 4.0",
+      "Whoop 5.0",
+      "Wave Invoicing",
+      "ASE-Certified Shops",
+      "Warranty on Workmanship",
+      "Warranty and Guarantees",
+      "WHOOP 4.0",
+      "Valid Licensing and Insurance Verification",
+      "VMware Cloud on AWS",
+      "Stripe",
+      "Staff Turnover and Qualifications",
+      "Staff Longevity and Turnover",
+      "Shark Matrix RV2600",
+      "Parent Communication",
+      "Seventh Generation Concentrated Laundry Detergent",
+      "Sennheiser PXC 550 II",
+      "Securonix",
+      "Scott's Cheap Flights",
+      "Schmidt's Natural Deodorant",
+      "Schmidt's Charcoal",
+      "Schmidt's",
+      "SailPoint",
+      "Adobe Experience Platform",
+      "Safety and Cleanliness",
+      "Royalton Resorts",
+      "Royalton Luxury Resorts",
+      "Ritual",
+      "Adobe Marketo Engage",
+      "Shark Matrix Plus 2-in-1",
+      "SimplePractice Telehealth",
+      "Spruce Health",
+      "Sisense",
+      "Splunk",
+      "Specific Renovation Experience and References",
+      "Specific Renovation Experience",
+      "Specialization in Your Vehicle Make",
+      "Specialization in Kitchens",
+      "Sophos Intercept X with XDR",
+      "Sophos Intercept X",
+      "Sony a6700",
+      "Sony a6400",
+      "Sony ZV-E10 II",
+      "Sony Alpha a6700",
+      "Sony A7C II",
+      "Sony A6700",
+      "Snowflake",
+      "Skiplagged",
+      "Shark IQ Robot XL",
+      "MoodTools",
+      "Palo Alto Networks Prisma Access",
+      "Dell XPS 14",
+      "Freshsales",
+      "Franklyn D. Resort",
+      "Framework Laptop 13",
+      "Fitbit Sense 2",
+      "Fitbit Charge 5",
+      "Excellence Resorts",
+      "Excellence Playa Mujeres",
+      "Eukanuba",
+      "Eufy X8 Hybrid",
+      "Eufy Clean X10 Pro Omni",
+      "Epic Systems",
+      "Epic Provisions",
+      "Emarsys",
+      "Elation Health",
+      "Elastic Security",
+      "Ecovacs Deebot X2 Omni",
+      "ECOS Laundry Detergent",
+      "Dreams Resorts",
+      "AthenaTelehealth",
+      "Arctic Wolf",
+      "Fujifilm X-T30 II",
+      "Fujifilm X-T5",
+      "Apple Watch Series 9",
+      "Hard Rock Riviera Maya",
+      "HP Omen Transcend 14",
+      "Apple Watch Series 8",
+      "Grand Palladium",
+      "Google Reviews",
+      "Google Pixel Watch 3",
+      "Google Nest Hub Max",
+      "Google Nest Hub",
+      "Google Cloud Identity",
+      "Garmin",
+      "Google Cloud Anthos",
+      "Google Anthos",
+      "Going",
+      "GoMacro MacroBar",
+      "GitLab",
+      "Garmin Forerunner 965",
+      "Garmin Forerunner 955",
+      "Garmin Forerunner 265",
+      "Demandbase",
+      "Dealership Service Centers",
+      "Pacifica",
+      "David Protein Bars",
+      "Chime Business",
+      "Axos Bank Basic Business Checking",
+      "Chase Sapphire Preferred",
+      "Chase Ink Business Unlimited Credit Card",
+      "Chase Business Complete Banking",
+      "Charles Schwab Intelligent Portfolios",
+      "Certain Dri Everyday Strength Clinical",
+      "Cerner",
+      "Basecamp",
+      "Capital One Spark Miles for Business",
+      "Capital One Spark Cash for Business",
+      "Canon EOS R8",
+      "British Airways Club Suite",
+      "Brightwheel",
+      "Bright Horizons",
+      "Brex Corporate Card",
+      "Brex",
+      "Bose QuietComfort Ultra Headphones",
+      "Blueland Laundry Tablets",
+      "Christian Brothers Automotive",
+      "Cisco Duo",
+      "Cisco Secure Endpoint",
+      "Counter Culture",
+      "Datadog Cloud SIEM",
+      "Curriculum and Play-Based Learning",
+      "Curriculum and Daily Structure",
+      "Curriculum and Daily Rhythm",
+      "Crystal Body Deodorant",
+      "Atlantis Paradise Island",
+      "CrowdStrike",
+      "Atlas Bar",
+      "Cost Breakdown",
+      "Citi Premier",
+      "Corpus",
+      "Communication and Timeline",
+      "Communication Practices",
+      "Club Med Punta Cana",
+      "Atlas Protein Bar",
+      "Attentive",
+      "Citi Strata Premier",
+      "Citi Premier Card",
+      "Apple Watch Series 11",
+      "Health and Safety Policies",
+      "HiMama",
+      "Hightouch",
+      "NAPA AutoCare Centers",
+      "NAFCC",
+      "NAEYC Accreditation",
+      "NAEYC",
+      "Moon Palace",
+      "BlueVine Business Checking",
+      "Molly's Suds",
+      "MindShift CBT",
+      "Amex Business Gold",
+      "Amex Business Platinum",
+      "Amex Platinum",
+      "Microsoft Defender XDR",
+      "Microsoft Azure Active Directory",
+      "Anker Soundcore Space One Pro",
+      "Method",
+      "Apple",
+      "Mend",
+      "Membership in professional associations",
+      "Megababe",
+      "NOCD",
+      "American Express Business Platinum",
+      "Narwal Freo X Ultra",
+      "Oatmega",
+      "PEO services",
+      "Oura Ring Gen 3",
+      "Oura Ring 4",
+      "Orijen Original",
+      "Oracle Fusion Cloud ERP",
+      "Oracle Cloud Infrastructure",
+      "Optimum Nutrition",
+      "Okta Workforce Identity Cloud",
+      "ONE Brand",
+      "National chains like Firestone or Meineke",
+      "OM System OM-1",
+      "Nutrition and Allergies",
+      "Notion",
+      "No Cow Bars",
+      "Nikon Z50 II",
+      "Nickelodeon Hotels",
+      "NetSuite ERP",
+      "Necessaire The Deodorant",
+      "Matter support",
+      "Materials and Sustainability",
+      "Maintenance Plans",
+      "IBM QRadar SaaS",
       "KIND Protein",
-      "Lufthansa Business Class"
+      "Jira Software",
+      "Apple HomePod mini",
+      "JetBlue Mint",
+      "Jabra Evolve2 55",
+      "Iams ProActive Health",
+      "ITA Matrix",
+      "Apple MacBook Air M4",
+      "IBM Cloud Satellite",
+      "Kareo Telehealth",
+      "IAMS",
+      "Hyatt Regency",
+      "Huntress",
+      "Hume Supernatural",
+      "Apple MacBook Pro 14-inch",
+      "Houzz",
+      "Homey Pro",
+      "Home Assistant Green",
+      "Kareo",
+      "Kind Bar",
+      "MacBook Air M3",
+      "Licensing and Inspection Reports",
+      "Lytics",
+      "Lume Deodorant",
+      "Lume",
+      "AAA Approved Auto Repair Network",
+      "Live Oak Bank Business Savings",
+      "Live Oak Bank",
+      "Apple Home",
+      "Licensing and Insurance Verification",
+      "Lenovo Yoga 7i",
+      "KinderCare",
+      "Apple Home Hub",
+      "Lenovo Legion 5 Pro",
+      "LendingClub Bank Business Checking",
+      "Lavanila",
+      "Lattice Engines",
+      "Larabar Protein",
+      "Klean Athlete",
+      "Kiwi.com",
+      "AAA Approved Auto Repair"
     ],
-    "total_unique_brands": 337
+    "total_unique_brands": 520
   }
 }

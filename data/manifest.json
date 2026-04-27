@@ -1,6 +1,6 @@
 {
   "manifest_version": "1.0",
-  "generated": "2026-04-15T00:37:44.902833+00:00",
+  "generated": "2026-04-15T04:53:21.295814+00:00",
   "experiment": "Cross-Model GEO Brand Visibility Study",
   "config_version": "4.0-expanded",
   "config_sha256": "b03d681a3557748769faee9fe4e492c95d1ddd6e138a774d620111217b55307a",
@@ -9,7 +9,7 @@
     "python_version": "3.14.4",
     "platform": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
     "machine": "arm64",
-    "timestamp": "2026-04-15T00:37:44.925804+00:00",
+    "timestamp": "2026-04-15T04:53:21.316008+00:00",
     "pkg_requests": "2.33.1",
     "pkg_pandas": "3.0.2",
     "pkg_numpy": "2.4.4",
@@ -25,322 +25,322 @@
   "outputs": {
     "b01_gpt54": {
       "run1": {
-        "content_sha256": "3a4bca41eb00f236231eccbea71cae555d55bf1215c73ce86b5329af93db97bf",
-        "word_count": 7825,
+        "content_sha256": "fc0cd875f6beebc5888ce0a959833a1b3ade4284fc582e33abcb4d06f6edbbda",
+        "word_count": 11866,
         "model_returned": "openai/gpt-5.4-20260305",
-        "timestamp": "2026-04-15T00:19:11.050354+00:00"
+        "timestamp": "2026-04-15T04:20:34.169631+00:00"
       },
       "run2": {
-        "content_sha256": "4c34123be00bb895d19a5cda214892ed9cdde65ebf31433eeac8b8fe0b6012c0",
-        "word_count": 6226,
+        "content_sha256": "0815afa16277b8f3da843567c7d7144e6bd588012663a63833d6df3de9386351",
+        "word_count": 10487,
         "model_returned": "openai/gpt-5.4-20260305",
-        "timestamp": "2026-04-15T00:22:34.465068+00:00"
+        "timestamp": "2026-04-15T04:26:39.554601+00:00"
       },
       "run3": {
-        "content_sha256": "6a5b368fbef8ae3d7b471b6c9a4ac45b7ca0af9d452614e0a92202ae6372be8b",
-        "word_count": 8098,
+        "content_sha256": "a279d20ab551bfc311cb9909cd4488a3b8a0c8fc15e97b39ea6d8614646ab962",
+        "word_count": 11430,
         "model_returned": "openai/gpt-5.4-20260305",
-        "timestamp": "2026-04-15T00:25:15.307377+00:00"
+        "timestamp": "2026-04-15T04:33:27.575932+00:00"
       },
       "run4": {
-        "content_sha256": "b1052221fc587e078e50d56feabca9137f7edde5f39be8098026c38f826d652f",
-        "word_count": 7736,
+        "content_sha256": "b742bba39507da993d7e9aea86b03d8bbadd2e934c2ac54b5b0ed611897251ab",
+        "word_count": 10863,
         "model_returned": "openai/gpt-5.4-20260305",
-        "timestamp": "2026-04-15T00:28:53.445506+00:00"
+        "timestamp": "2026-04-15T04:39:22.545479+00:00"
       },
       "run5": {
-        "content_sha256": "51a0c5814672564fb0b79195cd4ac0047cf59a4c51f01457ea36f31bd2e9eb45",
-        "word_count": 7835,
+        "content_sha256": "fec8a1a63aaaa1572f400faabcf7f9f9297f25ca3efbdb91ce510ed40f83ad93",
+        "word_count": 11574,
         "model_returned": "openai/gpt-5.4-20260305",
-        "timestamp": "2026-04-15T00:33:54.645700+00:00"
+        "timestamp": "2026-04-15T04:46:39.582521+00:00"
       }
     },
     "b02_gemini31_pro": {
       "run1": {
-        "content_sha256": "02cb8d0fc206d798b0aef11f2ac471e9a27a1f766250ecb462e8f3758a0ce86b",
-        "word_count": 6625,
+        "content_sha256": "da638368bda7e1af541efbd46a743cbd1be645e4b0ba12d3c8310b149a40db02",
+        "word_count": 12306,
         "model_returned": "google/gemini-3.1-pro-preview-20260219",
-        "timestamp": "2026-04-15T00:19:11.051640+00:00"
+        "timestamp": "2026-04-15T04:20:34.170539+00:00"
       },
       "run2": {
-        "content_sha256": "be6351ddff0e885955ffee0b2f06b100c0d54d365f7c1836fcf2c098d8c260c5",
-        "word_count": 6311,
+        "content_sha256": "d4da7fa86c19a978d2920e3532a496a88e38cb3f2732ba876e98c6b77137020b",
+        "word_count": 12296,
         "model_returned": "google/gemini-3.1-pro-preview-20260219",
-        "timestamp": "2026-04-15T00:22:34.465949+00:00"
+        "timestamp": "2026-04-15T04:26:39.554942+00:00"
       },
       "run3": {
-        "content_sha256": "01103bdfd1e2358df1bd761ac3ca0542055368f4b15f97b76806e785aa960130",
-        "word_count": 6839,
+        "content_sha256": "d45a1904256df00e26f9cd835e65ea963e8db91d72ba6285c8d40726b8473942",
+        "word_count": 12513,
         "model_returned": "google/gemini-3.1-pro-preview-20260219",
-        "timestamp": "2026-04-15T00:25:15.308456+00:00"
+        "timestamp": "2026-04-15T04:33:27.577280+00:00"
       },
       "run4": {
-        "content_sha256": "585c514b982cd3c2d9ff1b09535dfa3d1700d232e637704fc15df263922997b7",
-        "word_count": 6901,
+        "content_sha256": "63e0f384725e05db572913e702f0e9c6ccf6dc447db9464fae7f7bc165394bfb",
+        "word_count": 10763,
         "model_returned": "google/gemini-3.1-pro-preview-20260219",
-        "timestamp": "2026-04-15T00:28:53.446591+00:00"
+        "timestamp": "2026-04-15T04:39:22.547083+00:00"
       },
       "run5": {
-        "content_sha256": "c1ede5874ba02b71727fb7387e3f1f503b553c3998df65b683efdabc8c7b446e",
-        "word_count": 7839,
+        "content_sha256": "df328b552c25d6bca0df5568599aab5b32934816ea192987d72236e7a087eaf2",
+        "word_count": 12700,
         "model_returned": "google/gemini-3.1-pro-preview-20260219",
-        "timestamp": "2026-04-15T00:33:54.647173+00:00"
+        "timestamp": "2026-04-15T04:46:39.584096+00:00"
       }
     },
     "b03_claude_sonnet": {
       "run1": {
-        "content_sha256": "41833fabceb49daf485f49ee4d2884d3afef74cba68b4bddf46485fb636f9572",
-        "word_count": 9316,
+        "content_sha256": "7ad3e251a3a17270027eb4b72110279f6b8c9ec5420d25203d122e1d444076c8",
+        "word_count": 8641,
         "model_returned": "anthropic/claude-4.6-sonnet-20260217",
-        "timestamp": "2026-04-15T00:05:51.158206+00:00"
+        "timestamp": "2026-04-15T03:34:55.585537+00:00"
       },
       "run2": {
-        "content_sha256": "06a04ee5558fd237fcda266cab8dced5d49a9d4b80fe649ead2110a8d672bda5",
-        "word_count": 9529,
+        "content_sha256": "0efe147c6e4fb037d58a2ff5c597fff5699fea0b75630f956bd943a028536a2c",
+        "word_count": 8701,
         "model_returned": "anthropic/claude-4.6-sonnet-20260217",
-        "timestamp": "2026-04-15T00:05:51.158284+00:00"
+        "timestamp": "2026-04-15T03:34:55.585868+00:00"
       },
       "run3": {
-        "content_sha256": "f08a25f3d4365753bf576c1eceafc233b46afd5e1ad81825489bf460878c10e2",
-        "word_count": 9820,
+        "content_sha256": "e206de0243cd3f357cb7dd453483a97a36fa5e1f0e32768f5c4f0fd920906634",
+        "word_count": 7860,
         "model_returned": "anthropic/claude-4.6-sonnet-20260217",
-        "timestamp": "2026-04-15T00:05:51.158521+00:00"
+        "timestamp": "2026-04-15T03:34:55.586033+00:00"
       },
       "run4": {
-        "content_sha256": "2e5aa929957d7d1b724237bad705ec7ede66c27ce90ef7e6611d09e7f858bc07",
-        "word_count": 10069,
+        "content_sha256": "bfffff0de95c821535542b7a438a02a9f80f8ec3978c601949c40a74af3ed643",
+        "word_count": 8826,
         "model_returned": "anthropic/claude-4.6-sonnet-20260217",
-        "timestamp": "2026-04-15T00:05:51.158880+00:00"
+        "timestamp": "2026-04-15T03:34:55.587268+00:00"
       },
       "run5": {
-        "content_sha256": "68913c2fba1a8a127fdb73206ea5d074ceca37937ae3f9003685a97a56693ba9",
-        "word_count": 10126,
+        "content_sha256": "4be3c26a3f116d6bd5f35166282c053124db7fad4d3c456f6264cb8444fd8ebc",
+        "word_count": 9201,
         "model_returned": "anthropic/claude-4.6-sonnet-20260217",
-        "timestamp": "2026-04-15T00:05:51.159408+00:00"
+        "timestamp": "2026-04-15T03:34:55.586744+00:00"
       }
     },
     "b04_grok420": {
       "run1": {
-        "content_sha256": "d9e8f50d4499cb1caf3d633e085f36cfb05ad5964667d5f8052f2a992a51ac0a",
-        "word_count": 2782,
+        "content_sha256": "f9e546032e5a2c4a4370eb2e04a054e9af945273ba2fbb072c6ad8d14f63459e",
+        "word_count": 5093,
         "model_returned": "x-ai/grok-4.20-20260309",
-        "timestamp": "2026-04-15T00:19:11.050871+00:00"
+        "timestamp": "2026-04-15T04:20:34.171447+00:00"
       },
       "run2": {
-        "content_sha256": "2c673c4a51533664d7c09418d07111356531e9d8d94e5958af0489408a79fa85",
-        "word_count": 3102,
+        "content_sha256": "c3d708569d94997afbe9e7be7e55d9c4119ebb160edf7c13aa101667d1dd4977",
+        "word_count": 4970,
         "model_returned": "x-ai/grok-4.20-20260309",
-        "timestamp": "2026-04-15T00:22:34.466820+00:00"
+        "timestamp": "2026-04-15T04:26:39.557015+00:00"
       },
       "run3": {
-        "content_sha256": "38a601e3a03eb0f5deab3ab6674c5dd7dace41e11d56f5fc1137dd5c777abab0",
-        "word_count": 3591,
+        "content_sha256": "65a4d36b7165786a871aad33c19ffbcb1b996774fd31ab13263452a1d790aede",
+        "word_count": 5389,
         "model_returned": "x-ai/grok-4.20-20260309",
-        "timestamp": "2026-04-15T00:25:15.309667+00:00"
+        "timestamp": "2026-04-15T04:33:27.577483+00:00"
       },
       "run4": {
-        "content_sha256": "c2e97a1d4bdc1b61bce979596c7dacc85bdf47b125989fcba513961e3560e17f",
-        "word_count": 3413,
+        "content_sha256": "3bd95d8905687ac885dbc24e4b1da2838ee02b7e1a7f011eefd3ee6776cd15ec",
+        "word_count": 5524,
         "model_returned": "x-ai/grok-4.20-20260309",
-        "timestamp": "2026-04-15T00:28:53.447615+00:00"
+        "timestamp": "2026-04-15T04:39:22.548165+00:00"
       },
       "run5": {
-        "content_sha256": "a8912de968fec1befca5177de5b8e20064c783ad416afecc24709e38138ad4af",
-        "word_count": 3426,
+        "content_sha256": "a62b31c1f0ae0201ddf98e5f267bfc1d326cbde80e6fd4be245e8910b4e18c9e",
+        "word_count": 5138,
         "model_returned": "x-ai/grok-4.20-20260309",
-        "timestamp": "2026-04-15T00:33:54.648557+00:00"
+        "timestamp": "2026-04-15T04:46:39.585682+00:00"
       }
     },
     "b05_deepseek_v32": {
       "run1": {
-        "content_sha256": "1f2192d5afa80a7c6ba2e370c93bb5699134fc3cf743191b2ac93bd2553de85b",
-        "word_count": 463,
+        "content_sha256": "3b01284e7b30cde1e28f794ae8dedcaa2ddd9663e626003a731e7c855fddd483",
+        "word_count": 2850,
         "model_returned": "deepseek/deepseek-chat-v3-0324",
-        "timestamp": "2026-04-15T00:05:51.159820+00:00"
+        "timestamp": "2026-04-15T03:34:55.587118+00:00"
       },
       "run2": {
-        "content_sha256": "4c01a7eb01d47bbafe44a9ef5efbb029b84a0bfa0a19f133f3e3822bc0053773",
-        "word_count": 472,
+        "content_sha256": "d5f22a79d9914a83e04e70a90eed14a16ab6ad43457d10019d0be2439f4175f8",
+        "word_count": 2882,
         "model_returned": "deepseek/deepseek-chat-v3-0324",
-        "timestamp": "2026-04-15T00:05:51.159658+00:00"
+        "timestamp": "2026-04-15T03:39:57.682574+00:00"
       },
       "run3": {
-        "content_sha256": "fb87da04c1622fa63e5ba42c4bf96523b3c156c024af58ee2b4c93580b35c2e9",
-        "word_count": 381,
+        "content_sha256": "8ba62f0e41d84e8e693e977f9bcbd8671be84626210d3b6a155ecf4f8a05b23d",
+        "word_count": 2961,
         "model_returned": "deepseek/deepseek-chat-v3-0324",
-        "timestamp": "2026-04-15T00:05:51.160205+00:00"
+        "timestamp": "2026-04-15T03:40:24.554864+00:00"
       },
       "run4": {
-        "content_sha256": "9cb3235bc249e56f680d39eae16365b612b30b4d4f111e4004f6bd94f5483953",
-        "word_count": 671,
+        "content_sha256": "8277a7699eaccbf700ef939c01b2ce5894e87b29c50e719640c0fd9da291229d",
+        "word_count": 3020,
         "model_returned": "deepseek/deepseek-chat-v3-0324",
-        "timestamp": "2026-04-15T00:06:20.275547+00:00"
+        "timestamp": "2026-04-15T03:40:36.794434+00:00"
       },
       "run5": {
-        "content_sha256": "d51a0f6bbbc51dc081815f0e80c328e7c5e3538aa0c87ba2d13daa46f9caf29c",
-        "word_count": 439,
+        "content_sha256": "2fda6eac19ee68fb33989dd795f2c1944dedbd1cd02499a997419c7a201c0112",
+        "word_count": 2578,
         "model_returned": "deepseek/deepseek-chat-v3-0324",
-        "timestamp": "2026-04-15T00:06:27.177591+00:00"
+        "timestamp": "2026-04-15T03:40:38.078563+00:00"
       }
     },
     "b06_qwen35_plus": {
       "run1": {
-        "content_sha256": "18a55e0453504d2aad1e82e4bed75a6461fbfbcb4f3cf0ea8a9a9e10460479db",
-        "word_count": 430,
+        "content_sha256": "d53c650f9119f0acc4a84b04f71477d926f33db519549301dbe23afc241a1dac",
+        "word_count": 3547,
         "model_returned": "qwen/qwen3-235b-a22b-04-28",
-        "timestamp": "2026-04-15T00:06:31.594832+00:00"
+        "timestamp": "2026-04-15T03:40:43.246559+00:00"
       },
       "run2": {
-        "content_sha256": "c58b6ec5630ec525825eda12bfbbdb97cd320d9dc7a5f40bee5788278cbf315b",
-        "word_count": 539,
+        "content_sha256": "9dcda9ea20a3ad58f2258b6ae9a03a47dd56c4a013c0d21e4c530347a16979e6",
+        "word_count": 3565,
         "model_returned": "qwen/qwen3-235b-a22b-04-28",
-        "timestamp": "2026-04-15T00:06:56.625246+00:00"
+        "timestamp": "2026-04-15T03:43:15.410894+00:00"
       },
       "run3": {
-        "content_sha256": "fad80f876b1187730f2300ffc9b1f81575d95185e7f4286bebc83087664139dc",
-        "word_count": 517,
+        "content_sha256": "81a7851dcf9f53521dd0917ca7a446a57ef490977731090edd6a0575bf04a707",
+        "word_count": 3644,
         "model_returned": "qwen/qwen3-235b-a22b-04-28",
-        "timestamp": "2026-04-15T00:06:57.602173+00:00"
+        "timestamp": "2026-04-15T03:47:50.720409+00:00"
       },
       "run4": {
-        "content_sha256": "ce429a40ec73c2bb4ca0483b26cbf7a5db3b13c3fbfdcdd7e60e2d0a361d972a",
-        "word_count": 420,
+        "content_sha256": "ffc931bfc380ecd6b0e8534f0c0bf291167589bf5f202a9c84ff98a0fdeeb2e4",
+        "word_count": 3287,
         "model_returned": "qwen/qwen3-235b-a22b-04-28",
-        "timestamp": "2026-04-15T00:07:03.372789+00:00"
+        "timestamp": "2026-04-15T03:48:22.638629+00:00"
       },
       "run5": {
-        "content_sha256": "21ed674ac9edc8b72762d14b6edaccb80c58255f722149fc5f46435edff5682c",
-        "word_count": 601,
+        "content_sha256": "33c7d6604004835c75c246b2f1b97b6caa864d1d713f83c37d3955ccd864493c",
+        "word_count": 3829,
         "model_returned": "qwen/qwen3-235b-a22b-04-28",
-        "timestamp": "2026-04-15T00:07:35.546542+00:00"
+        "timestamp": "2026-04-15T03:48:46.083493+00:00"
       }
     },
     "b07_llama4_maverick": {
       "run1": {
-        "content_sha256": "57dec1b14c2ea32a5d6d93f044f0614fbe92f1cc6b034e44153a0d528ada9d32",
-        "word_count": 480,
+        "content_sha256": "5c9fb04cd40f15358e90586fd5f2f74ff93a929bff98b4203f06352763a1beac",
+        "word_count": 3191,
         "model_returned": "meta-llama/llama-4-maverick-17b-128e-instruct",
-        "timestamp": "2026-04-15T00:07:39.673409+00:00"
+        "timestamp": "2026-04-15T03:49:25.784737+00:00"
       },
       "run2": {
-        "content_sha256": "a372c15dd7f03d4e6b1a394cb30d982e40e52cc955ccecad053a793c9817ea19",
-        "word_count": 366,
+        "content_sha256": "c31d375a00a1352b5f55c3438e1dee2aa1381e718657b11f482a8c49f32731c6",
+        "word_count": 3074,
         "model_returned": "meta-llama/llama-4-maverick-17b-128e-instruct",
-        "timestamp": "2026-04-15T00:07:42.987952+00:00"
+        "timestamp": "2026-04-15T03:49:42.357581+00:00"
       },
       "run3": {
-        "content_sha256": "2dc7bc6981096bcacc246a297d98a9d223ec7dd23a1c67d7bb014f981a1fbdd7",
-        "word_count": 733,
+        "content_sha256": "f9d34d5e6787eba2ad2e7121ee71aafc9fb835635bef526310c263e6a7f48656",
+        "word_count": 2075,
         "model_returned": "meta-llama/llama-4-maverick-17b-128e-instruct",
-        "timestamp": "2026-04-15T00:07:46.842060+00:00"
+        "timestamp": "2026-04-15T03:49:55.886093+00:00"
       },
       "run4": {
-        "content_sha256": "b5dbf98fc48571ec0f8595f3a655ee01bd16408930ed11e1a7082ce5a19c3c16",
-        "word_count": 171,
+        "content_sha256": "f9ce0a478e52983a005d3d83aaf3d6f896a032659f6e713d6bbdfd074a158cc2",
+        "word_count": 2036,
         "model_returned": "meta-llama/llama-4-maverick-17b-128e-instruct",
-        "timestamp": "2026-04-15T00:07:56.589571+00:00"
+        "timestamp": "2026-04-15T03:51:04.044093+00:00"
       },
       "run5": {
-        "content_sha256": "cd8def2d2087b52bdd1d6deb5dc424a671a0f6e86e6de342ad8b4783c82bc5f1",
-        "word_count": 175,
+        "content_sha256": "ee51f1420c66c1cea5cd7efc74b67f097ef0c4c43ec1925f10e3c48818e33c73",
+        "word_count": 3590,
         "model_returned": "meta-llama/llama-4-maverick-17b-128e-instruct",
-        "timestamp": "2026-04-15T00:07:58.846465+00:00"
+        "timestamp": "2026-04-15T03:51:06.466393+00:00"
       }
     },
     "b08_mistral_large3": {
       "run1": {
-        "content_sha256": "25533e5347627d19c66017eead82ccd65477bf444dba448cfcfc5aaebf3fecc6",
-        "word_count": 2759,
+        "content_sha256": "421a25f517e6a12da102c00ca757afacd6c09168f6fbf57aceabef5743dc4b45",
+        "word_count": 6773,
         "model_returned": "mistralai/mistral-large-2512",
-        "timestamp": "2026-04-15T00:07:59.567959+00:00"
+        "timestamp": "2026-04-15T03:51:08.162223+00:00"
       },
       "run2": {
-        "content_sha256": "b5eea0eba45a0c56523ef3adcc97e57a719fd0281f667ccb835c62eac2f1c7e1",
-        "word_count": 2032,
+        "content_sha256": "ebcc844915525d0e2a93a3a8712a8d30d56bd3dd3de739b7ccc47b08723d50c2",
+        "word_count": 8420,
         "model_returned": "mistralai/mistral-large-2512",
-        "timestamp": "2026-04-15T00:08:01.344002+00:00"
+        "timestamp": "2026-04-15T03:51:30.219483+00:00"
       },
       "run3": {
-        "content_sha256": "7cdce851bb5dceaf8b02ce77d557dbd7be5e4a1be19368dc795d180af71b84d9",
-        "word_count": 2515,
+        "content_sha256": "2e5b795dea3ed91fbe10c7052213cb1f9d89ae09b215776169dadc22bbd43c78",
+        "word_count": 6899,
         "model_returned": "mistralai/mistral-large-2512",
-        "timestamp": "2026-04-15T00:08:02.158483+00:00"
+        "timestamp": "2026-04-15T03:51:47.794118+00:00"
       },
       "run4": {
-        "content_sha256": "7fea73e2c362a75135030d145e27155251968873816969b2b455d303b21ec060",
-        "word_count": 3297,
+        "content_sha256": "651615432aff70fb1e45648329e434d340ea357cdcb0d3178e813effdea238b4",
+        "word_count": 7689,
         "model_returned": "mistralai/mistral-large-2512",
-        "timestamp": "2026-04-15T00:09:14.447772+00:00"
+        "timestamp": "2026-04-15T03:52:07.781392+00:00"
       },
       "run5": {
-        "content_sha256": "d9df08ed1afca654fb2482b42c368b4150494d326822399d1c88b369b92e8508",
-        "word_count": 3185,
+        "content_sha256": "d5ca6f89aadd720a1842d9d71003593ca25ea0a7454c874eeeebf297e5515031",
+        "word_count": 7409,
         "model_returned": "mistralai/mistral-large-2512",
-        "timestamp": "2026-04-15T00:09:33.563262+00:00"
+        "timestamp": "2026-04-15T03:52:10.726931+00:00"
       }
     },
     "b09_gemini3_flash": {
       "run1": {
-        "content_sha256": "580982520a738da075448fafea288bed7de526687b4622c4d3d6cddf8f994c1e",
-        "word_count": 1057,
+        "content_sha256": "0c99e63efe946cd498b77db332ff84cd0e8d9d073893b7d9412ad1e3cdfa6a53",
+        "word_count": 5368,
         "model_returned": "google/gemini-3-flash-preview-20251217",
-        "timestamp": "2026-04-15T00:19:11.053190+00:00"
+        "timestamp": "2026-04-15T04:20:34.172787+00:00"
       },
       "run2": {
-        "content_sha256": "569d01aebca363f40c99c1992c19835a14e15ef772eaf1e61a8a60c3d095f46a",
-        "word_count": 1100,
+        "content_sha256": "d266cbebf7bebd023da218e4d184ca3c1fde86febab137fadf668219b84d0cc9",
+        "word_count": 5917,
         "model_returned": "google/gemini-3-flash-preview-20251217",
-        "timestamp": "2026-04-15T00:22:34.467629+00:00"
+        "timestamp": "2026-04-15T04:26:39.558299+00:00"
       },
       "run3": {
-        "content_sha256": "b3a9164e31ee88f79c21101216ad49fb7a26b107a0b84c3723671b6c4f4efde6",
-        "word_count": 1029,
+        "content_sha256": "ae2bd1e110c9fa81c7381371c03b0f0ed349682302283bdab6e9f0026d129b91",
+        "word_count": 5556,
         "model_returned": "google/gemini-3-flash-preview-20251217",
-        "timestamp": "2026-04-15T00:25:15.311079+00:00"
+        "timestamp": "2026-04-15T04:33:27.578843+00:00"
       },
       "run4": {
-        "content_sha256": "35025fc198801f87002669503c4b077b7afb13c9aa0f6683ca64cfc4ca99c84f",
-        "word_count": 995,
+        "content_sha256": "7a88f240dd8b1ab67cc46e03b172e994f799c03e2d977abcca74c906d8613947",
+        "word_count": 5752,
         "model_returned": "google/gemini-3-flash-preview-20251217",
-        "timestamp": "2026-04-15T00:28:53.448278+00:00"
+        "timestamp": "2026-04-15T04:39:22.547803+00:00"
       },
       "run5": {
-        "content_sha256": "ce00ae134fffbc0fc9ed1062395247998e6e611fcfe6b76cea69361d51b038c2",
-        "word_count": 1104,
+        "content_sha256": "b841ce96aa4dc51d129632057cbede036261526e3b61b57e12a6a2f43abadef5",
+        "word_count": 5184,
         "model_returned": "google/gemini-3-flash-preview-20251217",
-        "timestamp": "2026-04-15T00:33:54.648894+00:00"
+        "timestamp": "2026-04-15T04:46:39.587311+00:00"
       }
     },
     "b10_glm5": {
       "run1": {
-        "content_sha256": "c883a76c1d479ec63cbcaa169b19305e9a55b99dc1d7858efbd22b85ae2fdafa",
-        "word_count": 2452,
+        "content_sha256": "f22db1f0a034bb999af02d6d60046c1ff893c05f0fdf1100afa4fc64d03452b4",
+        "word_count": 7754,
         "model_returned": "z-ai/glm-5-20260211",
-        "timestamp": "2026-04-15T00:09:40.578168+00:00"
+        "timestamp": "2026-04-15T03:53:11.187899+00:00"
       },
       "run2": {
-        "content_sha256": "355ac36c5787e10ee1a2f9fb0173c496ca807ad13f23778f90c853d88ecdb959",
-        "word_count": 4125,
+        "content_sha256": "df81df2490a216bf5bb386a937e034b9729d3a6cdd3247f4f3c8a416dae5b87c",
+        "word_count": 8093,
         "model_returned": "z-ai/glm-5-20260211",
-        "timestamp": "2026-04-15T00:11:10.179078+00:00"
+        "timestamp": "2026-04-15T03:55:12.432795+00:00"
       },
       "run3": {
-        "content_sha256": "4fe1ec6641d050ecda812f98aefa9b0443b6740e250f822bcc62d04315ad22fd",
-        "word_count": 6500,
+        "content_sha256": "afc6671cfee6272f68c2a8c8a48d2ce2ca4937dcbe219837213b5342ad02e3bb",
+        "word_count": 7584,
         "model_returned": "z-ai/glm-5-20260211",
-        "timestamp": "2026-04-15T00:11:10.649267+00:00"
+        "timestamp": "2026-04-15T03:55:51.021776+00:00"
       },
       "run4": {
-        "content_sha256": "421ba881721ba8a6f97ca63af1a798b2b682e3cd123dd37c1d0f41fb3f23fc2f",
-        "word_count": 7107,
+        "content_sha256": "e1bba7d2969682e72cf3c09d4bc8bcd94430b111f22b0ac8351e0c442f51b3c8",
+        "word_count": 8805,
         "model_returned": "z-ai/glm-5-20260211",
-        "timestamp": "2026-04-15T00:11:19.562014+00:00"
+        "timestamp": "2026-04-15T03:56:28.218524+00:00"
       },
       "run5": {
-        "content_sha256": "5740b5613a08760ca39ae1638957ab6eafb26fb7fd245236f9df41e01cd70d05",
-        "word_count": 5685,
+        "content_sha256": "fd22d4ab4ce2454b065363a4f096c5d115c035233b6f26337f23bfe7fa77cb64",
+        "word_count": 8154,
         "model_returned": "z-ai/glm-5-20260211",
-        "timestamp": "2026-04-15T00:11:27.912691+00:00"
+        "timestamp": "2026-04-15T03:56:32.290383+00:00"
       }
     }
   }

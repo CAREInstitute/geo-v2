@@ -1,0 +1,94 @@
+{
+  "started": "2026-04-15T03:15:51.543350+00:00",
+  "finished": "2026-04-15T03:15:51.549424+00:00",
+  "elapsed_seconds": 0.006074,
+  "status": "completed",
+  "steps": [
+    {
+      "step": "Patch Application",
+      "status": "pass",
+      "start_time": "03:15:51",
+      "description": "Applied geo_extract v2.0.0 critical fix for _find_query_section fallback contamination",
+      "end_time": "03:15:51",
+      "detail": "geo_extract.py replaced (v1.0.0 -> v2.0.0). Bug: v1 returned full response text for unanswered queries, creating 14,222 phantom extractions (68.9%). Fix: return None, skip unanswered queries."
+    },
+    {
+      "step": "Coverage Report Fix",
+      "status": "pass",
+      "start_time": "03:15:51",
+      "description": "Fixed _save_coverage_report hardcoded query ID format",
+      "end_time": "03:15:51",
+      "detail": "Replaced hardcoded format string with cfg.QUERIES-driven ID list."
+    },
+    {
+      "step": "Brand Re-extraction (v2)",
+      "status": "pass",
+      "start_time": "03:15:51",
+      "description": "Re-ran extract_all_brands with patched _find_query_section",
+      "end_time": "03:15:51",
+      "detail": "Rows: 20,650 (v1) -> 4,607 (v2). Contamination: 68.9% -> 0%. False positives: 631 -> 0."
+    },
+    {
+      "step": "Extraction Validation",
+      "status": "pass",
+      "start_time": "03:15:51",
+      "description": "Ran validate_extraction with new checks #4 and #9",
+      "end_time": "03:15:51",
+      "detail": "8 pass, 1 warn (4 models <50% query coverage), 0 fail."
+    },
+    {
+      "step": "Statistical Analysis",
+      "status": "pass",
+      "start_time": "03:15:51",
+      "description": "Ran run_full_analysis on v2 clean data",
+      "end_time": "03:15:51",
+      "detail": "H1 kappa=0.0553, H4 intra=0.7493 vs inter=0.3046, H2 p=0.948. 352 unique brands."
+    }
+  ],
+  "code_changes": [
+    {
+      "file": "geo_extract.py",
+      "reason": "v1.0.0 -> v2.0.0: Critical fix + coverage report query ID fix",
+      "before_hash": null,
+      "after_hash": null,
+      "time": "03:15:51"
+    }
+  ],
+  "detected_changes": [],
+  "output_files": [
+    {
+      "path": "data/brand_visibility_raw.csv",
+      "description": "4,607 rows (clean)"
+    },
+    {
+      "path": "data/brand_visibility_matrix.csv",
+      "description": "1,611 rows"
+    },
+    {
+      "path": "data/extraction_coverage.json",
+      "description": "Per-model query coverage"
+    },
+    {
+      "path": "data/extraction_validation.json",
+      "description": "8 pass / 1 warn / 0 fail"
+    },
+    {
+      "path": "paper/results/analysis_results.json",
+      "description": "Full H1-H4 results"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "step": "Truncation Advisory",
+      "warning": "4 models answered 12-38% of queries due to output truncation. Re-run recommended with batched prompts."
+    }
+  ],
+  "framework_feedback": [
+    "**Code modifications:** 1 change(s) to geo_extract.py. Were these workarounds for framework gaps? If so, integrate the fix into the base pipeline and document in `CHANGELOG.md`.",
+    "**Warnings:** 1 warning(s) across Truncation Advisory. Are any of these recurring patterns that should become preflight checks?",
+    "**Cost underrun:** Actual $3.49 vs estimated $55.35 (0.1\u00d7). Models may be producing shorter responses than expected \u2014 check if outputs are complete."
+  ],
+  "quality_flags_summary": {},
+  "total_cost_usd": 3.4871799999999995
+}

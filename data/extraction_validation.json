@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "name": "Extraction produced data",
+      "status": "pass",
+      "detail": "4607 brand mentions extracted"
+    },
+    {
+      "name": "All models have extracted brands",
+      "status": "pass",
+      "detail": "10/10 models have data"
+    },
+    {
+      "name": "All queries have at least some brands",
+      "status": "pass",
+      "detail": "40/40 queries have data"
+    },
+    {
+      "name": "All models answer >= 50% of queries",
+      "status": "warn",
+      "detail": "4 models have <50% query coverage: {'b05_deepseek_v32': 15, 'b06_qwen35_plus': 6, 'b07_llama4_maverick': 6, 'b09_gemini3_flash': 5}"
+    },
+    {
+      "name": "Median brands per cell >= 2",
+      "status": "pass",
+      "detail": "Median: 5.0 brands per query-model cell"
+    },
+    {
+      "name": "No brand in >80% of models",
+      "status": "pass",
+      "detail": "Most frequent: Klaviyo (10/10 models)"
+    },
+    {
+      "name": "Normalization reduces brand variants",
+      "status": "pass",
+      "detail": "830 raw -> 808 normalized (3% reduction)"
+    },
+    {
+      "name": "No false-positive brands in data",
+      "status": "pass",
+      "detail": "Clean"
+    },
+    {
+      "name": "No cross-category contamination",
+      "status": "pass",
+      "detail": "Clean"
+    }
+  ],
+  "pass": 8,
+  "warn": 1,
+  "fail": 0
+}

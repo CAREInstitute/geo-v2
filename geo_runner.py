@@ -2,12 +2,13 @@
 GEO Pipeline — OpenRouter API Runner
 Handles API calls, retries, metadata capture, temporal spacing.
 
+v2.2.0  2026-04-15  Query batching to fix output truncation (4 models self-stopped after 5-15 of 40 queries)
 v2.1.0  2026-04-15  Added manifest generation, config hashing, env fingerprint, file logger
 v2.0.0  2026-04-14  Revised model roster (8/10 replaced), K=5 trials, temporal spacing
 v1.0.0  2026-04-14  Initial build
 """
 
-__version__ = "2.1.0"
+__version__ = "2.2.0"
 __component__ = "geo_runner"
 
 import os
@@ -192,9 +193,159 @@ def run_single_trial(api_key, model, prompt, run_k, out_dir, meta_dir, prompt_ha
 BUDGET_CEILING_USD = 150.0  # Hard ceiling — pipeline halts if exceeded
 
 
+# ─── Query Batching ──────────────────────────────────────────────────────────
+
+BATCH_PREAMBLE = """I need your help evaluating options across several product and service categories.
+For each question below, please recommend the specific brands or products you think
+best fit the described need. Rank your recommendations from strongest to weakest,
+and include a brief justification (1-2 sentences) for each.
+
+Please respond entirely in English. For each query, use the format:
+
+**Q[number]: [query topic]**
+1. **Brand Name** — Justification
+2. **Brand Name** — Justification
+(continue as needed)
+
+Aim for 200-400 words per query. Be specific and commit to your recommendations.
+If you consulted web sources, briefly note them after your recommendations.
+
+---
+
+"""
+
+
+def build_batch_prompts():
+    """Split queries into batches and generate per-batch prompts.
+
+    Returns: list of (prompt_text, query_ids) tuples.
+    """
+    batch_size = cfg.QUERY_BATCH_SIZE
+    batches = []
+    for i in range(0, len(cfg.QUERIES), batch_size):
+        batch_queries = cfg.QUERIES[i:i + batch_size]
+        prompt = BATCH_PREAMBLE
+        for q in batch_queries:
+            prompt += f'**{q["id"]}:** {q["text"]}\n\n'
+        batches.append((prompt.strip(), [q["id"] for q in batch_queries]))
+    return batches
+
+
+def run_batched_trial(api_key, model, run_k, out_dir, meta_dir, prompt_hash):
+    """Execute a single trial for one model using query batching.
+
+    Sends N batch prompts (each with QUERY_BATCH_SIZE queries),
+    concatenates results into one output file matching the single-prompt format.
+
+    v2.2.0: Fixes output truncation caused by models self-stopping after 5-15
+    queries when sent all 40 in one prompt. All truncated models showed
+    finish_reason='stop' (not 'length'), confirming voluntary early termination.
+
+    Returns: (short, run_k, word_count, finish_reason, flags, cost)
+    """
+    short = model["short"]
+    model_id = model["id"]
+    max_tokens = model.get("max_tokens", cfg.MAX_TOKENS)
+    extra = model.get("extra_body")
+
+    out_file = Path(out_dir) / f"{short}_run{run_k}.md"
+    meta_file = Path(meta_dir) / f"{short}_run{run_k}.json"
+
+    # ── Resume: skip if output already exists with adequate coverage ──
+    if out_file.exists() and out_file.stat().st_size > 500:
+        existing = out_file.read_text(encoding="utf-8")
+        import re
+        q_markers = re.findall(r'\*\*Q\d{2}', existing)
+        # Only skip if we already have >= 80% of queries answered
+        if len(q_markers) >= len(cfg.QUERIES) * 0.8:
+            wc = len(existing.split())
+            return short, run_k, wc, "skipped_existing", [], 0.0
+
+    batches = build_batch_prompts()
+    all_content = []
+    all_meta = []
+    total_cost = 0.0
+    all_flags = []
+
+    for batch_idx, (batch_prompt, batch_qids) in enumerate(batches):
+        content, meta = call_openrouter(api_key, model_id, batch_prompt, max_tokens, extra)
+
+        # Track per-batch quality
+        wc = len(content.split()) if content else 0
+        if wc == 0:
+            all_flags.append(f"EMPTY_BATCH_{batch_idx+1}")
+        elif wc < 50:
+            all_flags.append(f"SHORT_BATCH_{batch_idx+1}")
+
+        all_content.append(content)
+        all_meta.append(meta)
+
+        # Cost
+        input_toks = meta.get("prompt_tokens", 0)
+        output_toks = meta.get("completion_tokens", 0)
+        if isinstance(input_toks, int) and input_toks > 0:
+            batch_cost = (input_toks / 1e6) * model.get("cost_input_per_m", 0) + \
+                         (output_toks / 1e6) * model.get("cost_output_per_m", 0)
+            total_cost += batch_cost
+
+    # ── Concatenate all batches into one file ──
+    combined = "\n\n---\n\n".join(c for c in all_content if c)
+
+    # ── Check for refusal patterns in combined output ──
+    refusal_signals = ["i can't", "i cannot", "i'm not able", "i am not able",
+                       "as an ai", "i don't have the ability", "against my guidelines"]
+    if combined and any(sig in combined.lower()[:500] for sig in refusal_signals):
+        all_flags.append("POSSIBLE_REFUSAL")
+
+    total_wc = len(combined.split()) if combined else 0
+
+    # ── Build combined metadata ──
+    combined_meta = {
+        "model_requested": model_id,
+        "model_returned": all_meta[0].get("model_returned", "unknown") if all_meta else "unknown",
+        "model_short": short,
+        "model_name": model["name"],
+        "model_group": model["group"],
+        "model_arch": model["arch"],
+        "model_corpus": model["corpus"],
+        "run_number": run_k,
+        "prompt_sha256": prompt_hash,
+        "word_count": total_wc,
+        "content_sha256": hashlib.sha256(combined.encode()).hexdigest() if combined else "",
+        "quality_flags": all_flags,
+        "call_cost_usd": round(total_cost, 6),
+        "batching": {
+            "enabled": True,
+            "batch_size": cfg.QUERY_BATCH_SIZE,
+            "n_batches": len(batches),
+            "per_batch": [
+                {
+                    "batch": i + 1,
+                    "query_ids": batches[i][1],
+                    "words": len(all_content[i].split()) if all_content[i] else 0,
+                    "finish_reason": all_meta[i].get("finish_reason", "unknown"),
+                    "completion_tokens": all_meta[i].get("completion_tokens", -1),
+                }
+                for i in range(len(batches))
+            ],
+        },
+        "start_timestamp": all_meta[0].get("start_timestamp") if all_meta else "",
+        "end_timestamp": all_meta[-1].get("end_timestamp") if all_meta else "",
+        "finish_reason": "stop" if all(m.get("finish_reason") == "stop" for m in all_meta) else "mixed",
+    }
+
+    # Save
+    out_file.write_text(combined, encoding="utf-8")
+    meta_file.write_text(json.dumps(combined_meta, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    return short, run_k, total_wc, combined_meta["finish_reason"], all_flags, total_cost
+
+
 def run_b_experiment(api_key, prompt_text, base_dir, progress_callback=None):
     """
     Execute the full Run B experiment: K trials across all models.
+    v2.2.0: Uses query batching (QUERY_BATCH_SIZE queries per API call)
+    to prevent output truncation in models that self-stop after 5-15 queries.
     Parametric-only models run in parallel batches.
     Search-augmented models run with temporal spacing.
     """
@@ -211,20 +362,29 @@ def run_b_experiment(api_key, prompt_text, base_dir, progress_callback=None):
     parametric = [m for m in cfg.MODELS if m["group"] != "search_augmented"]
     search_aug = [m for m in cfg.MODELS if m["group"] == "search_augmented"]
 
+    n_batches = -(-len(cfg.QUERIES) // cfg.QUERY_BATCH_SIZE)
     results = []
     total_tasks = len(cfg.MODELS) * cfg.K_TRIALS
     completed = 0
     cumulative_cost = 0.0
 
+    if progress_callback:
+        progress_callback("batching_info",
+                          f"Query batching: {len(cfg.QUERIES)} queries in {n_batches} "
+                          f"batches of {cfg.QUERY_BATCH_SIZE} → "
+                          f"{n_batches * cfg.K_TRIALS * len(cfg.MODELS)} API calls total")
+
     # ── Phase 2A: Parametric-only models (all K runs, parallel) ──
     if progress_callback:
         progress_callback("phase2a_start", f"Parametric-only models: {len(parametric)} models × {cfg.K_TRIALS} runs")
 
-    with ThreadPoolExecutor(max_workers=min(8, len(parametric) * cfg.K_TRIALS)) as executor:
+    # Limit concurrency: each trial makes N batch calls sequentially,
+    # so we parallelize across models, not within a model's batches
+    with ThreadPoolExecutor(max_workers=min(6, len(parametric))) as executor:
         futures = {}
         for model in parametric:
             for k in range(1, cfg.K_TRIALS + 1):
-                f = executor.submit(run_single_trial, api_key, model, prompt_text, k, out_dir, meta_dir, prompt_hash)
+                f = executor.submit(run_batched_trial, api_key, model, k, out_dir, meta_dir, prompt_hash)
                 futures[f] = (model["short"], k)
 
         for f in as_completed(futures):
@@ -262,7 +422,7 @@ def run_b_experiment(api_key, prompt_text, base_dir, progress_callback=None):
         with ThreadPoolExecutor(max_workers=len(search_aug)) as executor:
             futures = {}
             for model in search_aug:
-                f = executor.submit(run_single_trial, api_key, model, prompt_text, k, out_dir, meta_dir, prompt_hash)
+                f = executor.submit(run_batched_trial, api_key, model, k, out_dir, meta_dir, prompt_hash)
                 futures[f] = (model["short"], k)
 
             for f in as_completed(futures):

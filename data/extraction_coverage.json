@@ -1,0 +1,162 @@
+{
+  "b01_gpt54": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 40,
+    "max_per_run": 40,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 40,
+      "run2": 40,
+      "run3": 40,
+      "run4": 40,
+      "run5": 40
+    },
+    "missing_queries": []
+  },
+  "b02_gemini31_pro": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 32,
+    "max_per_run": 40,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 40,
+      "run2": 40,
+      "run3": 40,
+      "run4": 32,
+      "run5": 40
+    },
+    "missing_queries": []
+  },
+  "b03_claude_sonnet": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 40,
+    "max_per_run": 40,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 40,
+      "run2": 40,
+      "run3": 40,
+      "run4": 40,
+      "run5": 40
+    },
+    "missing_queries": []
+  },
+  "b04_grok420": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 40,
+    "max_per_run": 40,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 40,
+      "run2": 40,
+      "run3": 40,
+      "run4": 40,
+      "run5": 40
+    },
+    "missing_queries": []
+  },
+  "b05_deepseek_v32": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 40,
+    "max_per_run": 40,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 40,
+      "run2": 40,
+      "run3": 40,
+      "run4": 40,
+      "run5": 40
+    },
+    "missing_queries": []
+  },
+  "b06_qwen35_plus": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 36,
+    "max_per_run": 40,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 40,
+      "run2": 40,
+      "run3": 36,
+      "run4": 40,
+      "run5": 40
+    },
+    "missing_queries": []
+  },
+  "b07_llama4_maverick": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 20,
+    "max_per_run": 35,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 35,
+      "run2": 30,
+      "run3": 22,
+      "run4": 20,
+      "run5": 35
+    },
+    "missing_queries": []
+  },
+  "b08_mistral_large3": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 40,
+    "max_per_run": 40,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 40,
+      "run2": 40,
+      "run3": 40,
+      "run4": 40,
+      "run5": 40
+    },
+    "missing_queries": []
+  },
+  "b09_gemini3_flash": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 40,
+    "max_per_run": 40,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 40,
+      "run2": 40,
+      "run3": 40,
+      "run4": 40,
+      "run5": 40
+    },
+    "missing_queries": []
+  },
+  "b10_glm5": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 40,
+    "max_per_run": 40,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 40,
+      "run2": 40,
+      "run3": 40,
+      "run4": 40,
+      "run5": 40
+    },
+    "missing_queries": []
+  }
+}

@@ -40,3 +40,6 @@ Thumbs.db
 # - README.md
 # - requirements.txt
 # - All .py files
+
+# macOS AppleDouble metadata files (created when files traverse non-HFS filesystems)
+._*
