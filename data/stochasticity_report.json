@@ -1,5 +1,5 @@
 {
-  "b01_gpt54": {
+  "b01_gpt55": {
     "model": "GPT-5.4",
     "group": "search_augmented",
     "total_runs": 5,
@@ -15,7 +15,7 @@
     "identical_proportion": 0.0,
     "effectively_deterministic": false
   },
-  "b03_claude_sonnet": {
+  "b03_claude_opus47": {
     "model": "Claude Sonnet 4.6",
     "group": "parametric_only",
     "total_runs": 5,
@@ -31,7 +31,15 @@
     "identical_proportion": 0.0,
     "effectively_deterministic": false
   },
-  "b05_deepseek_v32": {
+  "b05_grok420_ma": {
+    "model": "Grok 4.20 Multi-Agent",
+    "group": "search_augmented",
+    "total_runs": 5,
+    "unique_outputs": 5,
+    "identical_proportion": 0.0,
+    "effectively_deterministic": false
+  },
+  "b06_deepseek_v4f": {
     "model": "DeepSeek V3.2",
     "group": "non_english_corpus",
     "total_runs": 5,
@@ -39,7 +47,7 @@
     "identical_proportion": 0.0,
     "effectively_deterministic": false
   },
-  "b06_qwen35_plus": {
+  "b07_qwen36_plus": {
     "model": "Qwen 3.5 Plus",
     "group": "non_english_corpus",
     "total_runs": 5,
@@ -47,7 +55,7 @@
     "identical_proportion": 0.0,
     "effectively_deterministic": false
   },
-  "b07_llama4_maverick": {
+  "b08_llama4_maverick": {
     "model": "Llama 4 Maverick",
     "group": "parametric_only",
     "total_runs": 5,
@@ -55,7 +63,7 @@
     "identical_proportion": 0.0,
     "effectively_deterministic": false
   },
-  "b08_mistral_large3": {
+  "b09_mistral_large3": {
     "model": "Mistral Large 3",
     "group": "parametric_only",
     "total_runs": 5,
@@ -63,7 +71,7 @@
     "identical_proportion": 0.0,
     "effectively_deterministic": false
   },
-  "b09_gemini3_flash": {
+  "b10_gemini3_flash": {
     "model": "Gemini 3 Flash",
     "group": "search_augmented",
     "total_runs": 5,
@@ -71,7 +79,7 @@
     "identical_proportion": 0.0,
     "effectively_deterministic": false
   },
-  "b10_glm5": {
+  "b11_glm51": {
     "model": "GLM-5",
     "group": "non_english_corpus",
     "total_runs": 5,
