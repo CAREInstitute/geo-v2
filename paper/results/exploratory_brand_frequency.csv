@@ -1,521 +1,525 @@
 brand_normalized,n_models,n_queries,mean_position
-FreshBooks,10,2,2.1
-Tableau,10,1,1.48
-Salesforce,10,1,1.6433333333333333
-Ping Identity,10,1,3.12
-Google Flights,10,1,1.0666666666666667
-NOW Foods,10,1,3.2399999999999998
-Gusto,10,1,1.9949999999999999
-QuickBooks,10,2,3.0794117647058825
-Hilton Honors,10,1,2.42
-Microsoft Azure,10,1,1.125
-Beaches Resorts,10,1,1.2
-HubSpot,10,3,1.7541666666666667
-Marriott Bonvoy,10,1,1.1266666666666665
-Headspace,9,1,1.7222222222222223
-Doxy.me,9,1,1.1111111111111112
-Klaviyo,9,1,1.0
-Jira,9,1,1.1333333333333333
-Microsoft Power BI,9,1,1.6888888888888889
-Microsoft Entra ID,9,1,2.0
-Skyscanner,9,1,2.2074074074074073
-CrowdStrike Falcon,9,1,1.0
-Wealthfront,9,1,2.2
-Segment,9,1,1.1444444444444446
-Club Med,9,1,2.259259259259259
-RXBAR,8,1,1.8833333333333333
-Calm,8,1,3.2708333333333335
-World of Hyatt,8,1,2.5229166666666667
-Microsoft Defender for Endpoint,8,1,2.625
-ASUS ROG Zephyrus G14,8,1,1.125
-Microsoft Sentinel,8,1,1.43125
-Stumptown Coffee Roasters,8,1,2.408333333333333
-NetSuite,8,1,1.5729166666666665
-Okta,8,1,1.2916666666666667
-Paychex Flex,8,1,3.36875
-Google Cloud Platform,8,1,3.025
-Pure Encapsulations,8,1,2.30625
-Domo,7,1,3.8000000000000003
-Chase Sapphire Reserve,7,1,1.2857142857142858
-Capital One Venture X,7,1,2.292857142857143
-IHG One Rewards,7,1,3.8857142857142857
-Betterment,7,1,1.75
-Fujifilm X-S20,7,1,2.142857142857143
-Kayak,7,1,2.8666666666666667
-Zoom for Healthcare,7,1,2.9119047619047618
-Sage Intacct,7,1,2.3714285714285714
-Xero,7,1,3.2785714285714285
-ADP Workforce Now,7,1,2.2857142857142856
-Wave,7,1,3.4214285714285713
-Momondo,7,1,3.6571428571428575
-Purina Pro Plan,7,1,2.0571428571428574
-Rippling,7,1,2.357142857142857
-Linear,7,1,1.8571428571428572
-Sanvello,7,1,2.811904761904762
-SentinelOne Singularity,6,1,2.3333333333333335
-Zoho,6,1,3.9166666666666665
-Chase Ink Business Preferred,6,1,1.7555555555555555
-Thorne Research,6,1,1.0
-ClickUp,6,1,2.733333333333333
-Lenovo Legion Slim 5,6,1,2.847222222222222
-Counter Culture Coffee,6,1,2.066666666666667
-Qlik Sense,6,1,4.233333333333333
-Pipedrive,6,1,3.233333333333333
-OneLogin,6,1,4.466666666666667
-Bose QuietComfort Ultra,6,1,2.0
-Microsoft Dynamics 365,6,1,3.0
-Merry Maids,6,1,1.9805555555555554
-Mercury,6,1,2.316666666666667
-Brex Card,6,1,2.9805555555555556
-Looker,6,1,3.375
-Asana,6,1,3.65
-Woebot,5,1,2.13
-Singapore Airlines,5,1,1.6800000000000002
-Thumbtack,5,1,1.92
-Vanguard Digital Advisor,5,1,3.88
-Athenahealth,5,1,1.0
-Teladoc Health,5,1,2.52
-AWS,5,1,1.9333333333333331
-Onyx Coffee Lab,5,1,2.68
-Stripe Invoicing,5,1,2.816666666666667
-Native Deodorant,5,1,1.5066666666666666
-Native,5,1,2.1599999999999997
-Apple AirPods Max,5,1,4.0
-Novo,5,1,2.3600000000000003
-Sony WH-1000XM6,5,1,1.0
-Canon EOS R10,5,1,2.16
-Royal Canin,5,1,1.92
-Amwell,5,1,3.35
-British Airways,5,1,3.703333333333333
-Bluevine,5,1,1.3199999999999998
-Hopper,5,1,4.333333333333334
-Seventh Generation,5,1,1.8
-IBM Cloud,5,1,4.5200000000000005
-Braze,5,1,2.6133333333333333
-Intelligentsia Coffee,5,1,2.216666666666667
-Schwab Intelligent Portfolios Premium,4,1,3.475
-Rapid7 InsightIDR,4,1,3.45
-Royal Canin Medium Adult,4,1,1.25
-Thorne,4,1,1.0
-Delta Air Lines,4,1,3.05
-Delta One,4,1,4.0
-Samsung SmartThings Station,4,1,2.4
-Dropps,4,1,2.2041666666666666
-Intelligentsia,4,1,1.875
-Mailchimp,4,1,3.6166666666666667
-Molly Maid,4,1,2.3541666666666665
-SentinelOne,4,1,2.35
-Fitbit Charge 6,4,1,3.3
-Qatar Airways,4,1,1.35
-ActiveCampaign,4,1,2.9833333333333334
-Angi,4,3,4.208333333333334
-Air France,4,1,1.8
-Palo Alto Networks Cortex XDR,4,1,4.133333333333333
-Epic,4,1,1.4375
-Virgin Atlantic,4,1,2.9375
-Blue Bottle Coffee,4,1,3.0625
-Whoop 4.0,4,1,2.8666666666666667
-Amazon Echo,4,1,2.0875
-Roborock S8 MaxV Ultra,4,1,1.0
-Omnisend,4,1,3.583333333333333
-OM System OM-5,3,1,4.416666666666667
-Garmin Venu 3,3,1,2.755555555555555
-Canon EOS R50,3,1,2.733333333333333
-Momentous,3,1,3.8333333333333335
-American Express Platinum,3,1,2.111111111111111
-Capital One Spark Cash Plus,3,1,2.4833333333333334
-LogRhythm,3,1,3.111111111111111
-Quest Nutrition,3,1,2.1666666666666665
-Splunk Cloud,3,1,2.75
-Splunk Enterprise Security,3,1,2.1999999999999997
-Fidelity Go,3,1,4.666666666666667
-ASE Certification,3,1,1.0
-Eukanuba Adult Medium Breed,3,1,3.4444444444444446
-Apple HomePod,3,1,2.4499999999999997
-Betterment Premium,3,1,1.8
-Salesforce Marketing Cloud,3,1,3.0666666666666664
-Practice Fusion,3,1,2.8888888888888893
-JumpCloud,3,1,4.666666666666667
-Schwab Intelligent Portfolios,3,1,3.0833333333333335
-Amazon Echo Hub,3,1,2.7777777777777772
-Anker Soundcore Space Q45,3,1,4.222222222222222
-Sennheiser Momentum 4 Wireless,3,1,3.0
-Hyatt Ziva,3,1,3.244444444444445
-Accor Live Limitless,3,1,5.083333333333333
-Paylocity,3,1,3.5833333333333335
-Samsung SmartThings Hub,3,1,2.3333333333333335
-Shark AI Ultra,3,1,2.3333333333333335
-Lufthansa,3,1,3.1333333333333333
-HoneyBook,3,1,2.466666666666667
-Adobe Real-Time CDP,3,1,3.5499999999999994
-Home Assistant,3,1,2.6666666666666665
+Hilton Honors,11,1,2.5575757575757576
+HubSpot,11,3,1.4115384615384616
+Pipedrive,11,1,3.3454545454545452
+Microsoft Azure,11,1,1.1878787878787878
+Doxy.me,11,1,1.018181818181818
+QuickBooks,11,2,2.4092592592592594
+Tableau,11,1,1.6242424242424243
+Marriott Bonvoy,11,1,1.2
+Headspace,11,1,2.262121212121212
+Klaviyo,11,1,1.0
+Segment,11,1,1.2727272727272727
+Salesforce,11,2,1.7555555555555555
+Linear,10,1,1.8133333333333332
+Microsoft Power BI,10,1,1.4866666666666668
+Google Flights,10,1,1.0
+FreshBooks,10,2,1.9291666666666665
+CrowdStrike Falcon,10,1,1.0
+Calm,10,1,3.075
+Microsoft Entra ID,10,1,2.1
+Microsoft Defender for Endpoint,10,1,2.85
+Beaches Resorts,10,1,1.04
+NetSuite,10,1,1.6800000000000002
+Ping Identity,10,1,3.025
+Rippling,10,1,1.9216666666666669
+SentinelOne Singularity,9,1,2.1666666666666665
+Betterment,9,1,1.7037037037037035
+Bluevine,9,1,1.9351851851851853
+Club Med,9,1,2.066666666666667
+World of Hyatt,9,1,2.240740740740741
+Wealthfront,9,1,1.7111111111111112
+Wave,9,1,3.4722222222222223
+Skyscanner,9,1,2.2666666666666666
+NOW Foods,9,1,3.3740740740740742
+Sage Intacct,9,1,1.862962962962963
+RXBAR,9,1,1.8499999999999999
+Gusto,9,1,1.674074074074074
+Stumptown Coffee Roasters,8,1,2.377083333333333
+Google Cloud Platform,8,1,3.05
+Momondo,8,1,3.783333333333333
+Mercury,8,1,2.25
+Merry Maids,8,1,1.9854166666666666
+IHG One Rewards,8,1,4.0
+Pure Encapsulations,8,1,2.2354166666666666
+ClickUp,8,1,3.5416666666666665
+Chase Sapphire Reserve,8,1,1.2
+Capital One Venture X,8,1,2.20625
+Xero,8,1,3.3625
+Asana,8,1,3.604166666666667
+Microsoft Sentinel,8,1,1.40625
+Counter Culture Coffee,8,1,1.5729166666666667
+Zoom for Healthcare,8,1,2.675
+ASUS ROG Zephyrus G14,8,1,1.4
+Brex Card,7,1,3.0285714285714285
+Vanguard Digital Advisor,7,1,3.0309523809523813
+Novo,7,1,2.7785714285714285
+Amazon Web Services,7,1,1.7333333333333332
+Woebot,7,1,1.638095238095238
+IBM Cloud,7,1,4.226190476190476
+Okta,7,1,1.0
+Domo,7,1,3.7809523809523813
+Roborock S8 MaxV Ultra,7,1,1.0
+Thorne,7,1,1.0
+Jira,7,1,1.0357142857142858
+Seventh Generation,6,1,1.7583333333333335
+Chase Ink Business Preferred,6,1,2.1
+Samsung SmartThings Station,6,1,3.1222222222222222
+Sanvello,6,1,3.0555555555555554
+Home Assistant,6,1,2.477777777777778
+Kayak,6,1,2.863888888888889
+Sennheiser Momentum 4 Wireless,6,1,3.4333333333333336
+British Airways,6,1,4.3
+Iterable,6,1,3.236111111111111
+Molly Maid,6,1,1.7333333333333334
+Bose QuietComfort Ultra,6,1,1.9666666666666668
+Qlik Sense,6,1,4.347222222222222
+Apple AirPods Max,6,1,4.058333333333334
+Paychex Flex,6,1,3.8833333333333333
+Purina Pro Plan,6,1,1.7833333333333332
+Athenahealth,6,1,1.388888888888889
+Zoho,6,1,4.277777777777778
+ADP Workforce Now,6,1,2.591666666666667
+Microsoft Dynamics 365,5,1,3.56
+Elastic Security,5,1,3.16
+Thumbtack,5,1,2.6
+Onyx Coffee Lab,5,1,2.9899999999999998
+Life Extension,5,1,4.816666666666666
+Royal Canin Medium Adult,5,1,1.35
+Royal Canin,5,1,2.18
+Fujifilm X-S20,5,1,1.85
+SimplePractice,5,1,2.3833333333333333
+Sony WH-1000XM6,5,1,1.04
+Blue Bottle Coffee,5,1,3.02
+Intelligentsia Coffee,5,1,2.7199999999999998
+Amazon Echo Hub,5,1,3.02
+Momentous,5,1,3.6
+Delta Air Lines,5,1,2.433333333333333
+Air France,5,1,2.0300000000000002
+Whoop 4.0,5,1,2.88
+DrChrono,5,1,3.0233333333333334
+ActiveCampaign,5,2,3.4583333333333335
+Bright Horizons,5,1,2.16
+Virgin Atlantic,5,1,2.96
+Braze,5,1,2.04
+Intelligentsia,5,1,2.16
+Schwab Intelligent Portfolios Premium,4,1,3.5833333333333335
+Splunk Enterprise Security,4,1,2.5833333333333335
+Fidelity Go,4,1,4.375
+Apple HomePod,4,1,2.4791666666666665
+The Platinum Card from American Express,4,1,2.1625
+Firestone Complete Auto Care,4,1,3.125
+Stripe Invoicing,4,1,3.3125
+Angi,4,2,3.5416666666666665
+Fitbit Charge 6,4,1,4.304166666666667
+Garmin Venu 3,4,1,2.575
+Dropps,4,1,1.6625
+Paylocity,4,1,3.5
+HoneyBook,4,1,3.225
+Hyatt Ziva,4,1,3.3625
+Elation Health,4,1,2.1625
+Schwab Intelligent Portfolios,4,1,3.3333333333333335
+Capital One Spark Cash Plus,4,1,2.5
+Native,4,1,1.775
+Jira Software,4,1,1.4666666666666668
+OneLogin,4,1,4.2
+Rapid7 InsightIDR,4,1,2.475
+American Express Business Platinum,4,1,1.7375
+ADP Run,4,1,2.6
+Accor Live Limitless,4,1,5.0
+Wysa,4,1,2.9
+Lili,4,1,3.833333333333333
+Klean Athlete,4,1,3.716666666666667
+Palo Alto Networks Cortex XDR,4,1,4.0625
+Oracle Cloud Infrastructure,3,1,5.288888888888889
+Native Deodorant,3,1,1.5333333333333332
+Expedia,3,1,5.444444444444444
+Eukanuba Adult Medium Breed,3,1,3.4166666666666665
+Omnisend,3,1,2.1999999999999997
+Okta Workforce Identity,3,1,1.0
+OM System OM-5,3,1,4.666666666666667
+Sony WH-1000XM5,3,1,1.0
+Oura Ring Gen 3,3,1,3.4166666666666665
+Nordic Naturals,3,1,4.555555555555556
+NextGen Healthcare,3,1,2.6333333333333333
+Google Nest Hub Max,3,1,3.3166666666666664
+Going,3,1,3.7999999999999994
+Singapore Airlines,3,1,2.4499999999999997
+Qatar Airways,3,1,1.7222222222222223
+MindShift CBT,3,1,3.0444444444444443
+Handy,3,1,3.0
+Amazon Echo,3,1,2.8333333333333335
 Hill's Science Diet,3,1,1.3333333333333333
-Amazon Web Services,3,1,1.6666666666666667
-Garden of Life,3,1,2.8666666666666667
-Licensing and Insurance,3,2,1.3333333333333333
-Lili,3,1,3.5
+Relay,3,1,2.8666666666666667
+Amwell,3,1,3.75
+Looker,3,1,3.466666666666667
+Eufy X10 Pro Omni,3,1,2.8833333333333333
+Lenovo Legion Slim 5,3,1,2.733333333333333
+IQBAR,3,1,2.6444444444444444
+JumpCloud,3,1,4.333333333333333
+AWS,3,1,2.0
+Mend,3,1,3.1999999999999997
+The Cleaning Authority,3,1,1.8611111111111114
+Canon EOS R50,3,1,2.5555555555555554
+Blumira,3,1,1.9333333333333333
+Thorne Research,3,1,1.0
+Apple Watch Series 10,3,1,1.0
+TaskRabbit,3,1,2.6222222222222222
 Tide Purclean,3,1,1.8333333333333333
-Tru Earth Eco-Strips,3,1,2.022222222222222
-NextGen Healthcare,3,1,2.266666666666667
-TaskRabbit,3,1,2.3333333333333335
-Dirty Labs,3,1,1.2222222222222223
-Life Extension,3,1,3.9166666666666665
-Tealium,3,1,2.0
-American Express Business Gold,3,1,1.888888888888889
-Dell XPS 15,3,1,2.8333333333333335
-Okta Workforce Identity,2,1,1.0
-Hubitat Elevation,2,1,3.3
-VMware Cloud,2,1,4.1
-Nikon Z50,2,1,4.333333333333333
-Vanguard Personal Advisor,2,1,2.5
+Tealium,3,1,2.4
+Capital One Venture X Business,3,1,2.6666666666666665
+Square Invoices,2,1,4.916666666666666
+Blueland Laundry Tablets,2,1,2.9
+Kareo,2,1,2.2
+ASE Certification,2,1,1.0
+Justworks,2,1,5.0
+Christian Brothers Automotive,2,1,4.333333333333333
+Treasure Data,2,1,3.9333333333333336
+ThoughtSpot,2,1,3.7
 Nikon Z5,2,1,3.5
-AdvancedMD,2,1,1.7
-Apple Watch Series 10,2,1,1.0
-Wysa,2,1,2.775
-Shortcut,2,1,4.375
-SimplePractice,2,1,2.625
-No Cow,2,1,3.75
-American Express Business Gold Card,2,1,1.5
-Bloomreach Engagement,2,2,3.8
+KinderCare,2,1,2.833333333333333
+SentinelOne,2,1,2.0
+The Maids,2,1,3.0
+The Goddard School,2,1,2.8333333333333335
 Hyatt World of Hyatt,2,1,2.5
-MacBook Air,2,1,1.5
-Bluevine Business Checking,2,1,2.0
-Blumira,2,1,1.2
-Iterable,2,1,3.4
-Roborock S8 Pro Ultra,2,1,1.0
+Hume Supernatural,2,1,2.0
+Hubitat Elevation,2,1,3.5
+Teladoc Health,2,1,2.8
+Apple MacBook Air M4,2,1,1.5
+Aloha,2,1,2.166666666666667
+Kiwi.com,2,1,3.75
+British Airways Club Suite,2,1,3.6
+American Express Platinum,2,1,2.0
+American Express Business Gold Card,2,1,1.6666666666666667
+Canon EOS R10,2,1,2.5
+Mailchimp,2,1,4.5
+MaidPro,2,1,1.5
+Ramp Card,2,1,4.633333333333333
 Ramp,2,1,5.666666666666666
-Nordic Naturals,2,1,3.833333333333333
-IQBAR,2,1,1.9666666666666668
-Acer Swift X 14,2,1,3.6333333333333333
-Sennheiser Momentum 4,2,1,3.0
-IBM QRadar,2,1,2.4
-Transparent Pricing,2,1,3.5
-Oura Ring Gen 4,2,1,2.8
-Apple HomePod Mini,2,1,3.875
-Handy,2,1,2.5
-Vanguard Personal Advisor Services,2,1,2.0
-Salesforce Data Cloud,2,1,2.0
-Licensing and Accreditation,2,1,1.125
-Found,2,1,4.2
-Ecover,2,1,2.0
-Elastic SIEM,2,1,2.9
-RudderStack,2,1,3.6
+VMware Cloud Foundation,2,1,5.083333333333334
+Lume,2,1,1.3333333333333335
+Lufthansa,2,1,2.7916666666666665
+Capital One Spark Miles for Business,2,1,2.5
+Hopper,2,1,4.9
+Updox,2,1,3.633333333333333
+LogRhythm,2,1,3.166666666666667
 Carbon Black,2,1,3.5
-Square Invoices,2,1,6.5
-Lume Whole Body Deodorant,2,1,2.166666666666667
-Care.com,2,1,3.8
-United Airlines,2,1,5.0
-Staff-to-Child Ratio,2,1,1.3
-Teacher-to-Child Ratio,2,1,1.4
-Emirates,2,1,2.275
-MaidPro,2,1,1.1666666666666665
-Barebells,2,1,2.291666666666667
-Eufy X10 Pro Omni,2,1,2.375
-Aloha,2,1,1.6333333333333333
-Capital One Venture X Business,2,1,3.125
-Apple Watch Ultra 2,2,1,3.7
-ADP Run,2,1,2.5
-ActionIQ,2,1,4.0
-AWS Outposts,2,1,2.0
-Design Process,2,1,2.75
-Nextdoor,2,1,2.3333333333333335
-Salesforce CDP,2,1,3.0
-Google Looker Studio,2,1,3.0
-Sony WH-1000XM5,2,1,1.0
-Relay,2,1,2.7
-DrChrono,2,1,2.5
-Dreame L20 Ultra,2,1,2.2
-Monday.com,2,1,4.333333333333333
-The Cleaning Authority,2,1,2.4
-LogRhythm Axon,2,1,3.4
-Duo Security,2,1,4.0
-RepairPal Certified Shops,1,1,2.0
-RepairPal,1,1,1.6666666666666667
-Relay Business Checking,1,1,2.0
-Relay Financial,1,1,1.0
-Primrose Schools,1,1,1.6
-Ramp Business Card,1,1,4.5
-Portfolio and References,1,1,1.0
-PayPal Invoicing,1,1,4.0
-Payment Schedule,1,1,7.25
-Peet's Coffee,1,1,4.333333333333333
+Care.com,2,1,3.466666666666667
+Cerner,2,1,2.0
+Licensing and Accreditation,2,1,2.0
+ActionIQ,2,1,3.0
+Epic,2,1,1.2
+Salesforce Marketing Cloud,2,1,2.833333333333333
+Samsung SmartThings Hub,2,1,1.5
+Shark AI Ultra 2-in-1,2,1,3.333333333333333
+The Grounds Guys,2,1,3.5
+Nikon Z50 II,2,1,3.833333333333333
+Google Looker Studio,2,1,3.1
+Ecovacs Deebot X2 Omni,2,1,2.0
+Bloomreach Engagement,2,2,4.633333333333333
+Sumo Logic Cloud SIEM,2,1,5.333333333333334
+Betterment Premium,2,1,3.05
+Google Cloud,2,1,3.0
+Apple Watch Series 9,2,1,2.375
+Splunk Cloud,2,1,3.0
+Barebells,2,1,3.2666666666666666
+Oura Ring Gen 4,2,1,2.875
+Home Assistant Green,2,1,1.0
+Stumptown,2,1,3.375
+Adobe Real-Time CDP,2,1,4.666666666666666
+Sony a6700,2,1,1.1
+Dreame L20 Ultra,2,1,2.666666666666667
+Dreame X40 Ultra,2,1,2.0
+Practice Fusion,2,1,2.166666666666667
+Stripe,2,1,3.666666666666667
+Staff-to,2,1,1.5
+Anker Soundcore Space Q45,2,1,3.5
+Tealium AudienceStream,2,1,4.125
+Dell XPS 14,2,1,3.3
+Primrose Schools,2,1,2.7916666666666665
+Dell XPS 15,2,1,1.8333333333333333
+Hightouch,2,1,3.525
+Anker Soundcore Space One Pro,2,1,3.575
+Delta One,2,1,3.625
+Eufy Clean X10 Pro Omni,2,1,2.2
+Emirates,2,1,1.4
+Teacher-to-Child Ratio,2,1,1.3
+Blueland,2,1,3.25
+Whoop 5.0,2,1,2.8
+Permits and Code Compliance,1,1,6.0
+Vanguard PAS,1,1,7.666666666666667
+VMware Cloud,1,1,3.5
+AdvancedMD,1,1,2.0
+Personal Capital,1,1,5.0
+VMware Cloud on AWS,1,1,4.0
+RXBAR Protein Bars,1,1,4.6
 Perfect Bar Original,1,1,2.0
-Permit Pulling Responsibility,1,1,3.0
-Permits and Code Compliance,1,1,5.25
-Personal Capital,1,1,9.0
-Aloha Organic Protein Bars,1,1,3.0
-Plant Selection and Climate Suitability,1,1,3.6666666666666665
-Polar,1,1,2.0
-Polar Pacer Pro,1,1,2.8
-Portfolio and Experience,1,1,1.0
-Power BI,1,1,2.0
-RXBar,1,1,1.0
-Pricing and Contracts,1,1,4.5
-Primally Pure,1,1,1.0
-Proper licensing and insurance,1,1,1.0
-Air France Business,1,1,4.0
-Purina Pro Plan Adult,1,1,1.0
-Purina Pro Plan Savor,1,1,2.0
-Qatar Airways Qsuite,1,1,1.0
+YourMechanic,1,1,3.5
+Peet's Major Dickason's Reserve,1,1,5.666666666666667
+Peet's Coffee,1,1,4.0
+Zoho Invoice,1,1,5.75
+Permit and code knowledge,1,1,3.0
+Vanguard Personal Advisor,1,1,2.5
 QlikView,1,1,3.0
-Quest Bar,1,1,2.0
-Quest Nutrition Bars,1,1,2.3333333333333335
-Quest Protein Bars,1,1,4.4
-RXBAR Protein Bars,1,1,1.2
-Reviews and References,1,1,3.6666666666666665
-BlueVine,1,1,1.5
-Reviews and Reputation,1,1,2.6666666666666665
-ASE-certified independent shops,1,1,1.0
-Tru Earth,1,1,4.666666666666667
-Trello,1,1,3.0
-Treasure Data CDP,1,1,3.0
-Treasure Data,1,1,2.6666666666666665
-Tilly,1,1,3.0
-Tide purclean,1,1,3.25
-Thread border router,1,1,10.0
-TherapyNotes,1,1,4.0
-Reviews/References,1,1,1.0
-The Platinum Card from American Express,1,1,1.0
-The Goddard School,1,1,1.8
-ASUS ZenBook 14 OLED,1,1,3.0
-Sumo Logic Cloud SIEM,1,1,2.25
-Sumo Logic,1,1,2.0
-Stumptown,1,1,2.75
-Stripe Billing,1,2,2.166666666666667
-U.S. Bank Altitude Reserve,1,1,5.0
-Updox,1,1,5.0
-Ursa Major,1,1,4.666666666666667
-VMware Carbon Black,1,1,4.75
-AAA Approved Auto Repair shops,1,1,2.3333333333333335
-YourMechanic,1,1,10.666666666666666
-Yelp,1,1,10.25
-Yardzen,1,1,2.0
-ADP,1,1,1.3333333333333333
-Wyndham Rewards,1,1,5.5
-Whoop Strap 4.0,1,1,1.2
-Whoop 5.0,1,1,1.6
+Verve Coffee Roasters,1,1,5.4
+Warranty on Workmanship,1,1,3.25
+Promix,1,1,2.6666666666666665
+Primally Pure,1,1,1.3333333333333333
+Proper licensing and insurance,1,1,1.0
+Primal Kitchen,1,1,3.25
+ASE,1,1,1.5
 Wave Invoicing,1,1,3.0
-ASE-Certified Shops,1,1,1.0
-Warranty on Workmanship,1,1,3.6
-Warranty and Guarantees,1,1,5.0
-WHOOP 4.0,1,1,2.0
-Valid Licensing and Insurance Verification,1,1,1.0
-VMware Cloud on AWS,1,1,4.2
-Stripe,1,1,3.4
-Staff Turnover and Qualifications,1,1,3.0
-Staff Longevity and Turnover,1,1,2.0
+Purina Pro Plan Adult,1,1,3.0
+Purina Pro Plan Adult Complete Essentials,1,1,1.0
+Wyndham Rewards,1,1,6.0
+Power BI,1,1,2.0
+Acer Swift X 14,1,1,3.0
+WHOOP 4.0,1,1,4.75
+Qatar Airways Qsuite,1,1,1.0
+Virgin Atlantic Upper Class,1,1,3.6
+Polar Pacer Pro,1,1,4.0
+Quest Bar,1,1,2.0
+Quest Nutrition,1,1,2.0
+Yardzen,1,1,1.6666666666666667
+Quest Protein Bars,1,1,5.2
+Yelp,1,1,8.333333333333334
+Razer Blade 14,1,1,3.3333333333333335
+Salesforce Data Cloud,1,1,1.8
+Relay Business Banking,1,1,3.5
+Relay Financial,1,1,2.6666666666666665
+Sennheiser Momentum 4,1,1,3.0
+Shark AI Ultra,1,1,3.25
+Tebra,1,1,2.0
+Shark IQ Robot,1,1,1.0
+Shark Matrix Plus 2-in-1,1,1,4.25
 Shark Matrix RV2600,1,1,3.0
-Parent Communication,1,1,5.0
-Seventh Generation Concentrated Laundry Detergent,1,1,2.25
-Sennheiser PXC 550 II,1,1,3.0
-Securonix,1,1,5.333333333333333
-Scott's Cheap Flights,1,1,3.4
-Schmidt's Natural Deodorant,1,1,2.0
-Schmidt's Charcoal,1,1,5.0
-Schmidt's,1,1,3.5
-SailPoint,1,1,3.75
-Adobe Experience Platform,1,1,3.3333333333333335
-Safety and Cleanliness,1,1,4.0
-Royalton Resorts,1,1,4.0
-Royalton Luxury Resorts,1,1,3.3333333333333335
-Ritual,1,1,5.0
-Adobe Marketo Engage,1,1,3.0
-Shark Matrix Plus 2-in-1,1,1,3.3333333333333335
-SimplePractice Telehealth,1,1,1.3333333333333333
-Spruce Health,1,1,3.6
-Sisense,1,1,5.0
-Splunk,1,1,1.0
-Specific Renovation Experience and References,1,1,2.0
-Specific Renovation Experience,1,1,2.0
-Specialization in Your Vehicle Make,1,1,3.0
-Specialization in Kitchens,1,1,2.0
-Sophos Intercept X with XDR,1,1,5.0
-Sophos Intercept X,1,1,5.0
-Sony a6700,1,1,1.4
-Sony a6400,1,1,1.0
-Sony ZV-E10 II,1,1,1.0
-Sony Alpha a6700,1,1,1.0
-Sony A7C II,1,1,1.0
-Sony A6700,1,1,2.0
-Snowflake,1,1,2.0
+SilverCloud,1,1,1.6666666666666667
+SimplePractice Telehealth,1,1,2.2
+ASE-certified independent shops,1,1,1.3333333333333333
 Skiplagged,1,1,3.0
-Shark IQ Robot XL,1,1,3.25
-MoodTools,1,1,5.0
-Palo Alto Networks Prisma Access,1,1,4.0
-Dell XPS 14,1,1,4.0
-Freshsales,1,1,5.0
-Franklyn D. Resort,1,1,3.3333333333333335
-Framework Laptop 13,1,1,4.0
-Fitbit Sense 2,1,1,3.25
-Fitbit Charge 5,1,1,3.0
-Excellence Resorts,1,1,3.0
-Excellence Playa Mujeres,1,1,3.0
-Eukanuba,1,1,4.0
-Eufy X8 Hybrid,1,1,2.0
-Eufy Clean X10 Pro Omni,1,1,2.0
-Epic Systems,1,1,1.75
-Epic Provisions,1,1,3.25
-Emarsys,1,1,5.0
-Elation Health,1,1,2.0
-Elastic Security,1,1,3.0
-Ecovacs Deebot X2 Omni,1,1,2.0
-ECOS Laundry Detergent,1,1,2.6666666666666665
+ASUS,1,1,1.6666666666666667
+Sumo Logic,1,1,4.75
+Snowflake,1,1,2.0
+Sonos Ace,1,1,4.5
+Sony,1,2,1.1666666666666665
+ASE-certified mechanics,1,1,1.0
+Sony A6700,1,1,2.0
+Sony A7C II,1,1,1.0
+Sony Alpha a6400,1,1,1.0
+Sony WH-CH720N,1,1,1.0
+Sophos Intercept X,1,1,5.0
+Sophos Intercept X with XDR,1,1,5.0
+Specialization in Kitchens,1,1,2.0
+Specialization in Your Vehicle Make,1,1,3.0
+Strong local references and recent reviews,1,1,4.0
+Splunk Cloud Platform,1,1,6.333333333333333
+Stripe Billing,1,1,3.0
+Staff Longevity and Turnover,1,1,2.2
+Spruce Health,1,1,2.4
+Sennheiser,1,1,2.6666666666666665
+ASUS TUF Gaming A14,1,1,4.333333333333333
+Tide purclean,1,1,3.5
+Sailthru,1,1,2.0
+Renovation-specific experience,1,1,1.3333333333333333
+RepairPal Certified Shops,1,1,2.0
+RepairPal Certified shops,1,1,3.3333333333333335
+Reviews and References,1,1,6.2
+Reviews and Reputation,1,1,2.0
+Reviews and referrals,1,1,2.4
+VMware Carbon Black,1,1,4.8
+Ritual,1,1,5.25
+Roborock,1,1,1.0
+Roborock S8 Pro Ultra,1,1,1.0
+Safety and Cleanliness,1,1,3.0
+AWS Outposts,1,1,2.0
+Unwinding Anxiety,1,1,2.3333333333333335
+Salesforce CDP,1,1,2.75
+Toyota dealership service centers,1,1,4.666666666666667
+United Club Infinite Card,1,1,4.0
+Salesforce Marketing Cloud Engagement,1,1,4.0
+Samsung SmartThings,1,1,1.0
+United Airlines,1,1,5.666666666666667
+Sandals Royal Bahamian,1,1,3.8
+U.S. Bank Altitude Reserve,1,1,5.0
+Tru Earth Eco-Strips,1,1,2.0
+Schmidt's,1,1,2.25
+Schmidt's Charcoal,1,1,2.75
+Schmidt's Natural Deodorant,1,1,2.0
+Tru Earth,1,1,4.0
+Trello,1,1,3.0
+Transparent Pricing,1,1,3.8
+Shortcut,1,1,3.0
+Apple Watch Ultra 3,1,1,3.75
+PayPal Business,1,1,4.333333333333333
+Delta One Suites,1,1,2.25
+Dropps Pods,1,1,3.0
 Dreams Resorts,1,1,2.0
-AthenaTelehealth,1,1,2.75
-Arctic Wolf,1,1,4.0
-Fujifilm X-T30 II,1,1,2.8
-Fujifilm X-T5,1,1,2.0
-Apple Watch Series 9,1,1,1.8
-Hard Rock Riviera Maya,1,1,3.0
-HP Omen Transcend 14,1,1,2.75
-Apple Watch Series 8,1,1,2.0
-Grand Palladium,1,1,3.0
-Google Reviews,1,1,9.25
-Google Pixel Watch 3,1,1,1.0
-Google Nest Hub Max,1,1,3.4
-Google Nest Hub,1,1,2.5
-Google Cloud Identity,1,1,5.0
-Garmin,1,1,1.0
-Google Cloud Anthos,1,1,3.0
-Google Anthos,1,1,3.0
-Going,1,1,5.75
-GoMacro MacroBar,1,1,3.6666666666666665
-GitLab,1,1,3.0
+Apple HomeKit,1,1,2.0
+Dirty Labs Bio Enzyme Laundry Detergent,1,1,1.0
+Dirty Labs,1,1,1.0
+Detailed written estimate,1,1,3.3333333333333335
+Design Process,1,1,2.2
+Demandbase,1,1,2.0
+Dell Inspiron 16 Plus,1,1,3.6666666666666665
+ECOS,1,1,2.2
+Dealership service departments,1,1,4.0
+Daylio or MoodKit,1,1,4.0
+David Protein Bars,1,1,1.0
+Davey Tree Expert Company,1,1,1.2
+Datadog Security,1,1,1.75
+Datadog Cloud SIEM,1,1,3.6666666666666665
+Curriculum and Play-Based Learning,1,1,4.0
+CrowdStrike Falcon Next-Gen SIEM,1,1,3.2
+Duo Security,1,1,4.0
+Ecovacs,1,1,2.3333333333333335
+GoMacro MacroBar,1,1,3.4
+Fujifilm X-T30 II,1,1,2.75
+GitHub Projects,1,1,3.8
 Garmin Forerunner 965,1,1,1.0
 Garmin Forerunner 955,1,1,1.0
-Garmin Forerunner 265,1,1,1.2
-Demandbase,1,1,1.3333333333333333
-Dealership Service Centers,1,1,2.0
-Pacifica,1,1,3.25
-David Protein Bars,1,1,1.6666666666666667
-Chime Business,1,1,2.0
-Axos Bank Basic Business Checking,1,1,5.0
-Chase Sapphire Preferred,1,1,1.0
-Chase Ink Business Unlimited Credit Card,1,1,1.0
-Chase Business Complete Banking,1,1,3.6666666666666665
-Charles Schwab Intelligent Portfolios,1,1,4.0
-Certain Dri Everyday Strength Clinical,1,1,1.0
-Cerner,1,1,2.0
-Basecamp,1,1,4.0
-Capital One Spark Miles for Business,1,1,2.2
-Capital One Spark Cash for Business,1,1,3.0
-Canon EOS R8,1,1,3.0
-British Airways Club Suite,1,1,3.0
-Brightwheel,1,1,10.4
-Bright Horizons,1,1,3.3333333333333335
-Brex Corporate Card,1,1,3.0
-Brex,1,1,6.666666666666667
-Bose QuietComfort Ultra Headphones,1,1,2.0
-Blueland Laundry Tablets,1,1,1.6
-Christian Brothers Automotive,1,1,3.6
-Cisco Duo,1,1,4.0
-Cisco Secure Endpoint,1,1,4.0
-Counter Culture,1,1,2.5
-Datadog Cloud SIEM,1,1,4.25
-Curriculum and Play-Based Learning,1,1,3.5
-Curriculum and Daily Structure,1,1,5.0
-Curriculum and Daily Rhythm,1,1,4.0
-Crystal Body Deodorant,1,1,2.75
-Atlantis Paradise Island,1,1,3.0
-CrowdStrike,1,1,1.0
-Atlas Bar,1,1,2.0
-Cost Breakdown,1,1,2.0
-Citi Premier,1,1,4.0
-Corpus,1,1,2.5
-Communication and Timeline,1,1,6.666666666666667
-Communication Practices,1,1,5.8
-Club Med Punta Cana,1,1,2.0
-Atlas Protein Bar,1,1,1.0
-Attentive,1,1,3.0
-Citi Strata Premier,1,1,4.0
-Citi Premier Card,1,1,3.75
-Apple Watch Series 11,1,1,1.0
-Health and Safety Policies,1,1,3.6666666666666665
-HiMama,1,1,11.4
-Hightouch,1,1,4.0
-NAPA AutoCare Centers,1,1,3.6666666666666665
-NAFCC,1,1,7.75
-NAEYC Accreditation,1,1,1.6
-NAEYC,1,1,7.6
-Moon Palace,1,1,4.0
-BlueVine Business Checking,1,1,1.25
-Molly's Suds,1,1,2.8
-MindShift CBT,1,1,1.25
-Amex Business Gold,1,1,7.0
-Amex Business Platinum,1,1,1.6666666666666667
-Amex Platinum,1,1,3.0
-Microsoft Defender XDR,1,1,2.6
-Microsoft Azure Active Directory,1,1,2.0
-Anker Soundcore Space One Pro,1,1,3.0
-Method,1,1,3.0
-Apple,1,1,3.0
-Mend,1,1,3.0
-Membership in professional associations,1,1,3.6666666666666665
-Megababe,1,1,2.8
-NOCD,1,1,5.0
-American Express Business Platinum,1,1,2.0
-Narwal Freo X Ultra,1,1,3.8
-Oatmega,1,1,4.666666666666667
-PEO services,1,1,10.666666666666666
-Oura Ring Gen 3,1,1,1.0
-Oura Ring 4,1,1,2.5
-Orijen Original,1,1,2.8
-Oracle Fusion Cloud ERP,1,1,5.0
-Oracle Cloud Infrastructure,1,1,4.4
-Optimum Nutrition,1,1,4.666666666666667
-Okta Workforce Identity Cloud,1,1,1.0
-ONE Brand,1,1,2.6666666666666665
-National chains like Firestone or Meineke,1,1,3.0
-OM System OM-1,1,1,4.0
-Nutrition and Allergies,1,1,7.0
-Notion,1,1,3.2
-No Cow Bars,1,1,4.666666666666667
-Nikon Z50 II,1,1,4.0
-Nickelodeon Hotels,1,1,5.333333333333333
-NetSuite ERP,1,1,1.0
-Necessaire The Deodorant,1,1,3.0
-Matter support,1,1,10.333333333333334
-Materials and Sustainability,1,1,3.5
-Maintenance Plans,1,1,1.0
-IBM QRadar SaaS,1,1,3.5
-KIND Protein,1,1,3.3333333333333335
-Jira Software,1,1,1.0
-Apple HomePod mini,1,1,3.0
-JetBlue Mint,1,1,2.6666666666666665
-Jabra Evolve2 55,1,1,4.2
-Iams ProActive Health,1,1,5.0
-ITA Matrix,1,1,5.0
-Apple MacBook Air M4,1,1,2.0
-IBM Cloud Satellite,1,1,4.666666666666667
-Kareo Telehealth,1,1,2.6666666666666665
-IAMS,1,1,4.666666666666667
-Hyatt Regency,1,1,2.3333333333333335
-Huntress,1,1,4.8
-Hume Supernatural,1,1,1.0
-Apple MacBook Pro 14-inch,1,1,2.8
-Houzz,1,1,1.5
-Homey Pro,1,1,1.0
-Home Assistant Green,1,1,1.6
-Kareo,1,1,2.0
-Kind Bar,1,1,3.0
-MacBook Air M3,1,1,4.0
-Licensing and Inspection Reports,1,1,3.0
-Lytics,1,1,3.3333333333333335
-Lume Deodorant,1,1,2.0
-Lume,1,1,2.0
-AAA Approved Auto Repair Network,1,1,1.25
-Live Oak Bank Business Savings,1,1,3.8
-Live Oak Bank,1,1,4.0
+Garmin Forerunner 265,1,1,1.0
+Garmin Fenix 8,1,1,1.4
+Garmin,1,1,1.2
+Garden of Life,1,1,2.0
+Fujifilm X-T5,1,1,2.0
+Fujifilm X-T100,1,1,2.0
+Ecover,1,1,2.0
 Apple Home,1,1,2.0
-Licensing and Insurance Verification,1,1,1.0
-Lenovo Yoga 7i,1,1,2.25
-KinderCare,1,1,3.6
-Apple Home Hub,1,1,1.6666666666666667
-Lenovo Legion 5 Pro,1,1,2.5
-LendingClub Bank Business Checking,1,1,3.0
-Lavanila,1,1,3.0
+Franklyn D. Resort,1,1,2.8
+Found,1,1,3.2
+Fitbit Charge 5,1,1,3.0
+Eukanuba,1,1,4.0
+Epic Provisions,1,1,4.0
+Empower,1,1,6.0
+Elastic SIEM,1,1,4.0
+CrowdStrike,1,1,1.0
+Apple HomePod Mini,1,1,3.0
+Corpus,1,1,2.75
+Blue Bottle,1,1,3.5
+Bose QuietComfort Headphones,1,1,2.4
+Bose QuietComfort 35 II,1,1,2.0
+Bose,1,1,2.3333333333333335
+Bonsai,1,1,5.4
+Bluevine Business Checking,1,1,1.0
+Apple Watch Series 11,1,1,1.0
+BlueVine,1,1,1.0
+BlueConic,1,1,3.0
+Biokleen,1,1,4.333333333333333
+ConsumerLab.com Top Rated,1,1,3.0
+Apple Watch Series 8,1,1,2.0
+Azul Beach Resorts,1,1,4.75
+Axos Bank,1,1,4.666666666666667
+Attentive,1,1,3.2
+Atlas Protein Bar,1,1,1.0
+Atlas Bar,1,1,1.6666666666666667
+Atlantis Paradise Island,1,1,3.0
+Apple Watch Ultra 2,1,1,3.6
+Branch Basics,1,1,5.25
+Brex,1,1,6.666666666666667
+Brex Corporate Card,1,1,4.0
+BrightView,1,1,10.666666666666666
+Communication and parent involvement,1,1,3.0
+Apple MacBook Air,1,1,3.0
+Apple MacBook Air 15-inch,1,1,2.3333333333333335
+Citi Premier,1,1,4.0
+Citi,1,1,3.5
+Chime Business,1,1,3.0
+Chase Sapphire Preferred,1,1,4.0
+Chase Ink Business Unlimited Credit Card,1,1,1.0
+Chase Ink Business Preferred Credit Card,1,1,2.0
+Charles Schwab Intelligent Portfolios,1,1,4.0
+Census,1,1,4.0
+Apple TV 4K,1,1,3.6666666666666665
+Canon EOS R50 with RF,1,1,4.666666666666667
+Canon EOS R10 with RF,1,1,1.0
+Canon EOS M50,1,1,3.0
+Canon,1,1,2.6666666666666665
+Brightwheel,1,1,8.0
+GitLab,1,1,3.0
+Google Cloud Anthos,1,1,3.0
+Parent Communication,1,1,3.8
+Method,1,1,3.0
+Moon Palace,1,1,4.0
+MoodTools,1,1,5.0
+Monday.com,1,1,3.4
+Monday Dev,1,1,3.6666666666666665
+Aloha Protein Bars,1,1,2.25
+Amazon,1,1,2.3333333333333335
+Microsoft Azure Active Directory,1,1,2.0
+American Express Business Gold,1,1,2.0
+Arctic Wolf,1,1,2.0
+NAEYC,1,1,5.5
+Meliora,1,1,3.0
+Megababe Rosy Pits,1,1,3.75
+Megababe,1,1,2.75
+Maxio,1,1,5.333333333333333
+Maintenance plan,1,1,7.333333333333333
+Maintenance Plans,1,1,3.8
+MacBook Air M2,1,1,1.0
+MacBook Air,1,1,2.0
+Mr. Rooter Plumbing,1,1,1.3333333333333333
+NSF Certified for Sport,1,1,2.0
+Apple,1,2,2.0
+Nutrition and Allergies,1,1,6.333333333333333
+Palo Alto Cortex XDR,1,1,4.0
+PEO services,1,1,8.0
+Oura Ring 4,1,1,1.6
+Oura,1,1,2.25
+Orijen Original,1,1,2.4
+Open-Door Policy and Communication,1,1,4.0
+OneLogin by One Identity,1,1,4.0
+Okta Workforce Identity Cloud,1,1,1.0
+Novo Business Checking,1,1,5.5
+Narwal Freo X Ultra,1,1,3.8
+No Cow Protein Bars,1,1,2.0
+No Cow,1,1,5.666666666666667
+Nikon Z50,1,1,4.4
+Nextdoor,1,1,3.25
+NetSuite ERP,1,1,1.6666666666666667
+Neato Botvac D7,1,1,2.0
+Nature Made,1,1,3.5
+Native Plastic-Free Deodorant,1,1,1.0
+Lume Whole Body Deodorant,1,1,1.0
+Lume Deodorant,1,1,2.0
+Lufthansa Allegris,1,1,5.0
+Huntress,1,1,4.0
+Insurance and liability coverage,1,1,2.3333333333333335
+Iberostar Selection,1,1,4.0
+Iberostar,1,1,3.2
+Iams Proactive Health,1,1,3.5
+Iams ProActive Health Adult,1,1,4.75
+Iams ProActive Health,1,1,4.0
+Amex Business Platinum,1,1,6.5
+IBM QRadar,1,1,2.8
+Houzz,1,1,1.3333333333333333
+Low teacher-to-child ratio,1,1,1.0
+Hill's Science Diet Adult,1,1,1.25
+HP Transcend 14,1,1,4.0
+Grasshopper Business Checking,1,1,2.0
+Grasshopper Bank,1,1,2.0
+Grand Palladium,1,1,3.0
+Google Security Operations,1,1,4.333333333333333
+Google Reviews,1,1,7.333333333333333
+Google Home,1,1,3.0
+JetBlue Mint,1,1,4.0
+KIND Protein,1,1,3.6
+Kind Bar,1,1,3.0
+KinderCare Learning Centers,1,1,2.5
+Looker Studio,1,1,3.25
+LogRhythm Axon,1,1,1.8
+Local Facebook Groups or Nextdoor,1,1,3.8
+Live Oak Bank Business Savings,1,1,4.75
+Live Oak Bank,1,1,3.0
+AAA Approved Auto Repair Network,1,1,1.3333333333333333
+Licensing and accreditation,1,1,2.6
+Licensing and Insurance,1,2,1.5
+Licenses and certifications,1,1,1.0
+Lenovo Legion Slim 5 14,1,1,1.6666666666666667
+Lenovo Legion 5,1,1,2.0
+LendingClub Tailored Bank,1,1,3.75
+LendingClub Bank,1,1,2.0
+Lavazza Super Crema,1,1,5.0
 Lattice Engines,1,1,2.0
-Larabar Protein,1,1,3.6666666666666665
-Klean Athlete,1,1,2.0
-Kiwi.com,1,1,4.6
-AAA Approved Auto Repair,1,1,1.0
+Kosas Chemistry AHA Deodorant,1,1,2.3333333333333335
+Amex Business Gold,1,1,6.5
+AAA Approved Auto Repair,1,1,2.0

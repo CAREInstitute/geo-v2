@@ -1,5 +1,5 @@
 {
-  "b01_gpt54": {
+  "b01_gpt55": {
     "queries_total": 40,
     "queries_answered_union": 40,
     "min_per_run": 40,
@@ -18,20 +18,20 @@
   "b02_gemini31_pro": {
     "queries_total": 40,
     "queries_answered_union": 40,
-    "min_per_run": 32,
+    "min_per_run": 24,
     "max_per_run": 40,
     "coverage_pct": 100.0,
     "full_coverage": true,
     "per_run": {
       "run1": 40,
-      "run2": 40,
-      "run3": 40,
+      "run2": 24,
+      "run3": 24,
       "run4": 32,
-      "run5": 40
+      "run5": 32
     },
     "missing_queries": []
   },
-  "b03_claude_sonnet": {
+  "b03_claude_opus47": {
     "queries_total": 40,
     "queries_answered_union": 40,
     "min_per_run": 40,
@@ -63,7 +63,7 @@
     },
     "missing_queries": []
   },
-  "b05_deepseek_v32": {
+  "b05_grok420_ma": {
     "queries_total": 40,
     "queries_answered_union": 40,
     "min_per_run": 40,
@@ -79,39 +79,23 @@
     },
     "missing_queries": []
   },
-  "b06_qwen35_plus": {
+  "b06_deepseek_v4f": {
     "queries_total": 40,
     "queries_answered_union": 40,
-    "min_per_run": 36,
+    "min_per_run": 16,
     "max_per_run": 40,
     "coverage_pct": 100.0,
     "full_coverage": true,
     "per_run": {
-      "run1": 40,
+      "run1": 24,
       "run2": 40,
-      "run3": 36,
+      "run3": 16,
       "run4": 40,
-      "run5": 40
+      "run5": 32
     },
     "missing_queries": []
   },
-  "b07_llama4_maverick": {
-    "queries_total": 40,
-    "queries_answered_union": 40,
-    "min_per_run": 20,
-    "max_per_run": 35,
-    "coverage_pct": 100.0,
-    "full_coverage": true,
-    "per_run": {
-      "run1": 35,
-      "run2": 30,
-      "run3": 22,
-      "run4": 20,
-      "run5": 35
-    },
-    "missing_queries": []
-  },
-  "b08_mistral_large3": {
+  "b07_qwen36_plus": {
     "queries_total": 40,
     "queries_answered_union": 40,
     "min_per_run": 40,
@@ -127,7 +111,23 @@
     },
     "missing_queries": []
   },
-  "b09_gemini3_flash": {
+  "b08_llama4_maverick": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 27,
+    "max_per_run": 40,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 27,
+      "run2": 37,
+      "run3": 31,
+      "run4": 40,
+      "run5": 29
+    },
+    "missing_queries": []
+  },
+  "b09_mistral_large3": {
     "queries_total": 40,
     "queries_answered_union": 40,
     "min_per_run": 40,
@@ -143,7 +143,7 @@
     },
     "missing_queries": []
   },
-  "b10_glm5": {
+  "b10_gemini3_flash": {
     "queries_total": 40,
     "queries_answered_union": 40,
     "min_per_run": 40,
@@ -152,6 +152,22 @@
     "full_coverage": true,
     "per_run": {
       "run1": 40,
+      "run2": 40,
+      "run3": 40,
+      "run4": 40,
+      "run5": 40
+    },
+    "missing_queries": []
+  },
+  "b11_glm51": {
+    "queries_total": 40,
+    "queries_answered_union": 40,
+    "min_per_run": 32,
+    "max_per_run": 40,
+    "coverage_pct": 100.0,
+    "full_coverage": true,
+    "per_run": {
+      "run1": 32,
       "run2": 40,
       "run3": 40,
       "run4": 40,
