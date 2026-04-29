@@ -1,39 +1,39 @@
 {
   "experiment_name": "Cross-Model GEO Brand Visibility Study",
   "version": "4.0-expanded",
-  "date_conducted": "2026-04-15",
+  "date_conducted": "2026-04-28",
   "prompt_sha256": "405eff4f12776927b40bffaeb588941d66cb2361d0e2c0ade2f2442270029602",
   "pipeline_versions": {
-    "geo_config": "4.1.0",
-    "geo_runner": "2.2.0",
-    "geo_extract": "2.0.1",
-    "geo_analyze": "1.0.0",
-    "geo_pipeline": "2.1.0"
+    "geo_config": "5.0.0",
+    "geo_runner": "3.0.0",
+    "geo_extract": "3.0.0",
+    "geo_analyze": "2.0.0",
+    "geo_pipeline": "3.0.0"
   },
-  "config_sha256": "b03d681a3557748769faee9fe4e492c95d1ddd6e138a774d620111217b55307a",
+  "config_sha256": "1d20331a9e32387871bca7bf147fbb9fe230cebf99bb9c22b0de3cf613536010",
   "design": {
     "queries": 40,
     "query_categories": [
-      "b2b_saas",
-      "local_services",
-      "healthcare_wellness",
-      "travel_hospitality",
       "cpg",
+      "b2b_saas",
+      "financial_services",
+      "local_services",
       "consumer_electronics",
       "enterprise_software",
-      "financial_services"
+      "travel_hospitality",
+      "healthcare_wellness"
     ],
-    "models_tested": 10,
+    "models_tested": 11,
     "trials_per_model": 5,
-    "total_observations": 2000,
+    "total_observations": 2200,
     "temperature": 0.3,
     "top_p": 0.95,
-    "search_spacing_seconds": 5
+    "search_spacing_seconds": 3600
   },
   "models": [
     {
-      "id": "openai/gpt-5.4",
-      "short": "b01_gpt54",
+      "id": "openai/gpt-5.5",
+      "short": "b01_gpt55",
       "name": "GPT-5.4",
       "group": "search_augmented",
       "arch": "proprietary/RLHF/Bing/computer-use",
@@ -60,8 +60,8 @@
       "released": "2026-02-19"
     },
     {
-      "id": "anthropic/claude-sonnet-4.6",
-      "short": "b03_claude_sonnet",
+      "id": "anthropic/claude-opus-4.7",
+      "short": "b03_claude_opus47",
       "name": "Claude Sonnet 4.6",
       "group": "parametric_only",
       "arch": "constitutional-AI",
@@ -88,8 +88,22 @@
       "released": "2026-03-31"
     },
     {
-      "id": "deepseek/deepseek-chat-v3-0324",
-      "short": "b05_deepseek_v32",
+      "id": "x-ai/grok-4.20-multi-agent",
+      "short": "b05_grok420_ma",
+      "name": "Grok 4.20 Multi-Agent",
+      "group": "search_augmented",
+      "arch": "proprietary/multi-agent/X-social",
+      "corpus": "Western+X",
+      "market_share": 0.5,
+      "max_tokens": 16384,
+      "cost_input_per_m": 2.0,
+      "cost_output_per_m": 6.0,
+      "context_window": 2000000,
+      "released": "2026-03-31"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "short": "b06_deepseek_v4f",
       "name": "DeepSeek V3.2",
       "group": "non_english_corpus",
       "arch": "MoE/sparse-attention/MIT-license",
@@ -102,8 +116,8 @@
       "released": "2026-03-24"
     },
     {
-      "id": "qwen/qwen3-235b-a22b",
-      "short": "b06_qwen35_plus",
+      "id": "qwen/qwen3.6-plus",
+      "short": "b07_qwen36_plus",
       "name": "Qwen 3.5 Plus",
       "group": "non_english_corpus",
       "arch": "proprietary/Alibaba-ecosystem",
@@ -113,12 +127,11 @@
       "cost_input_per_m": 0.4,
       "cost_output_per_m": 2.0,
       "context_window": 1000000,
-      "released": "2026-03",
-      "_original_id": "qwen/qwen3.5-plus"
+      "released": "2026-03"
     },
     {
       "id": "meta-llama/llama-4-maverick",
-      "short": "b07_llama4_maverick",
+      "short": "b08_llama4_maverick",
       "name": "Llama 4 Maverick",
       "group": "parametric_only",
       "arch": "open-weight-MoE/17B-active/128-experts",
@@ -132,7 +145,7 @@
     },
     {
       "id": "mistralai/mistral-large-2512",
-      "short": "b08_mistral_large3",
+      "short": "b09_mistral_large3",
       "name": "Mistral Large 3",
       "group": "parametric_only",
       "arch": "proprietary/EU-headquartered/multimodal",
@@ -146,7 +159,7 @@
     },
     {
       "id": "google/gemini-3-flash-preview",
-      "short": "b09_gemini3_flash",
+      "short": "b10_gemini3_flash",
       "name": "Gemini 3 Flash",
       "group": "search_augmented",
       "arch": "proprietary/Google-search/budget-tier",
@@ -159,8 +172,8 @@
       "released": "2025-12-17"
     },
     {
-      "id": "z-ai/glm-5",
-      "short": "b10_glm5",
+      "id": "z-ai/glm-5.1",
+      "short": "b11_glm51",
       "name": "GLM-5",
       "group": "non_english_corpus",
       "arch": "open-weight/sparse-attention/Chinese-independent",
